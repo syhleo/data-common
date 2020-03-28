@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.steer.data.db.datahandling.mapper.DbMetadataMMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.steer.data.db.datahandling.model.DbMetadataM">
+        <id column="DB_ID" property="dbId"/>
+        <result column="SOURCE_DB" property="sourceDb"/>
+        <result column="SOURCE_TABLE_NAME" property="sourceTableName"/>
+        <result column="SOURCE_TABLE_COLUMNS" property="sourceTableColumns"/>
+        <result column="SOURCE_TABLE_PARAMS" property="sourceTableParams"/>
+        <result column="TARGET_DB" property="targetDb"/>
+        <result column="TARGET_TABLE_NAME" property="targetTableName"/>
+        <result column="DB_RELATE" property="dbRelate"/>
+        <result column="VALID_FLG" property="validFlg"/>
+        <result column="CREATE_OPR" property="createOpr"/>
+        <result column="CREATE_TIME" property="createTime"/>
+        <result column="UPDATE_OPR" property="updateOpr"/>
+        <result column="UPDATE_TIME" property="updateTime"/>
+        <result column="SOURCE_DB_DESC" property="sourceDbDesc"/>
+        <result column="TARGET_DB_DESC" property="targetDbDesc"/>
+        <result column="SOURCE_UPDATE_COLUMNS" property="sourceUpdateColumns"/>
+        <result column="TARGET_UPDATE_COLUMNS" property="targetUpdateColumns"/>
+        <result column="HTTP_IDS" property="httpIds"/>
+        <result column="TCP_IDS" property="tcpIds"/>
+        <result column="WS_IDS" property="wsIds"/>
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        SOURCE_DB, SOURCE_TABLE_NAME, SOURCE_TABLE_COLUMNS, SOURCE_TABLE_PARAMS, TARGET_DB, TARGET_TABLE_NAME,
+        DB_RELATE, VALID_FLG, CREATE_OPR, CREATE_TIME, UPDATE_OPR, UPDATE_TIME, SOURCE_DB_DESC, TARGET_DB_DESC, DB_ID,
+        SOURCE_UPDATE_COLUMNS, TARGET_UPDATE_COLUMNS, HTTP_IDS, TCP_IDS, WS_IDS
+    </sql>
+
+    <select id="findByIdValid" parameterType="Integer" resultMap="BaseResultMap">
+        select * from DB_METADATA_M where DB_ID=#{db_id} and VALID_FLG='1'
+    </select>
+
+
+</mapper>

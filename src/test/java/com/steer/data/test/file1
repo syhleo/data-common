@@ -1,0 +1,994 @@
+--  daily_input煤气，daily_output电 ,daily_wgt 产量吨
+SELECT
+  T .wrk_date,
+  SUBSTR (T .wrk_date, 9, 2) || '日' wrk_date_2,
+  t1.daily_0_in,
+  t1.month_0_in,
+  t1.year_0_in,
+  t1.daily_1_in,
+  t1.month_1_in,
+  t1.year_1_in,
+  t1.daily_2_in,
+  t1.month_2_in,
+  t1.year_2_in,
+  t1.daily_3_in,
+  t1.month_3_in,
+  t1.year_3_in,
+  t1.daily_4_in,
+  t1.month_4_in,
+  t1.year_4_in,
+  t1.daily_all_in,
+  t1.month_all_in,
+  t1.year_all_in,
+  t1.daily_0,
+  t1.month_0,
+  t1.year_0,
+  t1.daily_1,
+  t1.month_1,
+  t1.year_1,
+  t1.daily_2,
+  t1.month_2,
+  t1.year_2,
+  t1.daily_3,
+  t1.month_3,
+  t1.year_3,
+  t1.daily_4,
+  t1.month_4,
+  t1.year_4,
+  t1.daily_all,
+  t1.month_all,
+  t1.year_all,
+t1.wgt_daily_0,
+t1.wgt_month_0,
+t1.wgt_year_0,
+t1.wgt_daily_1,
+t1.wgt_month_1,
+t1.wgt_year_1,
+t1.wgt_daily_2,
+t1.wgt_month_2,
+t1.wgt_year_2,
+t1.wgt_daily_3,
+t1.wgt_month_3,
+t1.wgt_year_3,
+t1.wgt_daily_4,
+t1.wgt_month_4,
+t1.wgt_year_4,
+t1.wgt_daily_all,
+t1.wgt_month_all,
+t1.wgt_year_all,
+
+ CASE
+WHEN NVL (t1.wgt_daily_0, 0) > 0 THEN
+  ROUND (
+    NVL (t1.daily_0_in, 0) / NVL (t1.wgt_daily_0, 0),
+    0
+  )
+ELSE
+  0
+END mei_daily_0,
+ CASE
+WHEN NVL (t1.wgt_month_0, 0) > 0 THEN
+  ROUND (
+    NVL (t1.month_0_in, 0) / NVL (t1.wgt_month_0, 0),
+    0
+  )
+ELSE
+  0
+END mei_month_0,
+ CASE
+WHEN NVL (t1.wgt_year_0, 0) > 0 THEN
+  ROUND (
+    NVL (t1.year_0_in, 0) / NVL (t1.wgt_year_0, 0),
+    0
+  )
+ELSE
+  0
+END mei_year_0,
+ CASE
+WHEN NVL (t1.wgt_daily_1, 0) > 0 THEN
+  ROUND (
+    NVL (t1.daily_1_in, 0) / NVL (t1.wgt_daily_1, 0),
+   0
+  )
+ELSE
+  0
+END mei_daily_1,
+ CASE
+WHEN NVL (t1.wgt_month_1, 0) > 0 THEN
+  ROUND (
+    NVL (t1.month_1_in, 0) / NVL (t1.wgt_month_1, 0),
+    0
+  )
+ELSE
+  0
+END mei_month_1,
+ CASE
+WHEN NVL (t1.wgt_year_1, 0) > 0 THEN
+  ROUND (
+    NVL (t1.year_1_in, 0) / NVL (t1.wgt_year_1, 0),
+    0
+  )
+ELSE
+  0
+END mei_year_1,
+ CASE
+WHEN NVL (t1.wgt_daily_2, 0) > 0 THEN
+  ROUND (
+    NVL (t1.daily_2_in, 0) / NVL (t1.wgt_daily_2, 0),
+    0
+  )
+ELSE
+  0
+END mei_daily_2,
+ CASE
+WHEN NVL (t1.wgt_month_2, 0) > 0 THEN
+  ROUND (
+    NVL (t1.month_2_in, 0) / NVL (t1.wgt_month_2, 0),
+    0
+  )
+ELSE
+  0
+END mei_month_2,
+ CASE
+WHEN NVL (t1.wgt_year_2, 0) > 0 THEN
+  ROUND (
+    NVL (t1.year_2_in, 0) / NVL (t1.wgt_year_2, 0),
+    0
+  )
+ELSE
+  0
+END mei_year_2,
+
+ CASE
+WHEN NVL (t1.wgt_daily_3, 0) > 0 THEN
+  ROUND (
+    NVL (t1.daily_3_in, 0) / NVL (t1.wgt_daily_3, 0),
+    0
+  )
+ELSE
+  0
+END mei_daily_3,
+ CASE
+WHEN NVL (t1.wgt_month_3, 0) > 0 THEN
+  ROUND (
+    NVL (t1.month_3_in, 0) / NVL (t1.wgt_month_3, 0),
+    0
+  )
+ELSE
+  0
+END mei_month_3,
+ CASE
+WHEN NVL (t1.wgt_year_3, 0) > 0 THEN
+  ROUND (
+    NVL (t1.year_3_in, 0) / NVL (t1.wgt_year_3, 0),
+    0
+  )
+ELSE
+  0
+END mei_year_3,
+
+ CASE
+WHEN NVL (t1.wgt_daily_4, 0) > 0 THEN
+  ROUND (
+    NVL (t1.daily_4_in, 0) / NVL (t1.wgt_daily_4, 0),
+    0
+  )
+ELSE
+  0
+END mei_daily_4,
+ CASE
+WHEN NVL (t1.wgt_month_4, 0) > 0 THEN
+  ROUND (
+    NVL (t1.month_4_in, 0) / NVL (t1.wgt_month_4, 0),
+    0
+  )
+ELSE
+  0
+END mei_month_4,
+ CASE
+WHEN NVL (t1.wgt_year_4, 0) > 0 THEN
+  ROUND (
+    NVL (t1.year_4_in, 0) / NVL (t1.wgt_year_4, 0),
+    0
+  )
+ELSE
+  0
+END mei_year_4,
+
+ CASE
+WHEN NVL (t1.wgt_daily_all, 0) > 0 THEN
+  ROUND (
+    NVL (t1.daily_all_in, 0) / NVL (t1.wgt_daily_all, 0),
+    0
+  )
+ELSE
+  0
+END mei_daily_all,
+ CASE
+WHEN NVL (t1.wgt_month_all, 0) > 0 THEN
+  ROUND (
+    NVL (t1.month_all_in, 0) / NVL (t1.wgt_month_all, 0),
+    0
+  )
+ELSE
+  0
+END mei_month_all,
+ CASE
+WHEN NVL (t1.wgt_year_all, 0) > 0 THEN
+  ROUND (
+    NVL (t1.year_all_in, 0) / NVL (t1.wgt_year_all, 0),
+    0
+  )
+ELSE
+  0
+END mei_year_all, 
+
+ CASE
+WHEN NVL (t1.wgt_daily_0, 0) > 0 THEN
+  ROUND (
+    NVL (t1.daily_0, 0) / NVL (t1.wgt_daily_0, 0),
+    0
+  )
+ELSE
+  0
+END elec_daily_0,
+ CASE
+WHEN NVL (t1.wgt_month_0, 0) > 0 THEN
+  ROUND (
+    NVL (t1.month_0, 0) / NVL (t1.wgt_month_0, 0),
+    0
+  )
+ELSE
+  0
+END elec_month_0,
+ CASE
+WHEN NVL (t1.wgt_year_0, 0) > 0 THEN
+  ROUND (
+    NVL (t1.year_0, 0) / NVL (t1.wgt_year_0, 0),
+    0
+  )
+ELSE
+  0
+END elec_year_0,
+ CASE
+WHEN NVL (t1.wgt_daily_1, 0) > 0 THEN
+  ROUND (
+    NVL (t1.daily_1, 0) / NVL (t1.wgt_daily_1, 0),
+   0
+  )
+ELSE
+  0
+END elec_daily_1,
+ CASE
+WHEN NVL (t1.wgt_month_1, 0) > 0 THEN
+  ROUND (
+    NVL (t1.month_1, 0) / NVL (t1.wgt_month_1, 0),
+    0
+  )
+ELSE
+  0
+END elec_month_1,
+ CASE
+WHEN NVL (t1.wgt_year_1, 0) > 0 THEN
+  ROUND (
+    NVL (t1.year_1, 0) / NVL (t1.wgt_year_1, 0),
+    0
+  )
+ELSE
+  0
+END elec_year_1,
+ CASE
+WHEN NVL (t1.wgt_daily_2, 0) > 0 THEN
+  ROUND (
+    NVL (t1.daily_2, 0) / NVL (t1.wgt_daily_2, 0),
+    0
+  )
+ELSE
+  0
+END elec_daily_2,
+ CASE
+WHEN NVL (t1.wgt_month_2, 0) > 0 THEN
+  ROUND (
+    NVL (t1.month_2, 0) / NVL (t1.wgt_month_2, 0),
+    0
+  )
+ELSE
+  0
+END elec_month_2,
+ CASE
+WHEN NVL (t1.wgt_year_2, 0) > 0 THEN
+  ROUND (
+    NVL (t1.year_2, 0) / NVL (t1.wgt_year_2, 0),
+    0
+  )
+ELSE
+  0
+END elec_year_2,
+
+ CASE
+WHEN NVL (t1.wgt_daily_3, 0) > 0 THEN
+  ROUND (
+    NVL (t1.daily_3, 0) / NVL (t1.wgt_daily_3, 0),
+    0
+  )
+ELSE
+  0
+END elec_daily_3,
+ CASE
+WHEN NVL (t1.wgt_month_3, 0) > 0 THEN
+  ROUND (
+    NVL (t1.month_3, 0) / NVL (t1.wgt_month_3, 0),
+    0
+  )
+ELSE
+  0
+END elec_month_3,
+ CASE
+WHEN NVL (t1.wgt_year_3, 0) > 0 THEN
+  ROUND (
+    NVL (t1.year_3, 0) / NVL (t1.wgt_year_3, 0),
+    0
+  )
+ELSE
+  0
+END elec_year_3,
+
+ CASE
+WHEN NVL (t1.wgt_daily_4, 0) > 0 THEN
+  ROUND (
+    NVL (t1.daily_4, 0) / NVL (t1.wgt_daily_4, 0),
+    0
+  )
+ELSE
+  0
+END elec_daily_4,
+ CASE
+WHEN NVL (t1.wgt_month_4, 0) > 0 THEN
+  ROUND (
+    NVL (t1.month_4, 0) / NVL (t1.wgt_month_4, 0),
+    0
+  )
+ELSE
+  0
+END elec_month_4,
+ CASE
+WHEN NVL (t1.wgt_year_4, 0) > 0 THEN
+  ROUND (
+    NVL (t1.year_4, 0) / NVL (t1.wgt_year_4, 0),
+    0
+  )
+ELSE
+  0
+END elec_year_4,
+
+ CASE
+WHEN NVL (t1.wgt_daily_all, 0) > 0 THEN
+  ROUND (
+    NVL (t1.daily_all, 0) / NVL (t1.wgt_daily_all, 0),
+    0
+  )
+ELSE
+  0
+END elec_daily_all,
+ CASE
+WHEN NVL (t1.wgt_month_all, 0) > 0 THEN
+  ROUND (
+    NVL (t1.month_all, 0) / NVL (t1.wgt_month_all, 0),
+    0
+  )
+ELSE
+  0
+END elec_month_all,
+ CASE
+WHEN NVL (t1.wgt_year_all, 0) > 0 THEN
+  ROUND (
+    NVL (t1.year_all, 0) / NVL (t1.wgt_year_all, 0),
+    0
+  )
+ELSE
+  0
+END elec_year_all
+
+
+FROM
+  (
+    SELECT
+      TO_CHAR (
+        TO_DATE (
+          '${abc}' || '-01',
+          'YYYY-MM-DD'
+        ) + ROWNUM - 1,
+        'YYYY-MM-DD'
+      ) wrk_date
+    FROM
+      dual CONNECT BY ROWNUM <= ADD_MONTHS (
+        TO_DATE (
+          '${abc}' || '-01',
+          'YYYY-MM-DD'
+        ),
+        1
+      ) - TO_DATE (
+        '${abc}' || '-01',
+        'YYYY-MM-DD'
+      )
+  ) T,
+  (
+    SELECT DISTINCT
+      t1.wrk_date,
+      SUM (
+        CASE
+        WHEN t1.wrk_grp = '0' THEN
+          NVL (t1.daily_input, 0)
+        END
+      ) OVER (PARTITION BY t1.wrk_date)  daily_0_in,
+      SUM (
+        CASE
+        WHEN t1.wrk_grp = '0' THEN
+          NVL (t1.daily_input, 0)
+        END
+      ) OVER (
+        PARTITION BY t1.wrk_month
+        ORDER BY
+          wrk_date
+      )  month_0_in,
+      SUM (
+        CASE
+        WHEN t1.wrk_grp = '0' THEN
+          NVL (t1.daily_input, 0)
+        END
+      ) OVER (
+        PARTITION BY t1.wrk_year
+        ORDER BY
+          wrk_date
+      )  year_0_in,
+      SUM (
+        CASE
+        WHEN t1.wrk_grp = '1' THEN
+          NVL (t1.daily_input, 0)
+        END
+      ) OVER (PARTITION BY t1.wrk_date)  daily_1_in,
+      SUM (
+        CASE
+        WHEN t1.wrk_grp = '1' THEN
+          NVL (t1.daily_input, 0)
+        END
+      ) OVER (
+        PARTITION BY t1.wrk_month
+        ORDER BY
+          wrk_date
+      )  month_1_in,
+      SUM (
+        CASE
+        WHEN t1.wrk_grp = '1' THEN
+          NVL (t1.daily_input, 0)
+        END
+      ) OVER (
+        PARTITION BY t1.wrk_year
+        ORDER BY
+          wrk_date
+      )  year_1_in,
+      SUM (
+        CASE
+        WHEN t1.wrk_grp = '2' THEN
+          NVL (t1.daily_input, 0)
+        END
+      ) OVER (PARTITION BY t1.wrk_date) daily_2_in,
+      SUM (
+        CASE
+        WHEN t1.wrk_grp = '2' THEN
+          NVL (t1.daily_input, 0)
+        END
+      ) OVER (
+        PARTITION BY t1.wrk_month
+        ORDER BY
+          wrk_date
+      )  month_2_in,
+      SUM (
+        CASE
+        WHEN t1.wrk_grp = '2' THEN
+          NVL (t1.daily_input, 0)
+        END
+      ) OVER (
+        PARTITION BY t1.wrk_year
+        ORDER BY
+          wrk_date
+      )  year_2_in,
+      SUM (
+        CASE
+        WHEN t1.wrk_grp = '3' THEN
+          NVL (t1.daily_input, 0)
+        END
+      ) OVER (PARTITION BY t1.wrk_date)  daily_3_in,
+      SUM (
+        CASE
+        WHEN t1.wrk_grp = '3' THEN
+          NVL (t1.daily_input, 0)
+        END
+      ) OVER (
+        PARTITION BY t1.wrk_month
+        ORDER BY
+          wrk_date
+      )  month_3_in,
+      SUM (
+        CASE
+        WHEN t1.wrk_grp = '3' THEN
+          NVL (t1.daily_input, 0)
+        END
+      ) OVER (
+        PARTITION BY t1.wrk_year
+        ORDER BY
+          wrk_date
+      )  year_3_in,
+      SUM (
+        CASE
+        WHEN t1.wrk_grp = '4' THEN
+          NVL (t1.daily_input, 0)
+        END
+      ) OVER (PARTITION BY t1.wrk_date)  daily_4_in,
+      SUM (
+        CASE
+        WHEN t1.wrk_grp = '4' THEN
+          NVL (t1.daily_input, 0)
+        END
+      ) OVER (
+        PARTITION BY t1.wrk_month
+        ORDER BY
+          wrk_date
+      )  month_4_in,
+      SUM (
+        CASE
+        WHEN t1.wrk_grp = '4' THEN
+          NVL (t1.daily_input, 0)
+        END
+      ) OVER (
+        PARTITION BY t1.wrk_year
+        ORDER BY
+          wrk_date
+      )  year_4_in,
+      SUM (NVL(t1.daily_input, 0)) OVER (PARTITION BY t1.wrk_date)  daily_all_in,
+      SUM (NVL(t1.daily_input, 0)) OVER (
+        PARTITION BY t1.wrk_month
+        ORDER BY
+          wrk_date
+      )  month_all_in,
+      SUM (NVL(t1.daily_input, 0)) OVER (
+        PARTITION BY t1.wrk_year
+        ORDER BY
+          wrk_date
+      )  year_all_in,
+      
+      SUM (
+        CASE
+        WHEN t1.wrk_grp = '0' THEN
+          NVL (t1.daily_output, 0)
+        END
+      ) OVER (PARTITION BY t1.wrk_date)  daily_0,
+      SUM (
+        CASE
+        WHEN t1.wrk_grp = '0' THEN
+          NVL (t1.daily_output, 0)
+        END
+      ) OVER (
+        PARTITION BY t1.wrk_month
+        ORDER BY
+          wrk_date
+      )  month_0,
+      SUM (
+        CASE
+        WHEN t1.wrk_grp = '0' THEN
+          NVL (t1.daily_output, 0)
+        END
+      ) OVER (
+        PARTITION BY t1.wrk_year
+        ORDER BY
+          wrk_date
+      )  year_0,
+      SUM (
+        CASE
+        WHEN t1.wrk_grp = '1' THEN
+          NVL (t1.daily_output, 0)
+        END
+      ) OVER (PARTITION BY t1.wrk_date)  daily_1,
+      SUM (
+        CASE
+        WHEN t1.wrk_grp = '1' THEN
+          NVL (t1.daily_output, 0)
+        END
+      ) OVER (
+        PARTITION BY t1.wrk_month
+        ORDER BY
+          wrk_date
+      )  month_1,
+      SUM (
+        CASE
+        WHEN t1.wrk_grp = '1' THEN
+          NVL (t1.daily_output, 0)
+        END
+      ) OVER (
+        PARTITION BY t1.wrk_year
+        ORDER BY
+          wrk_date
+      )  year_1,
+      SUM (
+        CASE
+        WHEN t1.wrk_grp = '2' THEN
+          NVL (t1.daily_output, 0)
+        END
+      ) OVER (PARTITION BY t1.wrk_date)  daily_2,
+      SUM (
+        CASE
+        WHEN t1.wrk_grp = '2' THEN
+          NVL (t1.daily_output, 0)
+        END
+      ) OVER (
+        PARTITION BY t1.wrk_month
+        ORDER BY
+          wrk_date
+      )  month_2,
+      SUM (
+        CASE
+        WHEN t1.wrk_grp = '2' THEN
+          NVL (t1.daily_output, 0)
+        END
+      ) OVER (
+        PARTITION BY t1.wrk_year
+        ORDER BY
+          wrk_date
+      )  year_2,
+      SUM (
+        CASE
+        WHEN t1.wrk_grp = '3' THEN
+          NVL (t1.daily_output, 0)
+        END
+      ) OVER (PARTITION BY t1.wrk_date)  daily_3,
+      SUM (
+        CASE
+        WHEN t1.wrk_grp = '3' THEN
+          NVL (t1.daily_output, 0)
+        END
+      ) OVER (
+        PARTITION BY t1.wrk_month
+        ORDER BY
+          wrk_date
+      )  month_3,
+      SUM (
+        CASE
+        WHEN t1.wrk_grp = '3' THEN
+          NVL (t1.daily_output, 0)
+        END
+      ) OVER (
+        PARTITION BY t1.wrk_year
+        ORDER BY
+          wrk_date
+      )  year_3,
+      SUM (
+        CASE
+        WHEN t1.wrk_grp = '4' THEN
+          NVL (t1.daily_output, 0)
+        END
+      ) OVER (PARTITION BY t1.wrk_date)  daily_4,
+      SUM (
+        CASE
+        WHEN t1.wrk_grp = '4' THEN
+          NVL (t1.daily_output, 0)
+        END
+      ) OVER (
+        PARTITION BY t1.wrk_month
+        ORDER BY
+          wrk_date
+      )  month_4,
+      SUM (
+        CASE
+        WHEN t1.wrk_grp = '4' THEN
+          NVL (t1.daily_output, 0)
+        END
+      ) OVER (
+        PARTITION BY t1.wrk_year
+        ORDER BY
+          wrk_date
+      )  year_4,
+      SUM (NVL(t1.daily_output, 0)) OVER (PARTITION BY t1.wrk_date)  daily_all,
+      SUM (NVL(t1.daily_output, 0)) OVER (
+        PARTITION BY t1.wrk_month
+        ORDER BY
+          wrk_date
+      )  month_all,
+      SUM (NVL(t1.daily_output, 0)) OVER (
+        PARTITION BY t1.wrk_year
+        ORDER BY
+          wrk_date
+      )  year_all,
+      
+       SUM (
+        CASE
+        WHEN t1.wrk_grp = '0' THEN
+          NVL (t1.daily_wgt, 0)
+        END
+      ) OVER (PARTITION BY t1.wrk_date)  wgt_daily_0,
+      SUM (
+        CASE
+        WHEN t1.wrk_grp = '0' THEN
+          NVL (t1.daily_wgt, 0)
+        END
+      ) OVER (
+        PARTITION BY t1.wrk_month
+        ORDER BY
+          wrk_date
+      )  wgt_month_0,
+      SUM (
+        CASE
+        WHEN t1.wrk_grp = '0' THEN
+          NVL (t1.daily_wgt, 0)
+        END
+      ) OVER (
+        PARTITION BY t1.wrk_year
+        ORDER BY
+          wrk_date
+      )  wgt_year_0,
+      SUM (
+        CASE
+        WHEN t1.wrk_grp = '1' THEN
+          NVL (t1.daily_wgt, 0)
+        END
+      ) OVER (PARTITION BY t1.wrk_date)  wgt_daily_1,
+      SUM (
+        CASE
+        WHEN t1.wrk_grp = '1' THEN
+          NVL (t1.daily_wgt, 0)
+        END
+      ) OVER (
+        PARTITION BY t1.wrk_month
+        ORDER BY
+          wrk_date
+      )  wgt_month_1,
+      SUM (
+        CASE
+        WHEN t1.wrk_grp = '1' THEN
+          NVL (t1.daily_wgt, 0)
+        END
+      ) OVER (
+        PARTITION BY t1.wrk_year
+        ORDER BY
+          wrk_date
+      )  wgt_year_1,
+      SUM (
+        CASE
+        WHEN t1.wrk_grp = '2' THEN
+          NVL (t1.daily_wgt, 0)
+        END
+      ) OVER (PARTITION BY t1.wrk_date)  wgt_daily_2,
+      SUM (
+        CASE
+        WHEN t1.wrk_grp = '2' THEN
+          NVL (t1.daily_wgt, 0)
+        END
+      ) OVER (
+        PARTITION BY t1.wrk_month
+        ORDER BY
+          wrk_date
+      )  wgt_month_2,
+      SUM (
+        CASE
+        WHEN t1.wrk_grp = '2' THEN
+          NVL (t1.daily_wgt, 0)
+        END
+      ) OVER (
+        PARTITION BY t1.wrk_year
+        ORDER BY
+          wrk_date
+      )  wgt_year_2,
+      SUM (
+        CASE
+        WHEN t1.wrk_grp = '3' THEN
+          NVL (t1.daily_wgt, 0)
+        END
+      ) OVER (PARTITION BY t1.wrk_date)  wgt_daily_3,
+      SUM (
+        CASE
+        WHEN t1.wrk_grp = '3' THEN
+          NVL (t1.daily_wgt, 0)
+        END
+      ) OVER (
+        PARTITION BY t1.wrk_month
+        ORDER BY
+          wrk_date
+      )  wgt_month_3,
+      SUM (
+        CASE
+        WHEN t1.wrk_grp = '3' THEN
+          NVL (t1.daily_wgt, 0)
+        END
+      ) OVER (
+        PARTITION BY t1.wrk_year
+        ORDER BY
+          wrk_date
+      )  wgt_year_3,
+      SUM (
+        CASE
+        WHEN t1.wrk_grp = '4' THEN
+          NVL (t1.daily_wgt, 0)
+        END
+      ) OVER (PARTITION BY t1.wrk_date)  wgt_daily_4,
+      SUM (
+        CASE
+        WHEN t1.wrk_grp = '4' THEN
+          NVL (t1.daily_wgt, 0)
+        END
+      ) OVER (
+        PARTITION BY t1.wrk_month
+        ORDER BY
+          wrk_date
+      )  wgt_month_4,
+      SUM (
+        CASE
+        WHEN t1.wrk_grp = '4' THEN
+          NVL (t1.daily_wgt, 0)
+        END
+      ) OVER (
+        PARTITION BY t1.wrk_year
+        ORDER BY
+          wrk_date
+      )  wgt_year_4,
+      SUM (NVL(t1.daily_wgt, 0)) OVER (PARTITION BY t1.wrk_date)  wgt_daily_all,
+      SUM (NVL(t1.daily_wgt, 0)) OVER (
+        PARTITION BY t1.wrk_month
+        ORDER BY
+          wrk_date
+      )  wgt_month_all,
+      SUM (NVL(t1.daily_wgt, 0)) OVER (
+        PARTITION BY t1.wrk_year
+        ORDER BY
+          wrk_date
+      )  wgt_year_all
+      
+      
+      
+    FROM
+      (
+        SELECT
+          SUBSTR (A .wrk_date, 1, 4) wrk_year,
+          SUBSTR (A .wrk_date, 1, 7) wrk_month,
+          A .wrk_date,
+          A .wrk_grp,
+          NVL (
+            A .gas,
+            0
+          ) daily_input,
+          0  daily_wgt,
+          0 daily_output
+        FROM
+          ENERGY_TOL_TEMP A        
+        WHERE
+         1=1
+        AND A .wrk_date >= SUBSTR ('${abc}', 1, 4) || '-01-01'
+        AND A .wrk_date < TO_CHAR (
+          ADD_MONTHS (
+            TO_DATE (
+              '${abc}' || '-01',
+              'YYYY-MM-DD'
+            ),
+            1
+          ),
+          'YYYY-MM-DD'
+        )
+        UNION ALL
+          SELECT
+            SUBSTR (A .wrk_date, 1, 4) wrk_year,
+            SUBSTR (A .wrk_date, 1, 7) wrk_month,
+            A .wrk_date,
+            A .wrk_grp,
+            0 daily_input,
+             0  daily_wgt,
+            NVL (
+               A.elec,
+             0
+            ) daily_output
+          FROM
+              ENERGY_TOL_TEMP A
+          WHERE
+            1=1
+          AND A .wrk_date >= SUBSTR ('${abc}', 1, 4) || '-01-01'
+          AND A .wrk_date < TO_CHAR (
+            ADD_MONTHS (
+              TO_DATE (
+                '${abc}' || '-01',
+                'YYYY-MM-DD'
+              ),
+              1
+            ),
+            'YYYY-MM-DD'
+          )
+          UNION ALL
+          SELECT 
+            SUBSTR(T1.Rolling_Date,1,4) wrk_year,
+            SUBSTR(T1.Rolling_Date,1,7) wrk_month,
+            T1.Rolling_Date wrk_date,
+            T1.Rolling_Group wrk_grp,
+            0 daily_input,
+            0 daily_output,
+            NVL (
+               T3.FACTWEIGHT,
+             0
+            ) daily_wgt
+           FROM MIL_GX_ROLLINGRESULTS T1
+          LEFT JOIN MIL_GX_POTHOOKRESULTS T2
+            ON T1.BILLETNO = T2.BILLETNO
+          LEFT JOIN YDM_STEEL_DETAIL T3
+            ON T2.OBJECTNO = T3.OBJECTNO    
+          WHERE
+            1=1
+          AND T1 .Rolling_Date >= SUBSTR ('${abc}', 1, 4) || '-01-01'
+          AND T1 .Rolling_Date < TO_CHAR (
+            ADD_MONTHS (
+              TO_DATE (
+                '${abc}' || '-01',
+                'YYYY-MM-DD'
+              ),
+              1
+            ),
+            'YYYY-MM-DD'
+          )
+          
+          UNION ALL
+            SELECT
+              SUBSTR (M .wrk_date, 1, 4) wrk_year,
+              SUBSTR (M .wrk_date, 1, 7) wrk_month,
+              M .wrk_date,
+              n.wrk_grp,
+              0 AS daily_input,
+              0 AS daily_output,
+              0 AS daily_wgt
+            FROM
+              (
+                SELECT
+                  TO_CHAR (
+                    TO_DATE (
+                      SUBSTR ('${abc}', 1, 4) || '-01-01',
+                      'YYYY-MM-DD'
+                    ) + ROWNUM - 1,
+                    'YYYY-MM-DD'
+                  ) wrk_date
+                FROM
+                  dual CONNECT BY ROWNUM <= ADD_MONTHS (
+                    TO_DATE (
+                      '${abc}' || '-01',
+                      'YYYY-MM-DD'
+                    ),
+                    1
+                  ) - TO_DATE (
+                    SUBSTR ('${abc}', 1, 4) || '-01-01',
+                    'YYYY-MM-DD'
+                  )
+              ) M,
+              (
+                SELECT
+                  '0' AS wrk_grp
+                FROM
+                  dual
+                UNION ALL
+                  SELECT
+                    '1' AS wrk_grp
+                  FROM
+                    dual
+                  UNION ALL
+                    SELECT
+                      '2' AS wrk_grp
+                    FROM
+                      dual
+                    UNION ALL
+                      SELECT
+                        '3' AS wrk_grp
+                      FROM
+                        dual
+                      UNION ALL
+                        SELECT
+                          '4' AS wrk_grp
+                        FROM
+                          dual
+              ) n
+      ) t1
+  ) t1
+WHERE
+  T .wrk_date = t1.wrk_date (+)
+ORDER BY
+  T .wrk_date 

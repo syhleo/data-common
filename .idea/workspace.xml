@@ -1,0 +1,2128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6f72c7d4-2453-4b35-88d5-eacb7c9ebcfe" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/steer/data/common/annotation" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/steer/data/common/annotation/NeedCacheAop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/steer/data/common/config" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/steer/data/common/config/CacheManagerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/steer/data/common/config/CacheManagerEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/steer/data/common/config/CacheManagerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/steer/data/common/config/ConfigMgr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/steer/data/common/config/GlobalMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/steer/data/common/config/ICacheManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/steer/data/common/enums/CacheEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/steer/data/common/handler/CacheAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/steer/data/common/redis" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/steer/data/common/redis/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/steer/data/common/redis/RedisController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/steer/data/common/redis/RedisKeyUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/steer/data/common/redis/RedisUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/steer/data/common/result/ResultModelUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/steer/data/common/utils/IdUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/steer/data/common/utils/SerializeUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/steer/data/db/datahandling/controller/SqlHandlerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/steer/data/db/datahandling/mapper/SqlHandlerMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/steer/data/db/datahandling/service/SqlHandlerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/steer/data/db/datahandling/service/impl/SqlHandlerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/steer/data/udp/CustomLed/CLS_XinyuLED_222.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/steer/data/test/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/steer/data/test/SpringTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/steer/data/test/SqlServerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/steer/data/test/SqlServerTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/steer/data/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/steer/data/MainApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/steer/data/common/constants/CommonConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/steer/data/common/constants/CommonConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/steer/data/common/handler/CustomMessageLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/steer/data/common/handler/CustomMessageLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/steer/data/db/datahandling/mapper/DbDataHandlingMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/steer/data/db/datahandling/mapper/DbDataHandlingMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/steer/data/db/datahandling/service/impl/DbDataHandlingServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/steer/data/db/datahandling/service/impl/DbDataHandlingServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/steer/data/quartz/job/DynamicJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/steer/data/quartz/job/DynamicJob.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/steer/data/quartz/mapper/QuartzJobEntityMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/steer/data/quartz/mapper/QuartzJobEntityMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/steer/data/quartz/mapper/QuartzJobEntityMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/steer/data/quartz/mapper/QuartzJobEntityMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/steer/data/quartz/model/QuartzJobEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/steer/data/quartz/model/QuartzJobEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/steer/data/quartz/service/DynamicJobService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/steer/data/quartz/service/DynamicJobService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/steer/data/quartz/service/QuartzJobEntityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/steer/data/quartz/service/QuartzJobEntityService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/steer/data/quartz/service/impl/QuartzJobEntityServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/steer/data/quartz/service/impl/QuartzJobEntityServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/steer/data/quartz/web/JobController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/steer/data/quartz/web/JobController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/steer/data/quartz/web/QuartzJobEntityController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/steer/data/quartz/web/QuartzJobEntityController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/steer/data/udp/CustomLed/CLS_UDPAsyncClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/steer/data/udp/CustomLed/CLS_UDPAsyncClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/steer/data/udp/CustomLed/LED_Display_Type.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/steer/data/udp/CustomLed/LED_Display_Type.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/steer/data/udp/CustomLed/LedWriteClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/steer/data/udp/CustomLed/LedWriteClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/steer/data/udp/UdpTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/steer/data/udp/UdpTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/steer/data/webservice/datahandling/mapper/WebServiceDataHandlingMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/steer/data/webservice/datahandling/mapper/WebServiceDataHandlingMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-prd.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-prd.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-test.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-test.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/steer/data/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/steer/data/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/steer/data/tcp/dametadata/controller/DAMetaDataController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/steer/data/tcp/dametadata/controller/DAMetaDataController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/steer/data/tcp/dametadata/mapper/DAMetaDataMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/steer/data/tcp/dametadata/mapper/DAMetaDataMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/steer/data/tcp/dametadata/mapper/DAMetaDataMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/steer/data/tcp/dametadata/mapper/DAMetaDataMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/steer/data/tcp/dametadata/model/DAMetaData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/steer/data/tcp/dametadata/model/DAMetaData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/steer/data/tcp/dametadata/service/IDAMetaDataService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/steer/data/tcp/dametadata/service/IDAMetaDataService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/steer/data/tcp/dametadata/service/impl/DAMetaDataServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/steer/data/tcp/dametadata/service/impl/DAMetaDataServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/steer/data/tcp/datahandling/controller/DataHandlingController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/steer/data/tcp/datahandling/controller/DataHandlingController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/steer/data/tcp/datahandling/message/Decode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/steer/data/tcp/datahandling/message/Decode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/steer/data/tcp/datahandling/message/Message.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/steer/data/tcp/datahandling/message/Message.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/steer/data/tcp/datahandling/message/TpmDecode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/steer/data/tcp/datahandling/message/TpmDecode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/steer/data/tcp/datahandling/message/TpmMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/steer/data/tcp/datahandling/message/TpmMessage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/steer/data/tcp/datahandling/message/ZtlDecode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/steer/data/tcp/datahandling/message/ZtlDecode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/steer/data/tcp/datahandling/message/ZtlMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/steer/data/tcp/datahandling/message/ZtlMessage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/steer/data/tcp/datahandling/service/DataHandlingService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/steer/data/tcp/datahandling/service/DataHandlingService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/steer/data/tcp/datahandling/service/impl/DataHandlingServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/steer/data/tcp/datahandling/service/impl/DataHandlingServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/steer/data/tcp/netty/client/ConnectionMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/steer/data/tcp/netty/client/ConnectionMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/steer/data/tcp/netty/client/NettyClientBootstrap$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/steer/data/tcp/netty/client/NettyClientBootstrap$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/steer/data/tcp/netty/client/NettyClientBootstrap.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/steer/data/tcp/netty/client/NettyClientBootstrap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/steer/data/tcp/netty/client/NettyClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/steer/data/tcp/netty/client/NettyClientHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/steer/data/tcp/netty/server/NettyServerBootstrap.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/steer/data/tcp/netty/server/NettyServerBootstrap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/steer/data/tcp/netty/server/NettyServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/steer/data/tcp/netty/server/NettyServerHandler.class" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/../../../shituo/javaproject1/XBC/productship.cutDeal/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" show_ignored="true">
+    <option name="groupingKeys">
+      <option value="directory" />
+      <option value="module" />
+    </option>
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@172.16.0.76优特钢测试" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="成品秤@172.16.21.185" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="icore-data-common" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/steer/data/common/handler/CustomMessageLog.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1056">
+              <caret line="77" selection-start-line="77" selection-end-line="77" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/../../../maven2/repository/org/springframework/boot/spring-boot-starter-web/2.0.3.RELEASE/spring-boot-starter-web-2.0.3.RELEASE.jar!/META-INF/spring.provides">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/../../../maven2/repository/org/springframework/boot/spring-boot-starter-web/2.0.3.RELEASE/spring-boot-starter-web-2.0.3.RELEASE.jar!/META-INF/MANIFEST.MF">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/../../../maven2/repository/org/springframework/spring-beans/5.0.7.RELEASE/spring-beans-5.0.7.RELEASE.jar!/org/springframework/beans/PropertyValue.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/../../../maven2/repository/org/springframework/boot/spring-boot-starter-web-services/2.0.3.RELEASE/spring-boot-starter-web-services-2.0.3.RELEASE.jar!/META-INF/MANIFEST.MF">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/../../../maven2/repository/org/springframework/boot/spring-boot-starter-web-services/2.0.3.RELEASE/spring-boot-starter-web-services-2.0.3.RELEASE.jar!/META-INF/spring.provides">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/steer/data/MainApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="26" column="81" selection-start-line="26" selection-start-column="81" selection-end-line="26" selection-end-column="81" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/../../../maven2/repository/org/springframework/boot/spring-boot/2.0.3.RELEASE/spring-boot-2.0.3.RELEASE.jar!/org/springframework/boot/SpringApplication.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-990">
+              <caret line="59" column="13" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/../../../maven2/repository/org/springframework/boot/spring-boot-autoconfigure/2.0.3.RELEASE/spring-boot-autoconfigure-2.0.3.RELEASE.jar!/org/springframework/boot/autoconfigure/SpringBootApplication.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="26" column="14" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="AnnotationType" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>get(</find>
+      <find>test</find>
+      <find>redis</find>
+      <find>spring.redis</find>
+      <find>是否存在</find>
+      <find>系列化</find>
+      <find>序列化</find>
+      <find>commons-pool2</find>
+      <find>commons-pools</find>
+      <find>removeRange</find>
+      <find>alibaba</find>
+      <find>SimpleCacheErrorHandler</find>
+      <find>AbstractCacheInvoker</find>
+      <find>opsForValue</find>
+      <find>redis.en</find>
+      <find>getClassLoader</find>
+      <find>spring.redis.timeout=1000</find>
+      <find>multiple.datasource.master.url</find>
+      <find>redis.enabled</find>
+      <find>Timeout</find>
+      <find>timeout</find>
+      <find>Client</find>
+      <find>连接是否</find>
+      <find>set</find>
+      <find>set(</find>
+      <find>质检</find>
+      <find>getJzMsg</find>
+      <find>8080</find>
+      <find>InvocationHanlder</find>
+      <find>[]</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>ResultModel</replace>
+      <replace>CustomException</replace>
+      <replace>LOGGING_EVENT</replace>
+      <replace>create_time</replace>
+      <replace>create_opr</replace>
+      <replace>LoggingEvent</replace>
+      <replace>com.steer.data.webservice.org.tempuri</replace>
+      <replace>String</replace>
+      <replace>wgt_month</replace>
+      <replace>0</replace>
+      <replace>elec_</replace>
+      <replace>${abc}</replace>
+      <replace>'${abc}'</replace>
+      <replace>1GB</replace>
+      <replace>100MB</replace>
+      <replace>log</replace>
+      <replace>ws://localhost:8081/websocket</replace>
+      <replace>RedisService</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/steer/data/quartz/service/impl/LoggingEventServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/steer/data/common/annotation/NeedCacheAop.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/steer/data/common/redis/BasePrefix.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/steer/data/common/redis/UserKey.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/steer/data/common/redis/RedisPoolFactroy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/steer/data/common/redis/RedisService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/steer/data/common/result/ResultModelUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/steer/data/common/redis/RedisUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/steer/data/common/redis/RedisUtil" />
+        <option value="$PROJECT_DIR$/src/main/java/com/steer/data/common/redis/RedisKeyUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/steer/data/quartz/mapper/QuartzJobEntityMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/steer/data/quartz/mapper/QuartzJobEntityMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/steer/data/quartz/service/QuartzJobEntityService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/steer/data/common/handler/CustomMessageLog.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/shell/note.txt" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/steer/data/quartz/web/QuartzJobEntityController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/steer/data/quartz/service/impl/QuartzJobEntityServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/steer/data/quartz/web/JobController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/steer/data/common/config/GlobalMap.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/steer/data/common/utils/IdUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/steer/data/common/config/ConfigMgr.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application-dev.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/steer/data/common/redis/RedisConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/steer/data/common/config/CacheManagerEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/steer/data/common/config/ICacheManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/steer/data/common/config/CacheManagerImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/steer/data/common/enums/CacheEnum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/steer/data/common/constants/CommonConstants.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/steer/data/common/redis/RedisController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/steer/data/common/redis/RedisUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/steer/data/common/utils/SerializeUtil.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/com/steer/data/udp/CustomLed/CLS_XinyuLED_222.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/steer/data/udp/CustomLed/LED_Display_Type.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/steer/data/udp/UdpTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/steer/data/db/datahandling/mapper/DbDataHandlingMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application-prd.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/steer/data/udp/CustomLed/CLS_UDPAsyncClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/steer/data/common/config/CacheManagerConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/steer/data/webservice/datahandling/mapper/WebServiceDataHandlingMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/steer/data/udp/CustomLed/LedWriteClient.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/steer/data/common/handler/CacheAspect.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/steer/data/db/datahandling/service/impl/DbDataHandlingServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/steer/data/test/Appconfig.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/steer/data/test/AppConfig.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/steer/data/test/SpringTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/steer/data/db/datahandling/service/impl/SqlHandlerServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/steer/data/webservice/client/WebServiceUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/steer/data/MainApplication.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\workspace\maven2\repository" />
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+        <option name="userSettingsFile" value="C:\software\idea2018\IntelliJ IDEA 2018.3\plugins\maven\lib\maven3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+    <option name="enabledProfiles">
+      <list>
+        <option value="dev" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="icore-data-common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="icore-data-common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="240" />
+    <option name="y" value="290" />
+    <option name="width" value="1510" />
+    <option name="height" value="885" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="icore-data-common" type="b2602c69:ProjectViewProjectNode" />
+              <item name="icore-data-common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="icore-data-common" type="b2602c69:ProjectViewProjectNode" />
+              <item name="icore-data-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="icore-data-common" type="b2602c69:ProjectViewProjectNode" />
+              <item name="icore-data-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="icore-data-common" type="b2602c69:ProjectViewProjectNode" />
+              <item name="icore-data-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="icore-data-common" type="b2602c69:ProjectViewProjectNode" />
+              <item name="icore-data-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="icore-data-common" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="icore-data-common" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.boot:spring-boot-starter-web-services:2.0.3.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="icore-data-common" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.boot:spring-boot-starter-web-services:2.0.3.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-boot-starter-web-services-2.0.3.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="icore-data-common" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.boot:spring-boot-starter-web-services:2.0.3.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-boot-starter-web-services-2.0.3.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="oracle&#10;sqlserver&#10;h2&#10;mysql" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584878135850" />
+    <property name="database.console.LAST_STATE" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../icore-data-common-udp" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.steer.data.common.enums" />
+      <recent name="com.steer.data.common.redis" />
+      <recent name="com.steer.data.quartz.service.impl" />
+      <recent name="com.steer.data.quartz.service" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\workspace\javaprojects\ideaprojects\icore-data-common\src\main\java\com\steer\data\common\redis" />
+      <recent name="E:\workspace\javaprojects\ideaprojects\icore-data-common\src\main\resources\html" />
+      <recent name="E:\workspace\javaprojects\ideaprojects\icore-data-common\src\main\resources" />
+      <recent name="E:\workspace\javaprojects\ideaprojects\icore-data-common\src\main\java\com\steer\data\webservice" />
+      <recent name="E:\workspace\javaprojects\ideaprojects\icore-data-common\src\main\java" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+    <option name="contentProportion" value="0.13456284" />
+  </component>
+  <component name="RunManager" selected="Application.NioWebSocketServer">
+    <configuration name="ConfigMgr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.steer.data.common.config.ConfigMgr" />
+      <module name="icore-data-common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.steer.data.common.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.steer.data.MainApplication" />
+      <module name="icore-data-common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.steer.data.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NioWebSocketServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.steer.data.gui.websocket.NioWebSocketServer" />
+      <module name="icore-data-common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.steer.data.gui.websocket.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SerializeUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.steer.data.common.utils.SerializeUtil" />
+      <module name="icore-data-common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.steer.data.common.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UdpTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.steer.data.udp.UdpTest" />
+      <module name="icore-data-common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.steer.data.udp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainApplication96" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="icore-data-common" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.steer.data.MainApplication" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=96" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainApplication97" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="icore-data-common" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.steer.data.MainApplication" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=97" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="productship.cutD" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.88" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/productship_cutDeal_war_exploded/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="productship.cutDeal:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/productship_cutDeal_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_icore-data-common" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="56834" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="productship.cutDeal:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.MainApplication" />
+      <item itemvalue="Application.ConfigMgr" />
+      <item itemvalue="Application.SerializeUtil" />
+      <item itemvalue="Application.UdpTest" />
+      <item itemvalue="Application.NioWebSocketServer" />
+      <item itemvalue="Spring Boot.MainApplication96" />
+      <item itemvalue="Spring Boot.MainApplication97" />
+      <item itemvalue="Tomcat Server.productship.cutD" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.NioWebSocketServer" />
+        <item itemvalue="Application.MainApplication" />
+        <item itemvalue="Application.UdpTest" />
+        <item itemvalue="Application.SerializeUtil" />
+        <item itemvalue="Application.ConfigMgr" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\syhleo\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="E:\workspace\javaprojects\ideaprojects\icore-data-common" />
+          <option name="myCopyRoot" value="E:\workspace\javaprojects\ideaprojects\icore-data-common" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="E:\workspace\javaprojects\ideaprojects\icore-data-common" />
+          <option name="myCopyRoot" value="E:\workspace\javaprojects\ideaprojects\icore-data-common" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6f72c7d4-2453-4b35-88d5-eacb7c9ebcfe" name="Default Changelist" comment="" />
+      <created>1569582344283</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1569582344283</updated>
+      <workItem from="1569582347010" duration="637000" />
+      <workItem from="1569582986949" duration="68000" />
+      <workItem from="1569583056817" duration="2000" />
+      <workItem from="1570585495611" duration="1671000" />
+      <workItem from="1571129307550" duration="6818000" />
+      <workItem from="1571371228824" duration="192000" />
+      <workItem from="1571469054880" duration="829000" />
+      <workItem from="1571902710181" duration="2293000" />
+      <workItem from="1572049591225" duration="10603000" />
+      <workItem from="1572158229517" duration="2076000" />
+      <workItem from="1572221584754" duration="23542000" />
+      <workItem from="1572309796083" duration="24148000" />
+      <workItem from="1572481674816" duration="10449000" />
+      <workItem from="1572501165282" duration="15282000" />
+      <workItem from="1572567276063" duration="3171000" />
+      <workItem from="1572578872181" duration="3937000" />
+      <workItem from="1572591552717" duration="2237000" />
+      <workItem from="1572676707693" duration="1973000" />
+      <workItem from="1572853731856" duration="2009000" />
+      <workItem from="1572954275847" duration="692000" />
+      <workItem from="1573004327561" duration="2111000" />
+      <workItem from="1573438300721" duration="5161000" />
+      <workItem from="1573517817632" duration="4697000" />
+      <workItem from="1573523158547" duration="24062000" />
+      <workItem from="1573602576190" duration="9082000" />
+      <workItem from="1573612449465" duration="18000" />
+      <workItem from="1573612485983" duration="1459000" />
+      <workItem from="1573616584912" duration="10211000" />
+      <workItem from="1573716757182" duration="112000" />
+      <workItem from="1573787641201" duration="606000" />
+      <workItem from="1573972766413" duration="10430000" />
+      <workItem from="1574035672236" duration="21720000" />
+      <workItem from="1574245916601" duration="9150000" />
+      <workItem from="1574258538610" duration="337000" />
+      <workItem from="1574295316656" duration="14586000" />
+      <workItem from="1574315205248" duration="1934000" />
+      <workItem from="1574317903283" duration="25539000" />
+      <workItem from="1574380926067" duration="29210000" />
+      <workItem from="1574421535028" duration="1715000" />
+      <workItem from="1574429358952" duration="83000" />
+      <workItem from="1574470410157" duration="8736000" />
+      <workItem from="1574489893927" duration="855000" />
+      <workItem from="1574641999552" duration="6560000" />
+      <workItem from="1574663218237" duration="5648000" />
+      <workItem from="1574734617631" duration="737000" />
+      <workItem from="1574740085056" duration="12637000" />
+      <workItem from="1574772042299" duration="1043000" />
+      <workItem from="1574814243085" duration="2895000" />
+      <workItem from="1574817724873" duration="3755000" />
+      <workItem from="1574821501570" duration="3999000" />
+      <workItem from="1574841583330" duration="799000" />
+      <workItem from="1574941218331" duration="2660000" />
+      <workItem from="1575253818536" duration="3337000" />
+      <workItem from="1575268431706" duration="3942000" />
+      <workItem from="1575444468021" duration="507000" />
+      <workItem from="1575445283986" duration="4875000" />
+      <workItem from="1575507972272" duration="16053000" />
+      <workItem from="1575541154299" duration="5923000" />
+      <workItem from="1575547615855" duration="57000" />
+      <workItem from="1575591510174" duration="128000" />
+      <workItem from="1575593852591" duration="12722000" />
+      <workItem from="1575936365040" duration="329000" />
+      <workItem from="1576455993054" duration="1859000" />
+      <workItem from="1576466831368" duration="554000" />
+      <workItem from="1576494845516" duration="4000" />
+      <workItem from="1576666921396" duration="1237000" />
+      <workItem from="1576668777360" duration="115000" />
+      <workItem from="1576669544572" duration="335000" />
+      <workItem from="1576669907647" duration="2358000" />
+      <workItem from="1576672302214" duration="12000" />
+      <workItem from="1576721573411" duration="690000" />
+      <workItem from="1576824372103" duration="232000" />
+      <workItem from="1576827449416" duration="54000" />
+      <workItem from="1577060011640" duration="579000" />
+      <workItem from="1577060993515" duration="175000" />
+      <workItem from="1577066937612" duration="96000" />
+      <workItem from="1577092588363" duration="2429000" />
+      <workItem from="1577169937556" duration="648000" />
+      <workItem from="1577190485620" duration="859000" />
+      <workItem from="1577191371863" duration="339000" />
+      <workItem from="1577191779865" duration="502000" />
+      <workItem from="1577232105567" duration="3663000" />
+      <workItem from="1577237533033" duration="10338000" />
+      <workItem from="1577270178544" duration="761000" />
+      <workItem from="1577270962003" duration="10000" />
+      <workItem from="1577271330722" duration="719000" />
+      <workItem from="1577278518599" duration="617000" />
+      <workItem from="1577757544214" duration="17062000" />
+      <workItem from="1578277198953" duration="245000" />
+      <workItem from="1578278472594" duration="7099000" />
+      <workItem from="1578363972941" duration="22823000" />
+      <workItem from="1578445687638" duration="33037000" />
+      <workItem from="1578529684305" duration="26777000" />
+      <workItem from="1578621181833" duration="2039000" />
+      <workItem from="1578665315786" duration="386000" />
+      <workItem from="1578707578766" duration="4642000" />
+      <workItem from="1578898913319" duration="1153000" />
+      <workItem from="1578967820436" duration="3625000" />
+      <workItem from="1578984190111" duration="4805000" />
+      <workItem from="1579054563697" duration="871000" />
+      <workItem from="1579144021597" duration="4112000" />
+      <workItem from="1579154500264" duration="4917000" />
+      <workItem from="1579181187722" duration="343000" />
+      <workItem from="1579400676005" duration="3311000" />
+      <workItem from="1579488183021" duration="902000" />
+      <workItem from="1580549139927" duration="2118000" />
+      <workItem from="1581575572595" duration="1888000" />
+      <workItem from="1581752930374" duration="1033000" />
+      <workItem from="1581906477104" duration="2619000" />
+      <workItem from="1582005749590" duration="721000" />
+      <workItem from="1582959865684" duration="752000" />
+      <workItem from="1583201114158" duration="603000" />
+      <workItem from="1583201949145" duration="35000" />
+      <workItem from="1583208861746" duration="3246000" />
+      <workItem from="1583288290437" duration="588000" />
+      <workItem from="1583466637194" duration="825000" />
+      <workItem from="1583479859430" duration="1278000" />
+      <workItem from="1583667359726" duration="105000" />
+      <workItem from="1583899724885" duration="24000" />
+      <workItem from="1584159014167" duration="3070000" />
+      <workItem from="1584432206548" duration="3138000" />
+      <workItem from="1584869714579" duration="1840000" />
+      <workItem from="1584877310361" duration="827000" />
+    </task>
+    <task id="LOCAL-00001" summary="平台结构调整">
+      <created>1575446779414</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1575446779414</updated>
+    </task>
+    <task id="LOCAL-00002" summary="平台结构调整">
+      <created>1575447250020</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1575447250020</updated>
+    </task>
+    <task id="LOCAL-00003" summary="平台结构调整">
+      <created>1575447727786</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1575447727786</updated>
+    </task>
+    <task id="LOCAL-00004" summary="平台结构调整">
+      <created>1575447790787</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1575447790787</updated>
+    </task>
+    <task id="LOCAL-00005" summary="平台结构调整">
+      <created>1575622280595</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1575622280595</updated>
+    </task>
+    <task id="LOCAL-00006" summary="平台结构调整">
+      <created>1577060460048</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1577060460048</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="UdpTest_test - 2019.11.22 at 18h 16m 40s.xml">
+      <configuration name="UdpTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UdpTest_test - 2019.11.22 at 18h 17m 05s.xml">
+      <configuration name="UdpTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClientInvoke_test - 2019.11.22 at 18h 23m 32s.xml">
+      <configuration name="ClientInvoke.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UdpTest_test - 2019.11.22 at 18h 41m 16s.xml">
+      <configuration name="UdpTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UdpTest_test - 2019.11.22 at 18h 41m 22s.xml">
+      <configuration name="UdpTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UdpTest_test - 2019.11.22 at 18h 41m 27s.xml">
+      <configuration name="UdpTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UdpTest_test - 2019.11.22 at 18h 41m 31s.xml">
+      <configuration name="UdpTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UdpTest_test - 2019.11.22 at 19h 31m 12s.xml">
+      <configuration name="UdpTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UdpTest_test - 2019.11.22 at 19h 31m 40s.xml">
+      <configuration name="UdpTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UdpTest_test - 2019.11.22 at 19h 31m 55s.xml">
+      <configuration name="UdpTest.test" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="575093000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49156117" visible="true" weight="0.18498659" />
+      <window_info id="Designer" order="1" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" sideWeight="0.5084388" side_tool="true" weight="0.19906166" />
+      <window_info id="Web" order="6" sideWeight="0.50353605" side_tool="true" weight="0.23123324" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49932975" weight="0.5049505" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4966488" weight="0.3069307" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49865952" weight="0.34512022" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32956153" />
+      <window_info anchor="bottom" x="22" y="287" width="1492" height="250" id="Terminal" order="7" sideWeight="0.49731904" weight="0.291372" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50268096" side_tool="true" weight="0.291372" />
+      <window_info anchor="bottom" id="Messages" order="10" visible="true" weight="0.3281471" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32956153" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.29985857" />
+      <window_info anchor="bottom" id="Spring" order="14" weight="0.32956153" />
+      <window_info anchor="bottom" id="Application Servers" order="15" weight="0.32956153" />
+      <window_info anchor="bottom" id="Run Dashboard" order="16" weight="0.3592645" />
+      <window_info anchor="bottom" id="SVN Repositories" order="17" weight="0.32956153" />
+      <window_info anchor="bottom" id="Database Console" order="18" weight="0.32956153" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.17828418" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.4852547" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.1266756" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.3297587" />
+      <window_info anchor="right" id="Structure" order="10" sideWeight="0.5009488" side_tool="true" visible="true" weight="0.13404825" />
+      <window_info anchor="right" id="CDI" order="11" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49156117" visible="true" weight="0.24865952" />
+      <window_info id="Designer" order="1" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" sideWeight="0.5084388" side_tool="true" weight="0.19906166" />
+      <window_info id="Web" order="6" sideWeight="0.50353605" side_tool="true" weight="0.23123324" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49932975" weight="0.5049505" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4966488" weight="0.13719943" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49865952" weight="0.34512022" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32956153" />
+      <window_info anchor="bottom" x="22" y="287" width="1492" height="250" id="Terminal" order="7" sideWeight="0.49731904" weight="0.291372" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50268096" side_tool="true" weight="0.291372" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3281471" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32956153" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.29985857" />
+      <window_info anchor="bottom" id="Spring" order="14" />
+      <window_info anchor="bottom" id="Application Servers" order="15" weight="0.32956153" />
+      <window_info anchor="bottom" id="Run Dashboard" order="16" weight="0.3592645" />
+      <window_info anchor="bottom" id="SVN Repositories" order="17" weight="0.32956153" />
+      <window_info anchor="bottom" id="Database Console" order="18" weight="0.32956153" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.17828418" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.4852547" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.1266756" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.3297587" />
+      <window_info anchor="right" id="Structure" order="10" sideWeight="0.5009488" side_tool="true" weight="0.2272118" />
+      <window_info anchor="right" id="CDI" order="11" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="平台结构调整" />
+    <option name="LAST_COMMIT_MESSAGE" value="平台结构调整" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/steer/data/utils/DateUtil.java</url>
+          <line>124</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/steer/data/db/datahandling/controller/DbDataHandingController.java</url>
+          <line>54</line>
+          <properties />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/steer/data/tcp/datahandling/controller/DataHandlingController.java</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/steer/data/webservice/client/HttpSoap12Invoke.java</url>
+          <line>60</line>
+          <properties />
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/steer/data/webservice/client/HttpSoap12Invoke.java</url>
+          <line>87</line>
+          <properties />
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/steer/data/webservice/client/HttpSoap12Invoke.java</url>
+          <line>91</line>
+          <properties />
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/steer/data/webservice/client/HttpSoap12Invoke.java</url>
+          <line>52</line>
+          <properties />
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/steer/data/webservice/client/ClientInvoke.java</url>
+          <line>245</line>
+          <properties />
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/steer/data/webservice/client/HttpSoap12Invoke.java</url>
+          <line>274</line>
+          <properties />
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/steer/data/webservice/client/HttpSoap12Invoke.java</url>
+          <line>243</line>
+          <properties />
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/cxf/cxf-core/3.3.3/cxf-core-3.3.3.jar!/org/apache/cxf/interceptor/MessageSenderInterceptor.class</url>
+          <line>51</line>
+          <properties />
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/steer/data/webservice/client/HttpSoap12Invoke.java</url>
+          <line>176</line>
+          <properties />
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/steer/data/webservice/client/HttpSoap12Invoke.java</url>
+          <line>190</line>
+          <properties />
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/steer/data/webservice/client/HttpSoap12Invoke.java</url>
+          <line>188</line>
+          <properties />
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/steer/data/webservice/client/HttpSoap12Invoke.java</url>
+          <line>311</line>
+          <properties />
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/steer/data/webservice/client/HttpSoap12Invoke.java</url>
+          <line>307</line>
+          <properties />
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/steer/data/webservice/client/HttpSoap12Invoke.java</url>
+          <line>355</line>
+          <properties />
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/steer/data/webservice/client/HttpSoap12Invoke.java</url>
+          <line>354</line>
+          <properties />
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/steer/data/webservice/client/HttpClie.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/steer/data/webservice/client/HttpClie.java</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/steer/data/webservice/client/WebServiceUtil.java</url>
+          <line>92</line>
+          <properties />
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/steer/data/webservice/client/Axis2Client.java</url>
+          <line>49</line>
+          <properties />
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/steer/data/webservice/client/Axis2Client.java</url>
+          <line>270</line>
+          <properties />
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/steer/data/webservice/client/Axis2Client.java</url>
+          <line>264</line>
+          <properties />
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/steer/data/webservice/client/Axis2Client.java</url>
+          <line>231</line>
+          <properties />
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/steer/data/webservice/client/Axis2Client.java</url>
+          <line>199</line>
+          <properties />
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/steer/data/webservice/client/AxisClient.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../../maven2/repository/org/apache/axis/axis/1.4/axis-1.4.jar!/org/apache/axis/client/Call.class</url>
+          <line>967</line>
+          <properties />
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../../maven2/repository/org/apache/axis/axis/1.4/axis-1.4.jar!/org/apache/axis/client/Call.class</url>
+          <line>975</line>
+          <properties />
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../../maven2/repository/org/apache/axis/axis/1.4/axis-1.4.jar!/org/apache/axis/client/Call.class</url>
+          <line>999</line>
+          <properties />
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../../maven2/repository/org/apache/axis/axis/1.4/axis-1.4.jar!/org/apache/axis/client/Call.class</url>
+          <line>1000</line>
+          <properties />
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../../maven2/repository/org/apache/axis/axis/1.4/axis-1.4.jar!/org/apache/axis/client/Call.class</url>
+          <line>1299</line>
+          <properties />
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../../maven2/repository/org/apache/axis/axis/1.4/axis-1.4.jar!/org/apache/axis/client/Call.class</url>
+          <line>1302</line>
+          <properties />
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../../maven2/repository/org/apache/axis/axis/1.4/axis-1.4.jar!/org/apache/axis/client/Call.class</url>
+          <line>1304</line>
+          <properties />
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../../maven2/repository/org/apache/axis/axis/1.4/axis-1.4.jar!/org/apache/axis/MessageContext.class</url>
+          <line>341</line>
+          <properties />
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../../maven2/repository/org/apache/axis/axis/1.4/axis-1.4.jar!/org/apache/axis/client/Call.class</url>
+          <line>1007</line>
+          <properties />
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../../maven2/repository/org/apache/axis/axis/1.4/axis-1.4.jar!/org/apache/axis/AxisEngine.class</url>
+          <line>157</line>
+          <properties />
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/steer/data/webservice/client/AxisClient.java</url>
+          <line>65</line>
+          <properties />
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/steer/data/webservice/client/Axis2Client.java</url>
+          <line>564</line>
+          <properties />
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/steer/data/webservice/client/Axis2Client.java</url>
+          <line>357</line>
+          <properties />
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/steer/data/webservice/client/Axis2Client.java</url>
+          <line>387</line>
+          <properties />
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/steer/data/webservice/client/Axis2Client.java</url>
+          <line>389</line>
+          <properties />
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/steer/data/webservice/client/Axis2Client.java</url>
+          <line>122</line>
+          <properties />
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/steer/data/webservice/client/Axis2Client.java</url>
+          <line>506</line>
+          <properties />
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/steer/data/webservice/client/Axis2Client.java</url>
+          <line>497</line>
+          <properties />
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/steer/data/webservice/client/Axis2Client.java</url>
+          <line>541</line>
+          <properties />
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/steer/data/webservice/rfid/RfidServiceStub.java</url>
+          <line>3667</line>
+          <properties />
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/steer/data/webservice/rfid/RfidServiceStub.java</url>
+          <line>3690</line>
+          <properties />
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../../maven2/repository/org/apache/axis2/axis2-transport-http/1.6.2/axis2-transport-http-1.6.2.jar!/org/apache/axis2/transport/http/HTTPSender.class</url>
+          <line>101</line>
+          <properties />
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../../maven2/repository/org/apache/axis2/axis2-transport-http/1.6.2/axis2-transport-http-1.6.2.jar!/org/apache/axis2/transport/http/HTTPSender.class</url>
+          <line>119</line>
+          <properties />
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../../maven2/repository/org/apache/axis2/axis2-transport-http/1.6.2/axis2-transport-http-1.6.2.jar!/org/apache/axis2/transport/http/HTTPSender.class</url>
+          <line>120</line>
+          <properties />
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../../maven2/repository/org/apache/axis2/axis2-transport-http/1.6.2/axis2-transport-http-1.6.2.jar!/org/apache/axis2/transport/http/HTTPSender.class</url>
+          <line>122</line>
+          <properties />
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../../maven2/repository/org/apache/axis2/axis2-transport-http/1.6.2/axis2-transport-http-1.6.2.jar!/org/apache/axis2/transport/http/HTTPSender.class</url>
+          <line>157</line>
+          <properties />
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../../maven2/repository/org/apache/axis2/axis2-transport-http/1.6.2/axis2-transport-http-1.6.2.jar!/org/apache/axis2/transport/http/AbstractHTTPSender.class</url>
+          <line>442</line>
+          <properties />
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../../maven2/repository/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.jar!/org/apache/commons/httpclient/HttpClient.class</url>
+          <line>122</line>
+          <properties />
+          <option name="timeStamp" value="101" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/steer/data/webservice/client/HttpClientCallSoapUtil.java</url>
+          <line>104</line>
+          <properties />
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/steer/data/webservice/client/HttpClientCallSoapUtil.java</url>
+          <line>96</line>
+          <properties />
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../../maven2/repository/org/apache/httpcomponents/httpclient/4.5.10/httpclient-4.5.10.jar!/org/apache/http/impl/client/CloseableHttpClient.class</url>
+          <line>52</line>
+          <properties />
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/steer/data/udp/UdpTest.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/steer/data/udp/UdpTest.java</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="108" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/steer/data/udp/UdpTest.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/steer/data/webservice/client/ClientInvoke.java</url>
+          <line>165</line>
+          <properties />
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/steer/data/webservice/client/ClientInvoke.java</url>
+          <line>411</line>
+          <properties />
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/steer/data/webservice/client/ClientInvoke.java</url>
+          <line>98</line>
+          <properties />
+          <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/steer/data/webservice/client/HttpSoap12Invoke.java</url>
+          <line>95</line>
+          <properties />
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/steer/data/webservice/client/HttpSoap12Invoke.java</url>
+          <line>86</line>
+          <properties />
+          <option name="timeStamp" value="115" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/steer/data/webservice/client/ClientInvoke.java</url>
+          <line>604</line>
+          <properties />
+          <option name="timeStamp" value="117" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/steer/data/webservice/client/ClientInvoke.java</url>
+          <line>603</line>
+          <properties />
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/steer/data/webservice/client/ClientInvoke.java</url>
+          <line>607</line>
+          <properties />
+          <option name="timeStamp" value="122" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/steer/data/webservice/client/ClientInvoke.java</url>
+          <line>606</line>
+          <properties />
+          <option name="timeStamp" value="124" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/steer/data/webservice/datahandling/service/impl/WebServiceDataHandlingServiceImpl.java</url>
+          <line>72</line>
+          <properties />
+          <option name="timeStamp" value="132" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/steer/data/webservice/client/ClientInvoke.java</url>
+          <line>204</line>
+          <properties />
+          <option name="timeStamp" value="173" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/steer/data/webservice/client/ClientInvoke.java</url>
+          <line>431</line>
+          <properties />
+          <option name="timeStamp" value="174" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/steer/data/udp/CustomLed/LedWriteClient.java</url>
+          <line>608</line>
+          <properties />
+          <option name="timeStamp" value="179" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/steer/data/udp/CustomLed/LedWriteClient.java</url>
+          <line>628</line>
+          <properties />
+          <option name="timeStamp" value="180" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/steer/data/udp/CustomLed/LedWriteClient.java</url>
+          <line>623</line>
+          <properties />
+          <option name="timeStamp" value="183" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/steer/data/udp/CustomLed/LedWriteClient.java</url>
+          <line>620</line>
+          <properties />
+          <option name="timeStamp" value="184" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/steer/data/udp/CustomLed/CLS_UDPAsyncClient.java</url>
+          <line>184</line>
+          <properties />
+          <option name="timeStamp" value="185" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/steer/data/udp/CustomLed/CLS_UDPAsyncClient.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="186" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/steer/data/test/SqlServerTest.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="188" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/steer/data/test/SqlServerTest.java</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="189" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/steer/data/common/utils/SerializeUtil.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="217" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/steer/data/common/handler/CacheAspect.java</url>
+          <line>117</line>
+          <properties />
+          <option name="timeStamp" value="219" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/steer/data/common/config/ConfigMgr.java</url>
+          <line>218</line>
+          <properties />
+          <option name="timeStamp" value="220" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/steer/data/common/config/ConfigMgr.java</url>
+          <line>129</line>
+          <properties />
+          <option name="timeStamp" value="221" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/steer/data/common/config/ConfigMgr.java</url>
+          <line>216</line>
+          <properties />
+          <option name="timeStamp" value="222" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/steer/data/common/config/ConfigMgr.java</url>
+          <line>136</line>
+          <properties />
+          <option name="timeStamp" value="223" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/steer/data/common/config/ConfigMgr.java</url>
+          <line>152</line>
+          <properties />
+          <option name="timeStamp" value="224" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../../maven2/repository/org/springframework/data/spring-data-redis/2.0.8.RELEASE/spring-data-redis-2.0.8.RELEASE.jar!/org/springframework/data/redis/connection/lettuce/LettuceConnectionFactory.class</url>
+          <line>289</line>
+          <properties />
+          <option name="timeStamp" value="226" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/steer/data/common/utils/SerializeUtil.java</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="238" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/steer/data/udp/UdpTest.java</url>
+          <line>53</line>
+          <properties />
+          <option name="timeStamp" value="239" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/steer/data/udp/UdpTest.java</url>
+          <line>59</line>
+          <properties />
+          <option name="timeStamp" value="240" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/steer/data/webservice/client/Axis2Client.java</url>
+          <line>84</line>
+          <properties />
+          <option name="timeStamp" value="241" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="method.getURI()" language="JAVA" />
+        <watch expression="method.getPath()" language="JAVA" />
+        <watch expression="method.getStatusCode()" language="JAVA" />
+      </configuration>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="pjp.proceed(pjp.getArgs())" language="JAVA" />
+        <watch expression="pjp.getSignature()" language="JAVA" />
+        <watch expression="Lists.newArrayList(pjp.getArgs()).toString()" language="JAVA" />
+        <watch expression="joinPoint.getArgs()" language="JAVA" />
+        <watch expression="request.getParameterNames()" language="JAVA" />
+        <watch expression="request.getParameterNames()" language="JAVA" />
+        <watch expression="request.getQueryString()" language="JAVA" />
+      </configuration>
+      <configuration name="Application">
+        <watch expression="out" language="JAVA" />
+        <watch expression="webservice" language="JAVA" />
+        <watch expression="this.operationName.getLocalPart()" language="JAVA" />
+        <watch expression="this.operationName.getNamespaceURI()" language="JAVA" />
+        <watch expression="ClientMap.conMap.contains(targetNamespace+methodName)" language="JAVA" />
+        <watch expression="ClientMap.conMap" language="JAVA" />
+        <watch expression="str_02" language="JAVA" />
+        <watch expression="str_Send_Text" language="JAVA" />
+        <watch expression="str_Send_Text2" language="JAVA" />
+        <watch expression="str_Send_Text3" language="JAVA" />
+        <watch expression="objects" language="JAVA" />
+        <watch expression="redisService.get(key)" language="JAVA" />
+        <watch expression="GlobalMap.conMap" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>GlobalMap.conMap</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>redisService.get(key)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>objects</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>str_Send_Text3</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>str_Send_Text2</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>str_Send_Text</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>str_02</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>ClientMap.conMap</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>ClientMap.conMap.contains(targetNamespace+methodName)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>method.getStatusCode()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/steer/data/db/config/DataSourceKey.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/steer/data/db/config/DynamicDataSourceAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/steer/data/db/config/DynamicDataSourceConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-44">
+          <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/steer/data/db/config/DynamicDataSourceContextHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/steer/data/db/config/DynamicRoutingDataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/steer/data/db/config/TargetDataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/steer/data/webservice/client/ClientInvoke.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14146">
+          <caret line="678" column="64" selection-start-line="678" selection-start-column="64" selection-end-line="678" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/steer/data/webservice/client/FactoryMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/steer/data/webservice/client/HttpSoap12Invoke.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/steer/data/webservice/client/WebServiceUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="102" column="12" selection-start-line="102" selection-start-column="12" selection-end-line="102" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/html/WebSocketTest.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="22" column="76" selection-start-line="22" selection-start-column="76" selection-end-line="22" selection-end-column="76" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application-dev.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/steer/data/udp/CustomLed/LedWriteClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7920">
+          <caret line="368" column="18" selection-start-line="368" selection-start-column="18" selection-end-line="368" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/steer/data/udp/CustomLed/CLS_UDPAsyncClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/steer/data/udp/CustomLed/CLS_XinyuLED_222.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/org.springframework.context.ApplicationContext">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>org.springframework.context.ApplicationContext</OriginalElement>
+          <nodes>
+            <node x="" y="">java.lang.FunctionalInterface</node>
+            <node x="" y="">org.springframework.beans.factory.HierarchicalBeanFactory</node>
+            <node x="" y="">org.springframework.core.io.ResourceLoader</node>
+            <node x="" y="">org.springframework.beans.factory.BeanFactory</node>
+            <node x="" y="">org.springframework.core.env.EnvironmentCapable</node>
+            <node x="" y="">org.springframework.context.ApplicationEventPublisher</node>
+            <node x="" y="">org.springframework.core.io.support.ResourcePatternResolver</node>
+            <node x="" y="">org.springframework.beans.factory.ListableBeanFactory</node>
+            <node x="" y="">org.springframework.context.MessageSource</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="204.0" y="251.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven2/repository/org/springframework/spring-context/5.0.7.RELEASE/spring-context-5.0.7.RELEASE.jar!/org/springframework/context/ApplicationContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/steer/data/udp/CustomLed/LED_Display_Type.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/steer/data/gui/websocket/NioWebSocketChannelInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/steer/data/gui/websocket/ChannelSupervise.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/steer/data/gui/websocket/NioWebSocketHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2046">
+          <caret line="107" column="33" selection-start-line="107" selection-start-column="33" selection-end-line="107" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/steer/data/gui/websocket/NioWebSocketServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+          <folding>
+            <element signature="e#1303#1304#0" expanded="true" />
+            <element signature="e#1350#1351#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/steer/data/test/SpringTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/steer/data/test/AppConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/steer/data/common/handler/CacheAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="145" column="5" selection-start-line="145" selection-start-column="5" selection-end-line="145" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/steer/data/tcp/netty/server/CustomerServerInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="41" column="33" lean-forward="true" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/steer/data/tcp/netty/server/HeartBeatServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/steer/data/tcp/netty/server/NettyServerBootstrap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="50" column="28" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/steer/data/tcp/netty/client/ConnectionMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/steer/data/tcp/netty/client/CustomerClientInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/steer/data/tcp/netty/client/NettyClientBootstrap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/steer/data/tcp/netty/client/NettyClientHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1122">
+          <caret line="18" column="11" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/steer/data/tcp/netty/server/NettyServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1116">
+          <caret line="86" column="5" lean-forward="true" selection-start-line="86" selection-start-column="5" selection-end-line="86" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../jdk8/JDK8_64/src.zip!/java/lang/StringBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2222">
+          <caret line="127" column="22" selection-start-line="127" selection-start-column="14" selection-end-line="127" selection-end-column="22" />
+          <folding>
+            <element signature="e#4139#4140#0" expanded="true" />
+            <element signature="e#4164#4165#0" expanded="true" />
+            <element signature="e#4506#4507#0" expanded="true" />
+            <element signature="e#4537#4538#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../jdk8/JDK8_64/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4884">
+          <caret line="263" column="48" selection-start-line="263" selection-start-column="48" selection-end-line="263" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../jdk8/JDK8_64/src.zip!/java/lang/ThreadLocal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5830">
+          <caret line="307" column="42" selection-start-line="307" selection-start-column="42" selection-end-line="307" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../jdk8/JDK8_64/src.zip!/java/lang/ref/WeakReference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="47" column="12" selection-start-line="47" selection-start-column="7" selection-end-line="47" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../jdk8/JDK8_64/src.zip!/java/lang/StringBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="113" column="5" selection-start-line="113" selection-start-column="5" selection-end-line="113" selection-end-column="5" />
+          <folding>
+            <element signature="e#2871#2872#0" expanded="true" />
+            <element signature="e#2896#2897#0" expanded="true" />
+            <element signature="e#3272#3273#0" expanded="true" />
+            <element signature="e#3303#3304#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/steer/data/db/datahandling/service/impl/DbDataHandlingServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1562">
+          <caret line="41" column="7" lean-forward="true" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/steer/data/common/handler/CustomMessageLog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1056">
+          <caret line="77" selection-start-line="77" selection-end-line="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven2/repository/org/springframework/boot/spring-boot-starter-web/2.0.3.RELEASE/spring-boot-starter-web-2.0.3.RELEASE.jar!/META-INF/spring.provides">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven2/repository/org/springframework/boot/spring-boot-starter-web/2.0.3.RELEASE/spring-boot-starter-web-2.0.3.RELEASE.jar!/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven2/repository/org/springframework/spring-beans/5.0.7.RELEASE/spring-beans-5.0.7.RELEASE.jar!/org/springframework/beans/PropertyValue.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven2/repository/org/springframework/boot/spring-boot-starter-web-services/2.0.3.RELEASE/spring-boot-starter-web-services-2.0.3.RELEASE.jar!/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven2/repository/org/springframework/boot/spring-boot-starter-web-services/2.0.3.RELEASE/spring-boot-starter-web-services-2.0.3.RELEASE.jar!/META-INF/spring.provides">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven2/repository/org/springframework/boot/spring-boot-autoconfigure/2.0.3.RELEASE/spring-boot-autoconfigure-2.0.3.RELEASE.jar!/org/springframework/boot/autoconfigure/SpringBootApplication.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="26" column="14" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven2/repository/org/springframework/boot/spring-boot/2.0.3.RELEASE/spring-boot-2.0.3.RELEASE.jar!/org/springframework/boot/SpringApplication.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-990">
+          <caret line="59" column="13" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/steer/data/MainApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="26" column="81" selection-start-line="26" selection-start-column="81" selection-end-line="26" selection-end-column="81" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>productship.cutDeal:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>icore-data-common</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: cglib:cglib:3.2.5</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

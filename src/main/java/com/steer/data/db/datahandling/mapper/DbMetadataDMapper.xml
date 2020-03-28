@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.steer.data.db.datahandling.mapper.DbMetadataDMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.steer.data.db.datahandling.model.DbMetadataD">
+        <result column="DB_RELATE" property="dbRelate"/>
+        <result column="SOURCE_TABLE_COLUMN" property="sourceTableColumn"/>
+        <result column="TARGET_TABLE_COLUMN" property="targetTableColumn"/>
+        <result column="INVALID_FLG" property="invalidFlg"/>
+        <result column="CREATE_OPR" property="createOpr"/>
+        <result column="CREATE_TIME" property="createTime"/>
+        <result column="UPDATE_OPR" property="updateOpr"/>
+        <result column="UPDATE_TIME" property="updateTime"/>
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        DB_RELATE, SOURCE_TABLE_COLUMN, TARGET_TABLE_COLUMN, INVALID_FLG, CREATE_OPR, CREATE_TIME, UPDATE_OPR,
+        UPDATE_TIME
+    </sql>
+
+    <select id="findByDbrela" parameterType="java.lang.String"
+            resultMap="BaseResultMap">
+        SELECT * from DB_METADATA_D WHERE 1=1 and db_relate=#{db_relate}
+    </select>
+
+
+</mapper>

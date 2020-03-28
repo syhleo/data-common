@@ -1,0 +1,24 @@
+2019-12-31 14:20:22.307 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jobController': Invocation of init method failed; nested exception is org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: ORA-00942: 表或视图不存在
+
+### The error may exist in com/steer/data/quartz/mapper/QuartzJobEntityMapper.xml
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT * from QUARTZ_JOB_ENTITY WHERE 1=1
+### Cause: java.sql.SQLSyntaxErrorException: ORA-00942: 表或视图不存在
+
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: ORA-00942: 表或视图不存在
+
+2019-12-31 14:23:21.417 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jobController': Invocation of init method failed; nested exception is org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: ORA-00942: 表或视图不存在
+
+### The error may exist in com/steer/data/quartz/mapper/QuartzJobEntityMapper.xml
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT * from QUARTZ_JOB_ENTITY WHERE 1=1
+### Cause: java.sql.SQLSyntaxErrorException: ORA-00942: 表或视图不存在
+
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: ORA-00942: 表或视图不存在
+
+2019-12-31 14:36:13.765 [http-nio-8082-exec-4] WARN  org.springframework.web.servlet.PageNotFound - Request method 'GET' not supported
+2019-12-31 14:41:04.587 [http-nio-8082-exec-1] WARN  org.springframework.web.servlet.PageNotFound - Request method 'GET' not supported

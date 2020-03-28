@@ -1,0 +1,542 @@
+2019-12-31 14:27:52.804 [quartzScheduler_Worker-1] DEBUG c.s.d.d.d.m.DbDataHandlingMapper.insertTableData - ==>  Preparing: insert into RFID_1_UPCOIL (RFID_IP,RFID_Count,GOU_HAO,RFID_DESC,UPDATE_TIME,RFID_ID) values('172.16.21.222','3563','31','上卷(222)',to_date('2019/12/31 22:29:29','yyyy/MM/dd HH24:mi:ss'),'1') 
+2019-12-31 14:27:52.811 [quartzScheduler_Worker-1] DEBUG c.s.d.d.d.m.DbDataHandlingMapper.insertTableData - ==> Parameters: 
+2019-12-31 14:27:52.831 [quartzScheduler_Worker-1] DEBUG c.s.d.d.d.m.DbDataHandlingMapper.insertTableData - <==    Updates: 1
+2019-12-31 14:27:52.852 [quartzScheduler_Worker-1] DEBUG c.s.d.d.d.m.DbDataHandlingMapper.insertTableData - ==>  Preparing: insert into RFID_2_QCM (RFID_IP,RFID_Count,GOU_HAO,RFID_DESC,UPDATE_TIME,RFID_ID) values('172.16.21.223','1915','24','质检(223)',to_date('2019/12/31 22:29:40','yyyy/MM/dd HH24:mi:ss'),'2') 
+2019-12-31 14:27:52.852 [quartzScheduler_Worker-1] DEBUG c.s.d.d.d.m.DbDataHandlingMapper.insertTableData - ==> Parameters: 
+2019-12-31 14:27:52.862 [quartzScheduler_Worker-1] DEBUG c.s.d.d.d.m.DbDataHandlingMapper.insertTableData - <==    Updates: 1
+2019-12-31 14:27:52.879 [quartzScheduler_Worker-1] DEBUG c.s.d.d.d.m.DbDataHandlingMapper.insertTableData - ==>  Preparing: insert into RFID_3_WGT (RFID_IP,RFID_Count,GOU_HAO,RFID_DESC,UPDATE_TIME,RFID_ID) values('172.16.21.224','6701','63','称重(224)',to_date('2019/12/31 22:28:00','yyyy/MM/dd HH24:mi:ss'),'3') 
+2019-12-31 14:27:52.879 [quartzScheduler_Worker-1] DEBUG c.s.d.d.d.m.DbDataHandlingMapper.insertTableData - ==> Parameters: 
+2019-12-31 14:27:52.890 [quartzScheduler_Worker-1] DEBUG c.s.d.d.d.m.DbDataHandlingMapper.insertTableData - <==    Updates: 1
+2019-12-31 14:27:52.910 [quartzScheduler_Worker-1] DEBUG c.s.d.d.d.m.DbDataHandlingMapper.insertTableData - ==>  Preparing: insert into RFID_4_DOWNCOIL (RFID_IP,RFID_Count,GOU_HAO,RFID_DESC,UPDATE_TIME,RFID_ID) values('172.16.21.225','1026','3','斜卷(225)',to_date('2019/12/31 22:29:31','yyyy/MM/dd HH24:mi:ss'),'4') 
+2019-12-31 14:27:52.910 [quartzScheduler_Worker-1] DEBUG c.s.d.d.d.m.DbDataHandlingMapper.insertTableData - ==> Parameters: 
+2019-12-31 14:27:52.916 [quartzScheduler_Worker-1] DEBUG c.s.d.d.d.m.DbDataHandlingMapper.insertTableData - <==    Updates: 1
+2019-12-31 14:28:51.192 [quartzScheduler_Worker-1] DEBUG c.s.d.d.d.m.DbDataHandlingMapper.insertTableData - ==>  Preparing: insert into RFID_1_UPCOIL (RFID_IP,RFID_Count,GOU_HAO,RFID_DESC,UPDATE_TIME,RFID_ID) values('172.16.21.222','642','16','上卷(222)',to_date('2019/12/31 22:30:54','yyyy/MM/dd HH24:mi:ss'),'1') 
+2019-12-31 14:28:51.197 [quartzScheduler_Worker-1] DEBUG c.s.d.d.d.m.DbDataHandlingMapper.insertTableData - ==> Parameters: 
+2019-12-31 14:28:51.214 [quartzScheduler_Worker-1] DEBUG c.s.d.d.d.m.DbDataHandlingMapper.insertTableData - <==    Updates: 1
+2019-12-31 14:28:51.226 [quartzScheduler_Worker-1] DEBUG c.s.d.d.d.m.DbDataHandlingMapper.insertTableData - ==>  Preparing: insert into RFID_4_DOWNCOIL (RFID_IP,RFID_Count,GOU_HAO,RFID_DESC,UPDATE_TIME,RFID_ID) values('172.16.21.225','158','34','斜卷(225)',to_date('2019/12/31 22:31:03','yyyy/MM/dd HH24:mi:ss'),'4') 
+2019-12-31 14:28:51.226 [quartzScheduler_Worker-1] DEBUG c.s.d.d.d.m.DbDataHandlingMapper.insertTableData - ==> Parameters: 
+2019-12-31 14:28:51.252 [quartzScheduler_Worker-1] DEBUG c.s.d.d.d.m.DbDataHandlingMapper.insertTableData - <==    Updates: 1
+2019-12-31 14:28:53.100 [quartzScheduler_Worker-3] DEBUG c.s.d.d.d.m.DbDataHandlingMapper.insertTableData - ==>  Preparing: insert into RFID_2_QCM (RFID_IP,RFID_Count,GOU_HAO,RFID_DESC,UPDATE_TIME,RFID_ID) values('172.16.21.223','80','8','质检(223)',to_date('2019/12/31 22:31:05','yyyy/MM/dd HH24:mi:ss'),'2') 
+2019-12-31 14:28:53.100 [quartzScheduler_Worker-3] DEBUG c.s.d.d.d.m.DbDataHandlingMapper.insertTableData - ==> Parameters: 
+2019-12-31 14:28:53.122 [quartzScheduler_Worker-3] DEBUG c.s.d.d.d.m.DbDataHandlingMapper.insertTableData - <==    Updates: 1
+2019-12-31 14:30:18.335 [quartzScheduler_Worker-1] DEBUG c.s.d.d.d.m.DbDataHandlingMapper.insertTableData - ==>  Preparing: insert into RFID_1_UPCOIL (RFID_IP,RFID_Count,GOU_HAO,RFID_DESC,UPDATE_TIME,RFID_ID) values('172.16.21.222','1834','65','上卷(222)',to_date('2019/12/31 22:32:11','yyyy/MM/dd HH24:mi:ss'),'1') 
+2019-12-31 14:30:18.341 [quartzScheduler_Worker-1] DEBUG c.s.d.d.d.m.DbDataHandlingMapper.insertTableData - ==> Parameters: 
+2019-12-31 14:30:18.349 [quartzScheduler_Worker-1] DEBUG c.s.d.d.d.m.DbDataHandlingMapper.insertTableData - <==    Updates: 1
+2019-12-31 14:30:18.369 [quartzScheduler_Worker-1] DEBUG c.s.d.d.d.m.DbDataHandlingMapper.insertTableData - ==>  Preparing: insert into RFID_4_DOWNCOIL (RFID_IP,RFID_Count,GOU_HAO,RFID_DESC,UPDATE_TIME,RFID_ID) values('172.16.21.225','695','36','斜卷(225)',to_date('2019/12/31 22:32:08','yyyy/MM/dd HH24:mi:ss'),'4') 
+2019-12-31 14:30:18.369 [quartzScheduler_Worker-1] DEBUG c.s.d.d.d.m.DbDataHandlingMapper.insertTableData - ==> Parameters: 
+2019-12-31 14:30:18.374 [quartzScheduler_Worker-1] DEBUG c.s.d.d.d.m.DbDataHandlingMapper.insertTableData - <==    Updates: 1
+2019-12-31 14:31:56.440 [quartzScheduler_Worker-1] DEBUG c.s.d.d.d.m.DbDataHandlingMapper.insertTableData - ==>  Preparing: insert into RFID_1_UPCOIL (RFID_IP,RFID_Count,GOU_HAO,RFID_DESC,UPDATE_TIME,RFID_ID) values('172.16.21.222','3873','4','上卷(222)',to_date('2019/12/31 22:33:29','yyyy/MM/dd HH24:mi:ss'),'1') 
+2019-12-31 14:31:56.445 [quartzScheduler_Worker-1] DEBUG c.s.d.d.d.m.DbDataHandlingMapper.insertTableData - ==> Parameters: 
+2019-12-31 14:31:56.453 [quartzScheduler_Worker-1] DEBUG c.s.d.d.d.m.DbDataHandlingMapper.insertTableData - <==    Updates: 1
+2019-12-31 14:31:56.467 [quartzScheduler_Worker-1] DEBUG c.s.d.d.d.m.DbDataHandlingMapper.insertTableData - ==>  Preparing: insert into RFID_4_DOWNCOIL (RFID_IP,RFID_Count,GOU_HAO,RFID_DESC,UPDATE_TIME,RFID_ID) values('172.16.21.225','180','67','斜卷(225)',to_date('2019/12/31 22:32:43','yyyy/MM/dd HH24:mi:ss'),'4') 
+2019-12-31 14:31:56.468 [quartzScheduler_Worker-1] DEBUG c.s.d.d.d.m.DbDataHandlingMapper.insertTableData - ==> Parameters: 
+2019-12-31 14:31:56.473 [quartzScheduler_Worker-1] DEBUG c.s.d.d.d.m.DbDataHandlingMapper.insertTableData - <==    Updates: 1
+2019-12-31 14:45:04.284 [http-nio-8082-exec-1] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==>  Preparing: delete from GB_CAIJI_TAB where IN_TIME=? and XIHAO=? and WRK_ORD=? and LUHAO=? 
+2019-12-31 14:45:04.632 [http-nio-8082-exec-1] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==> Parameters: 2019-12-31(Date), 1(Integer), 丙班(String), Y9-13306(String)
+2019-12-31 14:45:04.653 [http-nio-8082-exec-1] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - <==    Updates: 0
+2019-12-31 14:45:17.124 [http-nio-8082-exec-1] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==>  Preparing: insert into GB_CAIJI_TAB(ID,XIHAO,IN_TIME,WRK_ORD,PRODUCT_NAME,LUHAO,DINGCHIJS,DINGCHIWT,FEIDINGJS,FEIDINGWT,CIPINGJS,CIPINGWT) values(?,?,?,?,?,?,?,?,?,?,?,?,?) 
+2019-12-31 14:45:17.128 [http-nio-8082-exec-1] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==> Parameters: 80685(Integer), 1(Integer), 80685(Integer), 2019-12-31(Date), 丙班(String), 42609(String), Y9-13306(String), 12(Integer), 31539.0(Float), 0(Integer), 0.0(Float), 0(Integer), 0.0(Float)
+2019-12-31 14:50:12.643 [http-nio-8082-exec-3] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==>  Preparing: delete from GB_CAIJI_TAB where IN_TIME=? and XIHAO=? and WRK_ORD=? and LUHAO=? 
+2019-12-31 14:50:14.774 [http-nio-8082-exec-3] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==> Parameters: 2019-12-31(Date), 1(Integer), 丙班(String), Y9-13306(String)
+2019-12-31 14:50:14.783 [http-nio-8082-exec-3] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - <==    Updates: 0
+2019-12-31 14:50:14.784 [http-nio-8082-exec-1] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==>  Preparing: delete from GB_CAIJI_TAB where IN_TIME=? and XIHAO=? and WRK_ORD=? and LUHAO=? 
+2019-12-31 14:50:14.785 [http-nio-8082-exec-1] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==> Parameters: 2019-12-31(Date), 1(Integer), 丙班(String), Y9-13306(String)
+2019-12-31 14:50:14.791 [http-nio-8082-exec-1] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - <==    Updates: 0
+2019-12-31 14:50:14.792 [http-nio-8082-exec-3] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==>  Preparing: insert into GB_CAIJI_TAB(ID,XIHAO,IN_TIME,WRK_ORD,PRODUCT_NAME,LUHAO,DINGCHIJS,DINGCHIWT,FEIDINGJS,FEIDINGWT,CIPINGJS,CIPINGWT) values(?,?,?,?,?,?,?,?,?,?,?,?) 
+2019-12-31 14:50:15.771 [http-nio-8082-exec-3] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==> Parameters: 80685(Integer), 1(Integer), 2019-12-31(Date), 丙班(String), 42609(String), Y9-13306(String), 12(Integer), 31539.0(Float), 0(Integer), 0.0(Float), 0(Integer), 0.0(Float)
+2019-12-31 14:50:22.444 [http-nio-8082-exec-3] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - <==    Updates: 1
+2019-12-31 14:50:22.729 [http-nio-8082-exec-3] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==>  Preparing: delete from GB_CAIJI_TAB where IN_TIME=? and XIHAO=? and WRK_ORD=? and LUHAO=? 
+2019-12-31 14:50:22.952 [http-nio-8082-exec-3] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==> Parameters: 2019-12-31(Date), 2(Integer), 丙班(String), Y9-13307(String)
+2019-12-31 14:50:23.207 [http-nio-8082-exec-3] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - <==    Updates: 0
+2019-12-31 14:50:23.223 [http-nio-8082-exec-3] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==>  Preparing: insert into GB_CAIJI_TAB(ID,XIHAO,IN_TIME,WRK_ORD,PRODUCT_NAME,LUHAO,DINGCHIJS,DINGCHIWT,FEIDINGJS,FEIDINGWT,CIPINGJS,CIPINGWT) values(?,?,?,?,?,?,?,?,?,?,?,?) 
+2019-12-31 14:50:23.519 [http-nio-8082-exec-3] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==> Parameters: 80686(Integer), 2(Integer), 2019-12-31(Date), 丙班(String), 42609(String), Y9-13307(String), 29(Integer), 75781.0(Float), 0(Integer), 0.0(Float), 0(Integer), 0.0(Float)
+2019-12-31 14:50:25.592 [http-nio-8082-exec-1] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==>  Preparing: insert into GB_CAIJI_TAB(ID,XIHAO,IN_TIME,WRK_ORD,PRODUCT_NAME,LUHAO,DINGCHIJS,DINGCHIWT,FEIDINGJS,FEIDINGWT,CIPINGJS,CIPINGWT) values(?,?,?,?,?,?,?,?,?,?,?,?) 
+2019-12-31 14:50:25.596 [http-nio-8082-exec-1] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==> Parameters: 80685(Integer), 1(Integer), 2019-12-31(Date), 丙班(String), 42609(String), Y9-13306(String), 12(Integer), 31539.0(Float), 0(Integer), 0.0(Float), 0(Integer), 0.0(Float)
+2019-12-31 14:50:25.597 [http-nio-8082-exec-3] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - <==    Updates: 1
+2019-12-31 14:50:25.597 [http-nio-8082-exec-3] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==>  Preparing: delete from GB_CAIJI_TAB where IN_TIME=? and XIHAO=? and WRK_ORD=? and LUHAO=? 
+2019-12-31 14:50:25.598 [http-nio-8082-exec-3] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==> Parameters: 2019-12-31(Date), 3(Integer), 丙班(String), Y9-13308(String)
+2019-12-31 14:50:25.607 [http-nio-8082-exec-3] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - <==    Updates: 0
+2019-12-31 14:50:25.608 [http-nio-8082-exec-3] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==>  Preparing: insert into GB_CAIJI_TAB(ID,XIHAO,IN_TIME,WRK_ORD,PRODUCT_NAME,LUHAO,DINGCHIJS,DINGCHIWT,FEIDINGJS,FEIDINGWT,CIPINGJS,CIPINGWT) values(?,?,?,?,?,?,?,?,?,?,?,?) 
+2019-12-31 14:50:25.608 [http-nio-8082-exec-3] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==> Parameters: 80687(Integer), 3(Integer), 2019-12-31(Date), 丙班(String), 42609(String), Y9-13308(String), 34(Integer), 105750.0(Float), 0(Integer), 0.0(Float), 0(Integer), 0.0(Float)
+2019-12-31 14:50:25.612 [http-nio-8082-exec-3] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - <==    Updates: 1
+2019-12-31 14:50:25.613 [http-nio-8082-exec-3] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==>  Preparing: delete from GB_CAIJI_TAB where IN_TIME=? and XIHAO=? and WRK_ORD=? and LUHAO=? 
+2019-12-31 14:50:25.613 [http-nio-8082-exec-3] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==> Parameters: 2019-12-31(Date), 4(Integer), 丙班(String), Y9-13309(String)
+2019-12-31 14:50:25.616 [http-nio-8082-exec-3] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - <==    Updates: 0
+2019-12-31 14:50:25.617 [http-nio-8082-exec-3] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==>  Preparing: insert into GB_CAIJI_TAB(ID,XIHAO,IN_TIME,WRK_ORD,PRODUCT_NAME,LUHAO,DINGCHIJS,DINGCHIWT,FEIDINGJS,FEIDINGWT,CIPINGJS,CIPINGWT) values(?,?,?,?,?,?,?,?,?,?,?,?) 
+2019-12-31 14:50:25.618 [http-nio-8082-exec-3] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==> Parameters: 80688(Integer), 4(Integer), 2019-12-31(Date), 丙班(String), 42609(String), Y9-13309(String), 38(Integer), 118815.0(Float), 0(Integer), 0.0(Float), 0(Integer), 0.0(Float)
+2019-12-31 14:50:25.621 [http-nio-8082-exec-3] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - <==    Updates: 1
+2019-12-31 14:50:25.622 [http-nio-8082-exec-3] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==>  Preparing: delete from GB_CAIJI_TAB where IN_TIME=? and XIHAO=? and WRK_ORD=? and LUHAO=? 
+2019-12-31 14:50:25.623 [http-nio-8082-exec-3] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==> Parameters: 2019-12-31(Date), 5(Integer), 丙班(String), Y9-13310(String)
+2019-12-31 14:50:25.627 [http-nio-8082-exec-3] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - <==    Updates: 0
+2019-12-31 14:50:25.627 [http-nio-8082-exec-3] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==>  Preparing: insert into GB_CAIJI_TAB(ID,XIHAO,IN_TIME,WRK_ORD,PRODUCT_NAME,LUHAO,DINGCHIJS,DINGCHIWT,FEIDINGJS,FEIDINGWT,CIPINGJS,CIPINGWT) values(?,?,?,?,?,?,?,?,?,?,?,?) 
+2019-12-31 14:50:25.627 [http-nio-8082-exec-3] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==> Parameters: 80689(Integer), 5(Integer), 2019-12-31(Date), 丙班(String), 42609(String), Y9-13310(String), 35(Integer), 109350.0(Float), 0(Integer), 0.0(Float), 0(Integer), 0.0(Float)
+2019-12-31 14:50:25.632 [http-nio-8082-exec-3] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - <==    Updates: 1
+2019-12-31 14:50:25.632 [http-nio-8082-exec-3] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==>  Preparing: delete from GB_CAIJI_TAB where IN_TIME=? and XIHAO=? and WRK_ORD=? and LUHAO=? 
+2019-12-31 14:50:25.632 [http-nio-8082-exec-3] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==> Parameters: 2019-12-31(Date), 6(Integer), 丙班(String), Y9-13311(String)
+2019-12-31 14:50:25.644 [http-nio-8082-exec-3] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - <==    Updates: 0
+2019-12-31 14:50:25.645 [http-nio-8082-exec-3] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==>  Preparing: insert into GB_CAIJI_TAB(ID,XIHAO,IN_TIME,WRK_ORD,PRODUCT_NAME,LUHAO,DINGCHIJS,DINGCHIWT,FEIDINGJS,FEIDINGWT,CIPINGJS,CIPINGWT) values(?,?,?,?,?,?,?,?,?,?,?,?) 
+2019-12-31 14:50:25.645 [http-nio-8082-exec-3] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==> Parameters: 80690(Integer), 6(Integer), 2019-12-31(Date), 丙班(String), 42609(String), Y9-13311(String), 35(Integer), 109406.0(Float), 0(Integer), 0.0(Float), 0(Integer), 0.0(Float)
+2019-12-31 14:50:25.645 [http-nio-8082-exec-1] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - <==    Updates: 1
+2019-12-31 14:50:25.660 [http-nio-8082-exec-3] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - <==    Updates: 1
+2019-12-31 14:50:27.825 [http-nio-8082-exec-3] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==>  Preparing: delete from GB_CAIJI_TAB where IN_TIME=? and XIHAO=? and WRK_ORD=? and LUHAO=? 
+2019-12-31 14:50:28.207 [http-nio-8082-exec-3] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==> Parameters: 2019-12-31(Date), 7(Integer), 丙班(String), Y9-13312(String)
+2019-12-31 14:50:28.229 [http-nio-8082-exec-3] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - <==    Updates: 0
+2019-12-31 14:50:28.496 [http-nio-8082-exec-3] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==>  Preparing: insert into GB_CAIJI_TAB(ID,XIHAO,IN_TIME,WRK_ORD,PRODUCT_NAME,LUHAO,DINGCHIJS,DINGCHIWT,FEIDINGJS,FEIDINGWT,CIPINGJS,CIPINGWT) values(?,?,?,?,?,?,?,?,?,?,?,?) 
+2019-12-31 14:50:28.498 [http-nio-8082-exec-3] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==> Parameters: 80691(Integer), 7(Integer), 2019-12-31(Date), 丙班(String), 42609(String), Y9-13312(String), 34(Integer), 105245.0(Float), 0(Integer), 0.0(Float), 0(Integer), 0.0(Float)
+2019-12-31 14:50:28.498 [http-nio-8082-exec-1] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==>  Preparing: delete from GB_CAIJI_TAB where IN_TIME=? and XIHAO=? and WRK_ORD=? and LUHAO=? 
+2019-12-31 14:50:28.499 [http-nio-8082-exec-1] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==> Parameters: 2019-12-31(Date), 2(Integer), 丙班(String), Y9-13307(String)
+2019-12-31 14:50:28.502 [http-nio-8082-exec-3] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - <==    Updates: 1
+2019-12-31 14:50:28.503 [http-nio-8082-exec-3] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==>  Preparing: delete from GB_CAIJI_TAB where IN_TIME=? and XIHAO=? and WRK_ORD=? and LUHAO=? 
+2019-12-31 14:50:28.503 [http-nio-8082-exec-3] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==> Parameters: 2019-12-31(Date), 8(Integer), 丙班(String), Y9-13313(String)
+2019-12-31 14:50:28.504 [http-nio-8082-exec-1] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - <==    Updates: 1
+2019-12-31 14:50:28.520 [http-nio-8082-exec-3] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - <==    Updates: 0
+2019-12-31 14:50:28.688 [http-nio-8082-exec-3] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==>  Preparing: insert into GB_CAIJI_TAB(ID,XIHAO,IN_TIME,WRK_ORD,PRODUCT_NAME,LUHAO,DINGCHIJS,DINGCHIWT,FEIDINGJS,FEIDINGWT,CIPINGJS,CIPINGWT) values(?,?,?,?,?,?,?,?,?,?,?,?) 
+2019-12-31 14:50:29.135 [http-nio-8082-exec-3] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==> Parameters: 80692(Integer), 8(Integer), 2019-12-31(Date), 丙班(String), 42609(String), Y9-13313(String), 45(Integer), 116211.0(Float), 0(Integer), 0.0(Float), 0(Integer), 0.0(Float)
+2019-12-31 14:50:29.407 [http-nio-8082-exec-3] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - <==    Updates: 1
+2019-12-31 14:50:29.424 [http-nio-8082-exec-3] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==>  Preparing: delete from GB_CAIJI_TAB where IN_TIME=? and XIHAO=? and WRK_ORD=? and LUHAO=? 
+2019-12-31 14:50:29.646 [http-nio-8082-exec-3] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==> Parameters: 2019-12-31(Date), 9(Integer), 丙班(String), Y9-13314(String)
+2019-12-31 14:50:29.668 [http-nio-8082-exec-3] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - <==    Updates: 0
+2019-12-31 14:50:29.959 [http-nio-8082-exec-3] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==>  Preparing: insert into GB_CAIJI_TAB(ID,XIHAO,IN_TIME,WRK_ORD,PRODUCT_NAME,LUHAO,DINGCHIJS,DINGCHIWT,FEIDINGJS,FEIDINGWT,CIPINGJS,CIPINGWT) values(?,?,?,?,?,?,?,?,?,?,?,?) 
+2019-12-31 14:50:30.471 [http-nio-8082-exec-3] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==> Parameters: 80693(Integer), 9(Integer), 2019-12-31(Date), 丙班(String), 42609(String), Y9-13314(String), 42(Integer), 108864.0(Float), 2(Integer), 4227.0(Float), 0(Integer), 0.0(Float)
+2019-12-31 14:50:30.488 [http-nio-8082-exec-3] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - <==    Updates: 1
+2019-12-31 14:50:30.928 [http-nio-8082-exec-3] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==>  Preparing: delete from GB_CAIJI_TAB where IN_TIME=? and XIHAO=? and WRK_ORD=? and LUHAO=? 
+2019-12-31 14:50:30.928 [http-nio-8082-exec-3] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==> Parameters: 2019-12-31(Date), 10(Integer), 丙班(String), Y9-13315(String)
+2019-12-31 14:50:30.928 [http-nio-8082-exec-1] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==>  Preparing: insert into GB_CAIJI_TAB(ID,XIHAO,IN_TIME,WRK_ORD,PRODUCT_NAME,LUHAO,DINGCHIJS,DINGCHIWT,FEIDINGJS,FEIDINGWT,CIPINGJS,CIPINGWT) values(?,?,?,?,?,?,?,?,?,?,?,?) 
+2019-12-31 14:50:30.930 [http-nio-8082-exec-1] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==> Parameters: 80686(Integer), 2(Integer), 2019-12-31(Date), 丙班(String), 42609(String), Y9-13307(String), 29(Integer), 75781.0(Float), 0(Integer), 0.0(Float), 0(Integer), 0.0(Float)
+2019-12-31 14:50:30.931 [http-nio-8082-exec-3] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - <==    Updates: 0
+2019-12-31 14:50:30.931 [http-nio-8082-exec-3] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==>  Preparing: insert into GB_CAIJI_TAB(ID,XIHAO,IN_TIME,WRK_ORD,PRODUCT_NAME,LUHAO,DINGCHIJS,DINGCHIWT,FEIDINGJS,FEIDINGWT,CIPINGJS,CIPINGWT) values(?,?,?,?,?,?,?,?,?,?,?,?) 
+2019-12-31 14:50:30.932 [http-nio-8082-exec-3] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==> Parameters: 80694(Integer), 10(Integer), 2019-12-31(Date), 丙班(String), 42609(String), Y9-13315(String), 43(Integer), 111484.0(Float), 0(Integer), 0.0(Float), 0(Integer), 0.0(Float)
+2019-12-31 14:50:30.935 [http-nio-8082-exec-1] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - <==    Updates: 1
+2019-12-31 14:50:30.955 [http-nio-8082-exec-3] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - <==    Updates: 1
+2019-12-31 14:50:31.360 [http-nio-8082-exec-3] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==>  Preparing: delete from GB_CAIJI_TAB where IN_TIME=? and XIHAO=? and WRK_ORD=? and LUHAO=? 
+2019-12-31 14:50:31.718 [http-nio-8082-exec-3] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==> Parameters: 2019-12-31(Date), 11(Integer), 丙班(String), Y9-13316(String)
+2019-12-31 14:50:31.723 [http-nio-8082-exec-3] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - <==    Updates: 0
+2019-12-31 14:50:31.724 [http-nio-8082-exec-3] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==>  Preparing: insert into GB_CAIJI_TAB(ID,XIHAO,IN_TIME,WRK_ORD,PRODUCT_NAME,LUHAO,DINGCHIJS,DINGCHIWT,FEIDINGJS,FEIDINGWT,CIPINGJS,CIPINGWT) values(?,?,?,?,?,?,?,?,?,?,?,?) 
+2019-12-31 14:50:31.746 [http-nio-8082-exec-3] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==> Parameters: 80695(Integer), 11(Integer), 2019-12-31(Date), 丙班(String), 42609(String), Y9-13316(String), 47(Integer), 122147.0(Float), 0(Integer), 0.0(Float), 0(Integer), 0.0(Float)
+2019-12-31 14:50:32.779 [http-nio-8082-exec-1] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==>  Preparing: delete from GB_CAIJI_TAB where IN_TIME=? and XIHAO=? and WRK_ORD=? and LUHAO=? 
+2019-12-31 14:50:32.779 [http-nio-8082-exec-1] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==> Parameters: 2019-12-31(Date), 3(Integer), 丙班(String), Y9-13308(String)
+2019-12-31 14:50:32.783 [http-nio-8082-exec-3] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - <==    Updates: 1
+2019-12-31 14:50:32.783 [http-nio-8082-exec-3] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==>  Preparing: delete from GB_CAIJI_TAB where IN_TIME=? and XIHAO=? and WRK_ORD=? and LUHAO=? 
+2019-12-31 14:50:32.783 [http-nio-8082-exec-3] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==> Parameters: 2019-12-31(Date), 12(Integer), 丙班(String), Y9-13317(String)
+2019-12-31 14:50:32.785 [http-nio-8082-exec-1] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - <==    Updates: 1
+2019-12-31 14:50:32.800 [http-nio-8082-exec-3] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - <==    Updates: 0
+2019-12-31 14:50:34.122 [http-nio-8082-exec-3] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==>  Preparing: insert into GB_CAIJI_TAB(ID,XIHAO,IN_TIME,WRK_ORD,PRODUCT_NAME,LUHAO,DINGCHIJS,DINGCHIWT,FEIDINGJS,FEIDINGWT,CIPINGJS,CIPINGWT) values(?,?,?,?,?,?,?,?,?,?,?,?) 
+2019-12-31 14:50:34.122 [http-nio-8082-exec-1] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==>  Preparing: insert into GB_CAIJI_TAB(ID,XIHAO,IN_TIME,WRK_ORD,PRODUCT_NAME,LUHAO,DINGCHIJS,DINGCHIWT,FEIDINGJS,FEIDINGWT,CIPINGJS,CIPINGWT) values(?,?,?,?,?,?,?,?,?,?,?,?) 
+2019-12-31 14:50:34.122 [http-nio-8082-exec-3] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==> Parameters: 80696(Integer), 12(Integer), 2019-12-31(Date), 丙班(String), 42609(String), Y9-13317(String), 42(Integer), 109342.0(Float), 2(Integer), 3905.0(Float), 0(Integer), 0.0(Float)
+2019-12-31 14:50:34.122 [http-nio-8082-exec-1] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==> Parameters: 80687(Integer), 3(Integer), 2019-12-31(Date), 丙班(String), 42609(String), Y9-13308(String), 34(Integer), 105750.0(Float), 0(Integer), 0.0(Float), 0(Integer), 0.0(Float)
+2019-12-31 14:50:34.126 [http-nio-8082-exec-3] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - <==    Updates: 1
+2019-12-31 14:50:34.126 [http-nio-8082-exec-1] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - <==    Updates: 1
+2019-12-31 14:50:34.127 [http-nio-8082-exec-3] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==>  Preparing: delete from GB_CAIJI_TAB where IN_TIME=? and XIHAO=? and WRK_ORD=? and LUHAO=? 
+2019-12-31 14:50:34.127 [http-nio-8082-exec-1] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==>  Preparing: delete from GB_CAIJI_TAB where IN_TIME=? and XIHAO=? and WRK_ORD=? and LUHAO=? 
+2019-12-31 14:50:34.127 [http-nio-8082-exec-3] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==> Parameters: 2019-12-31(Date), 13(Integer), 丙班(String), Y9-13318(String)
+2019-12-31 14:50:34.127 [http-nio-8082-exec-1] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==> Parameters: 2019-12-31(Date), 4(Integer), 丙班(String), Y9-13309(String)
+2019-12-31 14:50:34.129 [http-nio-8082-exec-3] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - <==    Updates: 0
+2019-12-31 14:50:34.130 [http-nio-8082-exec-3] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==>  Preparing: insert into GB_CAIJI_TAB(ID,XIHAO,IN_TIME,WRK_ORD,PRODUCT_NAME,LUHAO,DINGCHIJS,DINGCHIWT,FEIDINGJS,FEIDINGWT,CIPINGJS,CIPINGWT) values(?,?,?,?,?,?,?,?,?,?,?,?) 
+2019-12-31 14:50:34.130 [http-nio-8082-exec-3] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==> Parameters: 80697(Integer), 13(Integer), 2019-12-31(Date), 丙班(String), 42609(String), Y9-13318(String), 47(Integer), 122201.0(Float), 0(Integer), 0.0(Float), 0(Integer), 0.0(Float)
+2019-12-31 14:50:34.130 [http-nio-8082-exec-1] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - <==    Updates: 1
+2019-12-31 14:50:34.131 [http-nio-8082-exec-1] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==>  Preparing: insert into GB_CAIJI_TAB(ID,XIHAO,IN_TIME,WRK_ORD,PRODUCT_NAME,LUHAO,DINGCHIJS,DINGCHIWT,FEIDINGJS,FEIDINGWT,CIPINGJS,CIPINGWT) values(?,?,?,?,?,?,?,?,?,?,?,?) 
+2019-12-31 14:50:34.131 [http-nio-8082-exec-1] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==> Parameters: 80688(Integer), 4(Integer), 2019-12-31(Date), 丙班(String), 42609(String), Y9-13309(String), 38(Integer), 118815.0(Float), 0(Integer), 0.0(Float), 0(Integer), 0.0(Float)
+2019-12-31 14:50:34.145 [http-nio-8082-exec-1] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - <==    Updates: 1
+2019-12-31 14:50:34.145 [http-nio-8082-exec-1] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==>  Preparing: delete from GB_CAIJI_TAB where IN_TIME=? and XIHAO=? and WRK_ORD=? and LUHAO=? 
+2019-12-31 14:50:34.145 [http-nio-8082-exec-1] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==> Parameters: 2019-12-31(Date), 5(Integer), 丙班(String), Y9-13310(String)
+2019-12-31 14:50:34.149 [http-nio-8082-exec-3] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - <==    Updates: 1
+2019-12-31 14:50:34.149 [http-nio-8082-exec-3] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==>  Preparing: delete from GB_CAIJI_TAB where IN_TIME=? and XIHAO=? and WRK_ORD=? and LUHAO=? 
+2019-12-31 14:50:34.149 [http-nio-8082-exec-3] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==> Parameters: 2019-12-31(Date), 14(Integer), 丙班(String), Y9-13319(String)
+2019-12-31 14:50:34.151 [http-nio-8082-exec-1] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - <==    Updates: 1
+2019-12-31 14:50:34.151 [http-nio-8082-exec-1] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==>  Preparing: insert into GB_CAIJI_TAB(ID,XIHAO,IN_TIME,WRK_ORD,PRODUCT_NAME,LUHAO,DINGCHIJS,DINGCHIWT,FEIDINGJS,FEIDINGWT,CIPINGJS,CIPINGWT) values(?,?,?,?,?,?,?,?,?,?,?,?) 
+2019-12-31 14:50:34.152 [http-nio-8082-exec-1] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==> Parameters: 80689(Integer), 5(Integer), 2019-12-31(Date), 丙班(String), 42609(String), Y9-13310(String), 35(Integer), 109350.0(Float), 0(Integer), 0.0(Float), 0(Integer), 0.0(Float)
+2019-12-31 14:50:34.154 [http-nio-8082-exec-3] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - <==    Updates: 0
+2019-12-31 14:50:34.154 [http-nio-8082-exec-3] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==>  Preparing: insert into GB_CAIJI_TAB(ID,XIHAO,IN_TIME,WRK_ORD,PRODUCT_NAME,LUHAO,DINGCHIJS,DINGCHIWT,FEIDINGJS,FEIDINGWT,CIPINGJS,CIPINGWT) values(?,?,?,?,?,?,?,?,?,?,?,?) 
+2019-12-31 14:50:34.155 [http-nio-8082-exec-3] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==> Parameters: 80698(Integer), 14(Integer), 2019-12-31(Date), 丙班(String), 42609(String), Y9-13319(String), 3(Integer), 7833.0(Float), 0(Integer), 0.0(Float), 0(Integer), 0.0(Float)
+2019-12-31 14:50:34.156 [http-nio-8082-exec-1] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - <==    Updates: 1
+2019-12-31 14:50:34.157 [http-nio-8082-exec-1] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==>  Preparing: delete from GB_CAIJI_TAB where IN_TIME=? and XIHAO=? and WRK_ORD=? and LUHAO=? 
+2019-12-31 14:50:34.157 [http-nio-8082-exec-1] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==> Parameters: 2019-12-31(Date), 6(Integer), 丙班(String), Y9-13311(String)
+2019-12-31 14:50:34.159 [http-nio-8082-exec-3] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - <==    Updates: 1
+2019-12-31 14:50:34.160 [http-nio-8082-exec-1] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - <==    Updates: 1
+2019-12-31 14:50:34.161 [http-nio-8082-exec-1] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==>  Preparing: insert into GB_CAIJI_TAB(ID,XIHAO,IN_TIME,WRK_ORD,PRODUCT_NAME,LUHAO,DINGCHIJS,DINGCHIWT,FEIDINGJS,FEIDINGWT,CIPINGJS,CIPINGWT) values(?,?,?,?,?,?,?,?,?,?,?,?) 
+2019-12-31 14:50:34.161 [http-nio-8082-exec-1] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==> Parameters: 80690(Integer), 6(Integer), 2019-12-31(Date), 丙班(String), 42609(String), Y9-13311(String), 35(Integer), 109406.0(Float), 0(Integer), 0.0(Float), 0(Integer), 0.0(Float)
+2019-12-31 14:50:34.165 [http-nio-8082-exec-1] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - <==    Updates: 1
+2019-12-31 14:50:34.165 [http-nio-8082-exec-1] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==>  Preparing: delete from GB_CAIJI_TAB where IN_TIME=? and XIHAO=? and WRK_ORD=? and LUHAO=? 
+2019-12-31 14:50:34.165 [http-nio-8082-exec-1] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==> Parameters: 2019-12-31(Date), 7(Integer), 丙班(String), Y9-13312(String)
+2019-12-31 14:50:34.169 [http-nio-8082-exec-1] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - <==    Updates: 1
+2019-12-31 14:50:34.169 [http-nio-8082-exec-1] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==>  Preparing: insert into GB_CAIJI_TAB(ID,XIHAO,IN_TIME,WRK_ORD,PRODUCT_NAME,LUHAO,DINGCHIJS,DINGCHIWT,FEIDINGJS,FEIDINGWT,CIPINGJS,CIPINGWT) values(?,?,?,?,?,?,?,?,?,?,?,?) 
+2019-12-31 14:50:34.169 [http-nio-8082-exec-1] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==> Parameters: 80691(Integer), 7(Integer), 2019-12-31(Date), 丙班(String), 42609(String), Y9-13312(String), 34(Integer), 105245.0(Float), 0(Integer), 0.0(Float), 0(Integer), 0.0(Float)
+2019-12-31 14:50:34.173 [http-nio-8082-exec-1] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - <==    Updates: 1
+2019-12-31 14:50:34.174 [http-nio-8082-exec-1] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==>  Preparing: delete from GB_CAIJI_TAB where IN_TIME=? and XIHAO=? and WRK_ORD=? and LUHAO=? 
+2019-12-31 14:50:34.174 [http-nio-8082-exec-1] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==> Parameters: 2019-12-31(Date), 8(Integer), 丙班(String), Y9-13313(String)
+2019-12-31 14:50:34.177 [http-nio-8082-exec-1] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - <==    Updates: 1
+2019-12-31 14:50:34.178 [http-nio-8082-exec-1] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==>  Preparing: insert into GB_CAIJI_TAB(ID,XIHAO,IN_TIME,WRK_ORD,PRODUCT_NAME,LUHAO,DINGCHIJS,DINGCHIWT,FEIDINGJS,FEIDINGWT,CIPINGJS,CIPINGWT) values(?,?,?,?,?,?,?,?,?,?,?,?) 
+2019-12-31 14:50:34.178 [http-nio-8082-exec-1] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==> Parameters: 80692(Integer), 8(Integer), 2019-12-31(Date), 丙班(String), 42609(String), Y9-13313(String), 45(Integer), 116211.0(Float), 0(Integer), 0.0(Float), 0(Integer), 0.0(Float)
+2019-12-31 14:50:34.183 [http-nio-8082-exec-1] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - <==    Updates: 1
+2019-12-31 14:50:34.183 [http-nio-8082-exec-1] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==>  Preparing: delete from GB_CAIJI_TAB where IN_TIME=? and XIHAO=? and WRK_ORD=? and LUHAO=? 
+2019-12-31 14:50:34.184 [http-nio-8082-exec-1] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==> Parameters: 2019-12-31(Date), 9(Integer), 丙班(String), Y9-13314(String)
+2019-12-31 14:50:34.187 [http-nio-8082-exec-1] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - <==    Updates: 1
+2019-12-31 14:50:34.188 [http-nio-8082-exec-1] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==>  Preparing: insert into GB_CAIJI_TAB(ID,XIHAO,IN_TIME,WRK_ORD,PRODUCT_NAME,LUHAO,DINGCHIJS,DINGCHIWT,FEIDINGJS,FEIDINGWT,CIPINGJS,CIPINGWT) values(?,?,?,?,?,?,?,?,?,?,?,?) 
+2019-12-31 14:50:34.189 [http-nio-8082-exec-1] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==> Parameters: 80693(Integer), 9(Integer), 2019-12-31(Date), 丙班(String), 42609(String), Y9-13314(String), 42(Integer), 108864.0(Float), 2(Integer), 4227.0(Float), 0(Integer), 0.0(Float)
+2019-12-31 14:50:34.192 [http-nio-8082-exec-1] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - <==    Updates: 1
+2019-12-31 14:50:34.193 [http-nio-8082-exec-1] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==>  Preparing: delete from GB_CAIJI_TAB where IN_TIME=? and XIHAO=? and WRK_ORD=? and LUHAO=? 
+2019-12-31 14:50:34.193 [http-nio-8082-exec-1] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==> Parameters: 2019-12-31(Date), 10(Integer), 丙班(String), Y9-13315(String)
+2019-12-31 14:50:34.196 [http-nio-8082-exec-1] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - <==    Updates: 1
+2019-12-31 14:50:34.197 [http-nio-8082-exec-1] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==>  Preparing: insert into GB_CAIJI_TAB(ID,XIHAO,IN_TIME,WRK_ORD,PRODUCT_NAME,LUHAO,DINGCHIJS,DINGCHIWT,FEIDINGJS,FEIDINGWT,CIPINGJS,CIPINGWT) values(?,?,?,?,?,?,?,?,?,?,?,?) 
+2019-12-31 14:50:34.197 [http-nio-8082-exec-1] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==> Parameters: 80694(Integer), 10(Integer), 2019-12-31(Date), 丙班(String), 42609(String), Y9-13315(String), 43(Integer), 111484.0(Float), 0(Integer), 0.0(Float), 0(Integer), 0.0(Float)
+2019-12-31 14:50:34.201 [http-nio-8082-exec-1] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - <==    Updates: 1
+2019-12-31 14:50:34.202 [http-nio-8082-exec-1] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==>  Preparing: delete from GB_CAIJI_TAB where IN_TIME=? and XIHAO=? and WRK_ORD=? and LUHAO=? 
+2019-12-31 14:50:34.202 [http-nio-8082-exec-1] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==> Parameters: 2019-12-31(Date), 11(Integer), 丙班(String), Y9-13316(String)
+2019-12-31 14:50:34.206 [http-nio-8082-exec-1] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - <==    Updates: 1
+2019-12-31 14:50:34.207 [http-nio-8082-exec-1] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==>  Preparing: insert into GB_CAIJI_TAB(ID,XIHAO,IN_TIME,WRK_ORD,PRODUCT_NAME,LUHAO,DINGCHIJS,DINGCHIWT,FEIDINGJS,FEIDINGWT,CIPINGJS,CIPINGWT) values(?,?,?,?,?,?,?,?,?,?,?,?) 
+2019-12-31 14:50:34.207 [http-nio-8082-exec-1] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==> Parameters: 80695(Integer), 11(Integer), 2019-12-31(Date), 丙班(String), 42609(String), Y9-13316(String), 47(Integer), 122147.0(Float), 0(Integer), 0.0(Float), 0(Integer), 0.0(Float)
+2019-12-31 14:50:34.210 [http-nio-8082-exec-1] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - <==    Updates: 1
+2019-12-31 14:50:34.211 [http-nio-8082-exec-1] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==>  Preparing: delete from GB_CAIJI_TAB where IN_TIME=? and XIHAO=? and WRK_ORD=? and LUHAO=? 
+2019-12-31 14:50:34.211 [http-nio-8082-exec-1] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==> Parameters: 2019-12-31(Date), 12(Integer), 丙班(String), Y9-13317(String)
+2019-12-31 14:50:34.214 [http-nio-8082-exec-1] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - <==    Updates: 1
+2019-12-31 14:50:34.215 [http-nio-8082-exec-1] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==>  Preparing: insert into GB_CAIJI_TAB(ID,XIHAO,IN_TIME,WRK_ORD,PRODUCT_NAME,LUHAO,DINGCHIJS,DINGCHIWT,FEIDINGJS,FEIDINGWT,CIPINGJS,CIPINGWT) values(?,?,?,?,?,?,?,?,?,?,?,?) 
+2019-12-31 14:50:34.215 [http-nio-8082-exec-1] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==> Parameters: 80696(Integer), 12(Integer), 2019-12-31(Date), 丙班(String), 42609(String), Y9-13317(String), 42(Integer), 109342.0(Float), 2(Integer), 3905.0(Float), 0(Integer), 0.0(Float)
+2019-12-31 14:50:34.218 [http-nio-8082-exec-1] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - <==    Updates: 1
+2019-12-31 14:50:34.218 [http-nio-8082-exec-1] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==>  Preparing: delete from GB_CAIJI_TAB where IN_TIME=? and XIHAO=? and WRK_ORD=? and LUHAO=? 
+2019-12-31 14:50:34.219 [http-nio-8082-exec-1] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==> Parameters: 2019-12-31(Date), 13(Integer), 丙班(String), Y9-13318(String)
+2019-12-31 14:50:34.224 [http-nio-8082-exec-1] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - <==    Updates: 1
+2019-12-31 14:50:34.224 [http-nio-8082-exec-1] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==>  Preparing: insert into GB_CAIJI_TAB(ID,XIHAO,IN_TIME,WRK_ORD,PRODUCT_NAME,LUHAO,DINGCHIJS,DINGCHIWT,FEIDINGJS,FEIDINGWT,CIPINGJS,CIPINGWT) values(?,?,?,?,?,?,?,?,?,?,?,?) 
+2019-12-31 14:50:34.224 [http-nio-8082-exec-1] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==> Parameters: 80697(Integer), 13(Integer), 2019-12-31(Date), 丙班(String), 42609(String), Y9-13318(String), 47(Integer), 122201.0(Float), 0(Integer), 0.0(Float), 0(Integer), 0.0(Float)
+2019-12-31 14:50:34.229 [http-nio-8082-exec-1] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - <==    Updates: 1
+2019-12-31 14:50:34.229 [http-nio-8082-exec-1] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==>  Preparing: delete from GB_CAIJI_TAB where IN_TIME=? and XIHAO=? and WRK_ORD=? and LUHAO=? 
+2019-12-31 14:50:34.229 [http-nio-8082-exec-1] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==> Parameters: 2019-12-31(Date), 14(Integer), 丙班(String), Y9-13319(String)
+2019-12-31 14:50:34.233 [http-nio-8082-exec-1] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - <==    Updates: 1
+2019-12-31 14:50:34.233 [http-nio-8082-exec-1] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==>  Preparing: insert into GB_CAIJI_TAB(ID,XIHAO,IN_TIME,WRK_ORD,PRODUCT_NAME,LUHAO,DINGCHIJS,DINGCHIWT,FEIDINGJS,FEIDINGWT,CIPINGJS,CIPINGWT) values(?,?,?,?,?,?,?,?,?,?,?,?) 
+2019-12-31 14:50:34.233 [http-nio-8082-exec-1] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==> Parameters: 80698(Integer), 14(Integer), 2019-12-31(Date), 丙班(String), 42609(String), Y9-13319(String), 3(Integer), 7833.0(Float), 0(Integer), 0.0(Float), 0(Integer), 0.0(Float)
+2019-12-31 14:50:34.237 [http-nio-8082-exec-1] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - <==    Updates: 1
+2019-12-31 14:51:10.452 [http-nio-8082-exec-2] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==>  Preparing: delete from GB_CAIJI_TAB where IN_TIME=? and XIHAO=? and WRK_ORD=? and LUHAO=? 
+2019-12-31 14:51:10.452 [http-nio-8082-exec-2] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==> Parameters: 2019-12-31(Date), 1(Integer), 丙班(String), Y9-13306(String)
+2019-12-31 14:51:10.462 [http-nio-8082-exec-2] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - <==    Updates: 2
+2019-12-31 14:51:10.463 [http-nio-8082-exec-2] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==>  Preparing: insert into GB_CAIJI_TAB(ID,XIHAO,IN_TIME,WRK_ORD,PRODUCT_NAME,LUHAO,DINGCHIJS,DINGCHIWT,FEIDINGJS,FEIDINGWT,CIPINGJS,CIPINGWT) values(?,?,?,?,?,?,?,?,?,?,?,?) 
+2019-12-31 14:51:10.463 [http-nio-8082-exec-2] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==> Parameters: 80685(Integer), 1(Integer), 2019-12-31(Date), 丙班(String), 42609(String), Y9-13306(String), 12(Integer), 31539.0(Float), 0(Integer), 0.0(Float), 0(Integer), 0.0(Float)
+2019-12-31 14:51:10.469 [http-nio-8082-exec-2] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - <==    Updates: 1
+2019-12-31 14:51:10.469 [http-nio-8082-exec-2] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==>  Preparing: delete from GB_CAIJI_TAB where IN_TIME=? and XIHAO=? and WRK_ORD=? and LUHAO=? 
+2019-12-31 14:51:10.469 [http-nio-8082-exec-2] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==> Parameters: 2019-12-31(Date), 2(Integer), 丙班(String), Y9-13307(String)
+2019-12-31 14:51:10.478 [http-nio-8082-exec-2] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - <==    Updates: 1
+2019-12-31 14:51:10.478 [http-nio-8082-exec-2] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==>  Preparing: insert into GB_CAIJI_TAB(ID,XIHAO,IN_TIME,WRK_ORD,PRODUCT_NAME,LUHAO,DINGCHIJS,DINGCHIWT,FEIDINGJS,FEIDINGWT,CIPINGJS,CIPINGWT) values(?,?,?,?,?,?,?,?,?,?,?,?) 
+2019-12-31 14:51:10.479 [http-nio-8082-exec-2] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==> Parameters: 80686(Integer), 2(Integer), 2019-12-31(Date), 丙班(String), 42609(String), Y9-13307(String), 29(Integer), 75781.0(Float), 0(Integer), 0.0(Float), 0(Integer), 0.0(Float)
+2019-12-31 14:51:10.491 [http-nio-8082-exec-2] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - <==    Updates: 1
+2019-12-31 14:51:10.491 [http-nio-8082-exec-2] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==>  Preparing: delete from GB_CAIJI_TAB where IN_TIME=? and XIHAO=? and WRK_ORD=? and LUHAO=? 
+2019-12-31 14:51:10.492 [http-nio-8082-exec-2] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==> Parameters: 2019-12-31(Date), 3(Integer), 丙班(String), Y9-13308(String)
+2019-12-31 14:51:10.496 [http-nio-8082-exec-2] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - <==    Updates: 1
+2019-12-31 14:51:10.496 [http-nio-8082-exec-2] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==>  Preparing: insert into GB_CAIJI_TAB(ID,XIHAO,IN_TIME,WRK_ORD,PRODUCT_NAME,LUHAO,DINGCHIJS,DINGCHIWT,FEIDINGJS,FEIDINGWT,CIPINGJS,CIPINGWT) values(?,?,?,?,?,?,?,?,?,?,?,?) 
+2019-12-31 14:51:10.496 [http-nio-8082-exec-2] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==> Parameters: 80687(Integer), 3(Integer), 2019-12-31(Date), 丙班(String), 42609(String), Y9-13308(String), 34(Integer), 105750.0(Float), 0(Integer), 0.0(Float), 0(Integer), 0.0(Float)
+2019-12-31 14:51:10.500 [http-nio-8082-exec-2] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - <==    Updates: 1
+2019-12-31 14:51:10.501 [http-nio-8082-exec-2] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==>  Preparing: delete from GB_CAIJI_TAB where IN_TIME=? and XIHAO=? and WRK_ORD=? and LUHAO=? 
+2019-12-31 14:51:10.501 [http-nio-8082-exec-2] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==> Parameters: 2019-12-31(Date), 4(Integer), 丙班(String), Y9-13309(String)
+2019-12-31 14:51:10.504 [http-nio-8082-exec-2] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - <==    Updates: 1
+2019-12-31 14:51:10.505 [http-nio-8082-exec-2] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==>  Preparing: insert into GB_CAIJI_TAB(ID,XIHAO,IN_TIME,WRK_ORD,PRODUCT_NAME,LUHAO,DINGCHIJS,DINGCHIWT,FEIDINGJS,FEIDINGWT,CIPINGJS,CIPINGWT) values(?,?,?,?,?,?,?,?,?,?,?,?) 
+2019-12-31 14:51:10.505 [http-nio-8082-exec-2] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==> Parameters: 80688(Integer), 4(Integer), 2019-12-31(Date), 丙班(String), 42609(String), Y9-13309(String), 38(Integer), 118815.0(Float), 0(Integer), 0.0(Float), 0(Integer), 0.0(Float)
+2019-12-31 14:51:10.514 [http-nio-8082-exec-2] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - <==    Updates: 1
+2019-12-31 14:51:10.514 [http-nio-8082-exec-2] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==>  Preparing: delete from GB_CAIJI_TAB where IN_TIME=? and XIHAO=? and WRK_ORD=? and LUHAO=? 
+2019-12-31 14:51:10.515 [http-nio-8082-exec-2] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==> Parameters: 2019-12-31(Date), 5(Integer), 丙班(String), Y9-13310(String)
+2019-12-31 14:51:10.518 [http-nio-8082-exec-2] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - <==    Updates: 1
+2019-12-31 14:51:10.519 [http-nio-8082-exec-2] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==>  Preparing: insert into GB_CAIJI_TAB(ID,XIHAO,IN_TIME,WRK_ORD,PRODUCT_NAME,LUHAO,DINGCHIJS,DINGCHIWT,FEIDINGJS,FEIDINGWT,CIPINGJS,CIPINGWT) values(?,?,?,?,?,?,?,?,?,?,?,?) 
+2019-12-31 14:51:10.519 [http-nio-8082-exec-2] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==> Parameters: 80689(Integer), 5(Integer), 2019-12-31(Date), 丙班(String), 42609(String), Y9-13310(String), 35(Integer), 109350.0(Float), 0(Integer), 0.0(Float), 0(Integer), 0.0(Float)
+2019-12-31 14:51:10.523 [http-nio-8082-exec-2] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - <==    Updates: 1
+2019-12-31 14:51:10.523 [http-nio-8082-exec-2] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==>  Preparing: delete from GB_CAIJI_TAB where IN_TIME=? and XIHAO=? and WRK_ORD=? and LUHAO=? 
+2019-12-31 14:51:10.523 [http-nio-8082-exec-2] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==> Parameters: 2019-12-31(Date), 6(Integer), 丙班(String), Y9-13311(String)
+2019-12-31 14:51:10.527 [http-nio-8082-exec-2] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - <==    Updates: 1
+2019-12-31 14:51:10.527 [http-nio-8082-exec-2] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==>  Preparing: insert into GB_CAIJI_TAB(ID,XIHAO,IN_TIME,WRK_ORD,PRODUCT_NAME,LUHAO,DINGCHIJS,DINGCHIWT,FEIDINGJS,FEIDINGWT,CIPINGJS,CIPINGWT) values(?,?,?,?,?,?,?,?,?,?,?,?) 
+2019-12-31 14:51:10.527 [http-nio-8082-exec-2] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==> Parameters: 80690(Integer), 6(Integer), 2019-12-31(Date), 丙班(String), 42609(String), Y9-13311(String), 35(Integer), 109406.0(Float), 0(Integer), 0.0(Float), 0(Integer), 0.0(Float)
+2019-12-31 14:51:10.532 [http-nio-8082-exec-2] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - <==    Updates: 1
+2019-12-31 14:51:10.533 [http-nio-8082-exec-2] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==>  Preparing: delete from GB_CAIJI_TAB where IN_TIME=? and XIHAO=? and WRK_ORD=? and LUHAO=? 
+2019-12-31 14:51:10.533 [http-nio-8082-exec-2] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==> Parameters: 2019-12-31(Date), 7(Integer), 丙班(String), Y9-13312(String)
+2019-12-31 14:51:10.536 [http-nio-8082-exec-2] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - <==    Updates: 1
+2019-12-31 14:51:10.536 [http-nio-8082-exec-2] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==>  Preparing: insert into GB_CAIJI_TAB(ID,XIHAO,IN_TIME,WRK_ORD,PRODUCT_NAME,LUHAO,DINGCHIJS,DINGCHIWT,FEIDINGJS,FEIDINGWT,CIPINGJS,CIPINGWT) values(?,?,?,?,?,?,?,?,?,?,?,?) 
+2019-12-31 14:51:10.537 [http-nio-8082-exec-2] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==> Parameters: 80691(Integer), 7(Integer), 2019-12-31(Date), 丙班(String), 42609(String), Y9-13312(String), 34(Integer), 105245.0(Float), 0(Integer), 0.0(Float), 0(Integer), 0.0(Float)
+2019-12-31 14:51:10.541 [http-nio-8082-exec-2] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - <==    Updates: 1
+2019-12-31 14:51:10.541 [http-nio-8082-exec-2] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==>  Preparing: delete from GB_CAIJI_TAB where IN_TIME=? and XIHAO=? and WRK_ORD=? and LUHAO=? 
+2019-12-31 14:51:10.541 [http-nio-8082-exec-2] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==> Parameters: 2019-12-31(Date), 8(Integer), 丙班(String), Y9-13313(String)
+2019-12-31 14:51:10.545 [http-nio-8082-exec-2] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - <==    Updates: 1
+2019-12-31 14:51:10.545 [http-nio-8082-exec-2] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==>  Preparing: insert into GB_CAIJI_TAB(ID,XIHAO,IN_TIME,WRK_ORD,PRODUCT_NAME,LUHAO,DINGCHIJS,DINGCHIWT,FEIDINGJS,FEIDINGWT,CIPINGJS,CIPINGWT) values(?,?,?,?,?,?,?,?,?,?,?,?) 
+2019-12-31 14:51:10.545 [http-nio-8082-exec-2] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==> Parameters: 80692(Integer), 8(Integer), 2019-12-31(Date), 丙班(String), 42609(String), Y9-13313(String), 45(Integer), 116211.0(Float), 0(Integer), 0.0(Float), 0(Integer), 0.0(Float)
+2019-12-31 14:51:10.549 [http-nio-8082-exec-2] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - <==    Updates: 1
+2019-12-31 14:51:10.549 [http-nio-8082-exec-2] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==>  Preparing: delete from GB_CAIJI_TAB where IN_TIME=? and XIHAO=? and WRK_ORD=? and LUHAO=? 
+2019-12-31 14:51:10.549 [http-nio-8082-exec-2] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==> Parameters: 2019-12-31(Date), 9(Integer), 丙班(String), Y9-13314(String)
+2019-12-31 14:51:10.552 [http-nio-8082-exec-2] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - <==    Updates: 1
+2019-12-31 14:51:10.553 [http-nio-8082-exec-2] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==>  Preparing: insert into GB_CAIJI_TAB(ID,XIHAO,IN_TIME,WRK_ORD,PRODUCT_NAME,LUHAO,DINGCHIJS,DINGCHIWT,FEIDINGJS,FEIDINGWT,CIPINGJS,CIPINGWT) values(?,?,?,?,?,?,?,?,?,?,?,?) 
+2019-12-31 14:51:10.553 [http-nio-8082-exec-2] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==> Parameters: 80693(Integer), 9(Integer), 2019-12-31(Date), 丙班(String), 42609(String), Y9-13314(String), 42(Integer), 108864.0(Float), 2(Integer), 4227.0(Float), 0(Integer), 0.0(Float)
+2019-12-31 14:51:10.557 [http-nio-8082-exec-2] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - <==    Updates: 1
+2019-12-31 14:51:10.557 [http-nio-8082-exec-2] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==>  Preparing: delete from GB_CAIJI_TAB where IN_TIME=? and XIHAO=? and WRK_ORD=? and LUHAO=? 
+2019-12-31 14:51:10.557 [http-nio-8082-exec-2] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==> Parameters: 2019-12-31(Date), 10(Integer), 丙班(String), Y9-13315(String)
+2019-12-31 14:51:10.560 [http-nio-8082-exec-2] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - <==    Updates: 1
+2019-12-31 14:51:10.561 [http-nio-8082-exec-2] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==>  Preparing: insert into GB_CAIJI_TAB(ID,XIHAO,IN_TIME,WRK_ORD,PRODUCT_NAME,LUHAO,DINGCHIJS,DINGCHIWT,FEIDINGJS,FEIDINGWT,CIPINGJS,CIPINGWT) values(?,?,?,?,?,?,?,?,?,?,?,?) 
+2019-12-31 14:51:10.561 [http-nio-8082-exec-2] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==> Parameters: 80694(Integer), 10(Integer), 2019-12-31(Date), 丙班(String), 42609(String), Y9-13315(String), 43(Integer), 111484.0(Float), 0(Integer), 0.0(Float), 0(Integer), 0.0(Float)
+2019-12-31 14:51:10.576 [http-nio-8082-exec-2] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - <==    Updates: 1
+2019-12-31 14:51:10.577 [http-nio-8082-exec-2] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==>  Preparing: delete from GB_CAIJI_TAB where IN_TIME=? and XIHAO=? and WRK_ORD=? and LUHAO=? 
+2019-12-31 14:51:10.577 [http-nio-8082-exec-2] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==> Parameters: 2019-12-31(Date), 11(Integer), 丙班(String), Y9-13316(String)
+2019-12-31 14:51:10.582 [http-nio-8082-exec-2] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - <==    Updates: 1
+2019-12-31 14:51:10.583 [http-nio-8082-exec-2] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==>  Preparing: insert into GB_CAIJI_TAB(ID,XIHAO,IN_TIME,WRK_ORD,PRODUCT_NAME,LUHAO,DINGCHIJS,DINGCHIWT,FEIDINGJS,FEIDINGWT,CIPINGJS,CIPINGWT) values(?,?,?,?,?,?,?,?,?,?,?,?) 
+2019-12-31 14:51:10.583 [http-nio-8082-exec-2] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==> Parameters: 80695(Integer), 11(Integer), 2019-12-31(Date), 丙班(String), 42609(String), Y9-13316(String), 47(Integer), 122147.0(Float), 0(Integer), 0.0(Float), 0(Integer), 0.0(Float)
+2019-12-31 14:51:10.587 [http-nio-8082-exec-2] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - <==    Updates: 1
+2019-12-31 14:51:10.587 [http-nio-8082-exec-2] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==>  Preparing: delete from GB_CAIJI_TAB where IN_TIME=? and XIHAO=? and WRK_ORD=? and LUHAO=? 
+2019-12-31 14:51:10.587 [http-nio-8082-exec-2] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==> Parameters: 2019-12-31(Date), 12(Integer), 丙班(String), Y9-13317(String)
+2019-12-31 14:51:10.591 [http-nio-8082-exec-2] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - <==    Updates: 1
+2019-12-31 14:51:10.591 [http-nio-8082-exec-2] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==>  Preparing: insert into GB_CAIJI_TAB(ID,XIHAO,IN_TIME,WRK_ORD,PRODUCT_NAME,LUHAO,DINGCHIJS,DINGCHIWT,FEIDINGJS,FEIDINGWT,CIPINGJS,CIPINGWT) values(?,?,?,?,?,?,?,?,?,?,?,?) 
+2019-12-31 14:51:10.591 [http-nio-8082-exec-2] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==> Parameters: 80696(Integer), 12(Integer), 2019-12-31(Date), 丙班(String), 42609(String), Y9-13317(String), 42(Integer), 109342.0(Float), 2(Integer), 3905.0(Float), 0(Integer), 0.0(Float)
+2019-12-31 14:51:10.596 [http-nio-8082-exec-2] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - <==    Updates: 1
+2019-12-31 14:51:10.597 [http-nio-8082-exec-2] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==>  Preparing: delete from GB_CAIJI_TAB where IN_TIME=? and XIHAO=? and WRK_ORD=? and LUHAO=? 
+2019-12-31 14:51:10.597 [http-nio-8082-exec-2] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==> Parameters: 2019-12-31(Date), 13(Integer), 丙班(String), Y9-13318(String)
+2019-12-31 14:51:10.602 [http-nio-8082-exec-2] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - <==    Updates: 1
+2019-12-31 14:51:10.602 [http-nio-8082-exec-2] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==>  Preparing: insert into GB_CAIJI_TAB(ID,XIHAO,IN_TIME,WRK_ORD,PRODUCT_NAME,LUHAO,DINGCHIJS,DINGCHIWT,FEIDINGJS,FEIDINGWT,CIPINGJS,CIPINGWT) values(?,?,?,?,?,?,?,?,?,?,?,?) 
+2019-12-31 14:51:10.602 [http-nio-8082-exec-2] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==> Parameters: 80697(Integer), 13(Integer), 2019-12-31(Date), 丙班(String), 42609(String), Y9-13318(String), 47(Integer), 122201.0(Float), 0(Integer), 0.0(Float), 0(Integer), 0.0(Float)
+2019-12-31 14:51:10.606 [http-nio-8082-exec-2] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - <==    Updates: 1
+2019-12-31 14:51:10.606 [http-nio-8082-exec-2] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==>  Preparing: delete from GB_CAIJI_TAB where IN_TIME=? and XIHAO=? and WRK_ORD=? and LUHAO=? 
+2019-12-31 14:51:10.606 [http-nio-8082-exec-2] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==> Parameters: 2019-12-31(Date), 14(Integer), 丙班(String), Y9-13319(String)
+2019-12-31 14:51:10.609 [http-nio-8082-exec-2] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - <==    Updates: 1
+2019-12-31 14:51:10.610 [http-nio-8082-exec-2] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==>  Preparing: insert into GB_CAIJI_TAB(ID,XIHAO,IN_TIME,WRK_ORD,PRODUCT_NAME,LUHAO,DINGCHIJS,DINGCHIWT,FEIDINGJS,FEIDINGWT,CIPINGJS,CIPINGWT) values(?,?,?,?,?,?,?,?,?,?,?,?) 
+2019-12-31 14:51:10.610 [http-nio-8082-exec-2] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==> Parameters: 80698(Integer), 14(Integer), 2019-12-31(Date), 丙班(String), 42609(String), Y9-13319(String), 3(Integer), 7833.0(Float), 0(Integer), 0.0(Float), 0(Integer), 0.0(Float)
+2019-12-31 14:51:10.614 [http-nio-8082-exec-2] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - <==    Updates: 1
+2019-12-31 14:52:49.819 [http-nio-8082-exec-5] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==>  Preparing: delete from GB_CAIJI_TAB where IN_TIME=? and XIHAO=? and WRK_ORD=? and LUHAO=? 
+2019-12-31 14:52:49.820 [http-nio-8082-exec-5] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==> Parameters: 2019-12-31(Date), 1(Integer), 丙班(String), Y9-13306(String)
+2019-12-31 14:52:49.824 [http-nio-8082-exec-5] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - <==    Updates: 1
+2019-12-31 14:52:49.824 [http-nio-8082-exec-5] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==>  Preparing: insert into GB_CAIJI_TAB(ID,XIHAO,IN_TIME,WRK_ORD,PRODUCT_NAME,LUHAO,DINGCHIJS,DINGCHIWT,FEIDINGJS,FEIDINGWT,CIPINGJS,CIPINGWT) values(?,?,?,?,?,?,?,?,?,?,?,?) 
+2019-12-31 14:52:49.824 [http-nio-8082-exec-5] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==> Parameters: 80685(Integer), 1(Integer), 2019-12-31(Date), 丙班(String), 42609(String), Y9-13306(String), 12(Integer), 31539.0(Float), 0(Integer), 0.0(Float), 0(Integer), 0.0(Float)
+2019-12-31 14:52:49.840 [http-nio-8082-exec-5] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - <==    Updates: 1
+2019-12-31 14:52:49.840 [http-nio-8082-exec-5] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==>  Preparing: delete from GB_CAIJI_TAB where IN_TIME=? and XIHAO=? and WRK_ORD=? and LUHAO=? 
+2019-12-31 14:52:49.840 [http-nio-8082-exec-5] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==> Parameters: 2019-12-31(Date), 2(Integer), 丙班(String), Y9-13307(String)
+2019-12-31 14:52:49.845 [http-nio-8082-exec-5] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - <==    Updates: 1
+2019-12-31 14:52:49.845 [http-nio-8082-exec-5] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==>  Preparing: insert into GB_CAIJI_TAB(ID,XIHAO,IN_TIME,WRK_ORD,PRODUCT_NAME,LUHAO,DINGCHIJS,DINGCHIWT,FEIDINGJS,FEIDINGWT,CIPINGJS,CIPINGWT) values(?,?,?,?,?,?,?,?,?,?,?,?) 
+2019-12-31 14:52:49.846 [http-nio-8082-exec-5] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==> Parameters: 80686(Integer), 2(Integer), 2019-12-31(Date), 丙班(String), 42609(String), Y9-13307(String), 29(Integer), 75781.0(Float), 0(Integer), 0.0(Float), 0(Integer), 0.0(Float)
+2019-12-31 14:52:49.853 [http-nio-8082-exec-5] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - <==    Updates: 1
+2019-12-31 14:52:49.853 [http-nio-8082-exec-5] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==>  Preparing: delete from GB_CAIJI_TAB where IN_TIME=? and XIHAO=? and WRK_ORD=? and LUHAO=? 
+2019-12-31 14:52:49.853 [http-nio-8082-exec-5] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==> Parameters: 2019-12-31(Date), 3(Integer), 丙班(String), Y9-13308(String)
+2019-12-31 14:52:49.857 [http-nio-8082-exec-5] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - <==    Updates: 1
+2019-12-31 14:52:49.857 [http-nio-8082-exec-5] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==>  Preparing: insert into GB_CAIJI_TAB(ID,XIHAO,IN_TIME,WRK_ORD,PRODUCT_NAME,LUHAO,DINGCHIJS,DINGCHIWT,FEIDINGJS,FEIDINGWT,CIPINGJS,CIPINGWT) values(?,?,?,?,?,?,?,?,?,?,?,?) 
+2019-12-31 14:52:49.858 [http-nio-8082-exec-5] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==> Parameters: 80687(Integer), 3(Integer), 2019-12-31(Date), 丙班(String), 42609(String), Y9-13308(String), 34(Integer), 105750.0(Float), 0(Integer), 0.0(Float), 0(Integer), 0.0(Float)
+2019-12-31 14:52:49.863 [http-nio-8082-exec-5] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - <==    Updates: 1
+2019-12-31 14:52:49.863 [http-nio-8082-exec-5] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==>  Preparing: delete from GB_CAIJI_TAB where IN_TIME=? and XIHAO=? and WRK_ORD=? and LUHAO=? 
+2019-12-31 14:52:49.863 [http-nio-8082-exec-5] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==> Parameters: 2019-12-31(Date), 4(Integer), 丙班(String), Y9-13309(String)
+2019-12-31 14:52:49.867 [http-nio-8082-exec-5] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - <==    Updates: 1
+2019-12-31 14:52:49.867 [http-nio-8082-exec-5] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==>  Preparing: insert into GB_CAIJI_TAB(ID,XIHAO,IN_TIME,WRK_ORD,PRODUCT_NAME,LUHAO,DINGCHIJS,DINGCHIWT,FEIDINGJS,FEIDINGWT,CIPINGJS,CIPINGWT) values(?,?,?,?,?,?,?,?,?,?,?,?) 
+2019-12-31 14:52:49.867 [http-nio-8082-exec-5] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==> Parameters: 80688(Integer), 4(Integer), 2019-12-31(Date), 丙班(String), 42609(String), Y9-13309(String), 38(Integer), 118815.0(Float), 0(Integer), 0.0(Float), 0(Integer), 0.0(Float)
+2019-12-31 14:52:49.871 [http-nio-8082-exec-5] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - <==    Updates: 1
+2019-12-31 14:52:49.871 [http-nio-8082-exec-5] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==>  Preparing: delete from GB_CAIJI_TAB where IN_TIME=? and XIHAO=? and WRK_ORD=? and LUHAO=? 
+2019-12-31 14:52:49.871 [http-nio-8082-exec-5] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==> Parameters: 2019-12-31(Date), 5(Integer), 丙班(String), Y9-13310(String)
+2019-12-31 14:52:49.874 [http-nio-8082-exec-5] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - <==    Updates: 1
+2019-12-31 14:52:49.875 [http-nio-8082-exec-5] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==>  Preparing: insert into GB_CAIJI_TAB(ID,XIHAO,IN_TIME,WRK_ORD,PRODUCT_NAME,LUHAO,DINGCHIJS,DINGCHIWT,FEIDINGJS,FEIDINGWT,CIPINGJS,CIPINGWT) values(?,?,?,?,?,?,?,?,?,?,?,?) 
+2019-12-31 14:52:49.875 [http-nio-8082-exec-5] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==> Parameters: 80689(Integer), 5(Integer), 2019-12-31(Date), 丙班(String), 42609(String), Y9-13310(String), 35(Integer), 109350.0(Float), 0(Integer), 0.0(Float), 0(Integer), 0.0(Float)
+2019-12-31 14:52:49.881 [http-nio-8082-exec-5] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - <==    Updates: 1
+2019-12-31 14:52:49.881 [http-nio-8082-exec-5] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==>  Preparing: delete from GB_CAIJI_TAB where IN_TIME=? and XIHAO=? and WRK_ORD=? and LUHAO=? 
+2019-12-31 14:52:49.882 [http-nio-8082-exec-5] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==> Parameters: 2019-12-31(Date), 6(Integer), 丙班(String), Y9-13311(String)
+2019-12-31 14:52:49.885 [http-nio-8082-exec-5] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - <==    Updates: 1
+2019-12-31 14:52:49.885 [http-nio-8082-exec-5] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==>  Preparing: insert into GB_CAIJI_TAB(ID,XIHAO,IN_TIME,WRK_ORD,PRODUCT_NAME,LUHAO,DINGCHIJS,DINGCHIWT,FEIDINGJS,FEIDINGWT,CIPINGJS,CIPINGWT) values(?,?,?,?,?,?,?,?,?,?,?,?) 
+2019-12-31 14:52:49.885 [http-nio-8082-exec-5] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==> Parameters: 80690(Integer), 6(Integer), 2019-12-31(Date), 丙班(String), 42609(String), Y9-13311(String), 35(Integer), 109406.0(Float), 0(Integer), 0.0(Float), 0(Integer), 0.0(Float)
+2019-12-31 14:52:49.889 [http-nio-8082-exec-5] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - <==    Updates: 1
+2019-12-31 14:52:49.889 [http-nio-8082-exec-5] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==>  Preparing: delete from GB_CAIJI_TAB where IN_TIME=? and XIHAO=? and WRK_ORD=? and LUHAO=? 
+2019-12-31 14:52:49.889 [http-nio-8082-exec-5] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==> Parameters: 2019-12-31(Date), 7(Integer), 丙班(String), Y9-13312(String)
+2019-12-31 14:52:49.892 [http-nio-8082-exec-5] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - <==    Updates: 1
+2019-12-31 14:52:49.893 [http-nio-8082-exec-5] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==>  Preparing: insert into GB_CAIJI_TAB(ID,XIHAO,IN_TIME,WRK_ORD,PRODUCT_NAME,LUHAO,DINGCHIJS,DINGCHIWT,FEIDINGJS,FEIDINGWT,CIPINGJS,CIPINGWT) values(?,?,?,?,?,?,?,?,?,?,?,?) 
+2019-12-31 14:52:49.893 [http-nio-8082-exec-5] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==> Parameters: 80691(Integer), 7(Integer), 2019-12-31(Date), 丙班(String), 42609(String), Y9-13312(String), 34(Integer), 105245.0(Float), 0(Integer), 0.0(Float), 0(Integer), 0.0(Float)
+2019-12-31 14:52:49.897 [http-nio-8082-exec-5] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - <==    Updates: 1
+2019-12-31 14:52:49.897 [http-nio-8082-exec-5] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==>  Preparing: delete from GB_CAIJI_TAB where IN_TIME=? and XIHAO=? and WRK_ORD=? and LUHAO=? 
+2019-12-31 14:52:49.897 [http-nio-8082-exec-5] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==> Parameters: 2019-12-31(Date), 8(Integer), 丙班(String), Y9-13313(String)
+2019-12-31 14:52:49.900 [http-nio-8082-exec-5] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - <==    Updates: 1
+2019-12-31 14:52:49.901 [http-nio-8082-exec-5] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==>  Preparing: insert into GB_CAIJI_TAB(ID,XIHAO,IN_TIME,WRK_ORD,PRODUCT_NAME,LUHAO,DINGCHIJS,DINGCHIWT,FEIDINGJS,FEIDINGWT,CIPINGJS,CIPINGWT) values(?,?,?,?,?,?,?,?,?,?,?,?) 
+2019-12-31 14:52:49.901 [http-nio-8082-exec-5] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==> Parameters: 80692(Integer), 8(Integer), 2019-12-31(Date), 丙班(String), 42609(String), Y9-13313(String), 45(Integer), 116211.0(Float), 0(Integer), 0.0(Float), 0(Integer), 0.0(Float)
+2019-12-31 14:52:49.904 [http-nio-8082-exec-5] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - <==    Updates: 1
+2019-12-31 14:52:49.905 [http-nio-8082-exec-5] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==>  Preparing: delete from GB_CAIJI_TAB where IN_TIME=? and XIHAO=? and WRK_ORD=? and LUHAO=? 
+2019-12-31 14:52:49.905 [http-nio-8082-exec-5] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==> Parameters: 2019-12-31(Date), 9(Integer), 丙班(String), Y9-13314(String)
+2019-12-31 14:52:49.909 [http-nio-8082-exec-5] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - <==    Updates: 1
+2019-12-31 14:52:49.909 [http-nio-8082-exec-5] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==>  Preparing: insert into GB_CAIJI_TAB(ID,XIHAO,IN_TIME,WRK_ORD,PRODUCT_NAME,LUHAO,DINGCHIJS,DINGCHIWT,FEIDINGJS,FEIDINGWT,CIPINGJS,CIPINGWT) values(?,?,?,?,?,?,?,?,?,?,?,?) 
+2019-12-31 14:52:49.909 [http-nio-8082-exec-5] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==> Parameters: 80693(Integer), 9(Integer), 2019-12-31(Date), 丙班(String), 42609(String), Y9-13314(String), 42(Integer), 108864.0(Float), 2(Integer), 4227.0(Float), 0(Integer), 0.0(Float)
+2019-12-31 14:52:49.913 [http-nio-8082-exec-5] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - <==    Updates: 1
+2019-12-31 14:52:49.913 [http-nio-8082-exec-5] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==>  Preparing: delete from GB_CAIJI_TAB where IN_TIME=? and XIHAO=? and WRK_ORD=? and LUHAO=? 
+2019-12-31 14:52:49.914 [http-nio-8082-exec-5] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==> Parameters: 2019-12-31(Date), 10(Integer), 丙班(String), Y9-13315(String)
+2019-12-31 14:52:49.922 [http-nio-8082-exec-5] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - <==    Updates: 1
+2019-12-31 14:52:49.922 [http-nio-8082-exec-5] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==>  Preparing: insert into GB_CAIJI_TAB(ID,XIHAO,IN_TIME,WRK_ORD,PRODUCT_NAME,LUHAO,DINGCHIJS,DINGCHIWT,FEIDINGJS,FEIDINGWT,CIPINGJS,CIPINGWT) values(?,?,?,?,?,?,?,?,?,?,?,?) 
+2019-12-31 14:52:49.922 [http-nio-8082-exec-5] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==> Parameters: 80694(Integer), 10(Integer), 2019-12-31(Date), 丙班(String), 42609(String), Y9-13315(String), 43(Integer), 111484.0(Float), 0(Integer), 0.0(Float), 0(Integer), 0.0(Float)
+2019-12-31 14:52:49.926 [http-nio-8082-exec-5] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - <==    Updates: 1
+2019-12-31 14:52:49.926 [http-nio-8082-exec-5] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==>  Preparing: delete from GB_CAIJI_TAB where IN_TIME=? and XIHAO=? and WRK_ORD=? and LUHAO=? 
+2019-12-31 14:52:49.926 [http-nio-8082-exec-5] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==> Parameters: 2019-12-31(Date), 11(Integer), 丙班(String), Y9-13316(String)
+2019-12-31 14:52:49.930 [http-nio-8082-exec-5] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - <==    Updates: 1
+2019-12-31 14:52:49.930 [http-nio-8082-exec-5] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==>  Preparing: insert into GB_CAIJI_TAB(ID,XIHAO,IN_TIME,WRK_ORD,PRODUCT_NAME,LUHAO,DINGCHIJS,DINGCHIWT,FEIDINGJS,FEIDINGWT,CIPINGJS,CIPINGWT) values(?,?,?,?,?,?,?,?,?,?,?,?) 
+2019-12-31 14:52:49.930 [http-nio-8082-exec-5] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==> Parameters: 80695(Integer), 11(Integer), 2019-12-31(Date), 丙班(String), 42609(String), Y9-13316(String), 47(Integer), 122147.0(Float), 0(Integer), 0.0(Float), 0(Integer), 0.0(Float)
+2019-12-31 14:52:49.934 [http-nio-8082-exec-5] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - <==    Updates: 1
+2019-12-31 14:52:49.935 [http-nio-8082-exec-5] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==>  Preparing: delete from GB_CAIJI_TAB where IN_TIME=? and XIHAO=? and WRK_ORD=? and LUHAO=? 
+2019-12-31 14:52:49.935 [http-nio-8082-exec-5] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==> Parameters: 2019-12-31(Date), 12(Integer), 丙班(String), Y9-13317(String)
+2019-12-31 14:52:49.938 [http-nio-8082-exec-5] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - <==    Updates: 1
+2019-12-31 14:52:49.939 [http-nio-8082-exec-5] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==>  Preparing: insert into GB_CAIJI_TAB(ID,XIHAO,IN_TIME,WRK_ORD,PRODUCT_NAME,LUHAO,DINGCHIJS,DINGCHIWT,FEIDINGJS,FEIDINGWT,CIPINGJS,CIPINGWT) values(?,?,?,?,?,?,?,?,?,?,?,?) 
+2019-12-31 14:52:49.939 [http-nio-8082-exec-5] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==> Parameters: 80696(Integer), 12(Integer), 2019-12-31(Date), 丙班(String), 42609(String), Y9-13317(String), 42(Integer), 109342.0(Float), 2(Integer), 3905.0(Float), 0(Integer), 0.0(Float)
+2019-12-31 14:52:49.946 [http-nio-8082-exec-5] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - <==    Updates: 1
+2019-12-31 14:52:49.946 [http-nio-8082-exec-5] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==>  Preparing: delete from GB_CAIJI_TAB where IN_TIME=? and XIHAO=? and WRK_ORD=? and LUHAO=? 
+2019-12-31 14:52:49.946 [http-nio-8082-exec-5] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==> Parameters: 2019-12-31(Date), 13(Integer), 丙班(String), Y9-13318(String)
+2019-12-31 14:52:49.951 [http-nio-8082-exec-5] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - <==    Updates: 1
+2019-12-31 14:52:49.951 [http-nio-8082-exec-5] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==>  Preparing: insert into GB_CAIJI_TAB(ID,XIHAO,IN_TIME,WRK_ORD,PRODUCT_NAME,LUHAO,DINGCHIJS,DINGCHIWT,FEIDINGJS,FEIDINGWT,CIPINGJS,CIPINGWT) values(?,?,?,?,?,?,?,?,?,?,?,?) 
+2019-12-31 14:52:49.952 [http-nio-8082-exec-5] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==> Parameters: 80697(Integer), 13(Integer), 2019-12-31(Date), 丙班(String), 42609(String), Y9-13318(String), 47(Integer), 122201.0(Float), 0(Integer), 0.0(Float), 0(Integer), 0.0(Float)
+2019-12-31 14:52:49.956 [http-nio-8082-exec-5] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - <==    Updates: 1
+2019-12-31 14:52:49.956 [http-nio-8082-exec-5] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==>  Preparing: delete from GB_CAIJI_TAB where IN_TIME=? and XIHAO=? and WRK_ORD=? and LUHAO=? 
+2019-12-31 14:52:49.956 [http-nio-8082-exec-5] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==> Parameters: 2019-12-31(Date), 14(Integer), 丙班(String), Y9-13319(String)
+2019-12-31 14:52:49.959 [http-nio-8082-exec-5] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - <==    Updates: 1
+2019-12-31 14:52:49.960 [http-nio-8082-exec-5] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==>  Preparing: insert into GB_CAIJI_TAB(ID,XIHAO,IN_TIME,WRK_ORD,PRODUCT_NAME,LUHAO,DINGCHIJS,DINGCHIWT,FEIDINGJS,FEIDINGWT,CIPINGJS,CIPINGWT) values(?,?,?,?,?,?,?,?,?,?,?,?) 
+2019-12-31 14:52:49.960 [http-nio-8082-exec-5] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==> Parameters: 80698(Integer), 14(Integer), 2019-12-31(Date), 丙班(String), 42609(String), Y9-13319(String), 3(Integer), 7833.0(Float), 0(Integer), 0.0(Float), 0(Integer), 0.0(Float)
+2019-12-31 14:52:49.964 [http-nio-8082-exec-5] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - <==    Updates: 1
+2019-12-31 14:53:33.861 [http-nio-8082-exec-6] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==>  Preparing: delete from GB_CAIJI_TAB where IN_TIME=? and XIHAO=? and WRK_ORD=? and LUHAO=? 
+2019-12-31 14:53:33.861 [http-nio-8082-exec-6] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==> Parameters: 2019-12-31(Date), 1(Integer), 丙班(String), Y9-13306(String)
+2019-12-31 14:53:33.866 [http-nio-8082-exec-6] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - <==    Updates: 1
+2019-12-31 14:53:33.866 [http-nio-8082-exec-6] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==>  Preparing: insert into GB_CAIJI_TAB(ID,XIHAO,IN_TIME,WRK_ORD,PRODUCT_NAME,LUHAO,DINGCHIJS,DINGCHIWT,FEIDINGJS,FEIDINGWT,CIPINGJS,CIPINGWT) values(?,?,?,?,?,?,?,?,?,?,?,?) 
+2019-12-31 14:53:33.867 [http-nio-8082-exec-6] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==> Parameters: 80685(Integer), 1(Integer), 2019-12-31(Date), 丙班(String), 42609(String), Y9-13306(String), 12(Integer), 31539.0(Float), 0(Integer), 0.0(Float), 0(Integer), 0.0(Float)
+2019-12-31 14:53:33.870 [http-nio-8082-exec-6] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - <==    Updates: 1
+2019-12-31 14:53:33.870 [http-nio-8082-exec-6] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==>  Preparing: delete from GB_CAIJI_TAB where IN_TIME=? and XIHAO=? and WRK_ORD=? and LUHAO=? 
+2019-12-31 14:53:33.870 [http-nio-8082-exec-6] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==> Parameters: 2019-12-31(Date), 2(Integer), 丙班(String), Y9-13307(String)
+2019-12-31 14:53:33.877 [http-nio-8082-exec-6] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - <==    Updates: 1
+2019-12-31 14:53:33.877 [http-nio-8082-exec-6] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==>  Preparing: insert into GB_CAIJI_TAB(ID,XIHAO,IN_TIME,WRK_ORD,PRODUCT_NAME,LUHAO,DINGCHIJS,DINGCHIWT,FEIDINGJS,FEIDINGWT,CIPINGJS,CIPINGWT) values(?,?,?,?,?,?,?,?,?,?,?,?) 
+2019-12-31 14:53:33.877 [http-nio-8082-exec-6] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==> Parameters: 80686(Integer), 2(Integer), 2019-12-31(Date), 丙班(String), 42609(String), Y9-13307(String), 29(Integer), 75781.0(Float), 0(Integer), 0.0(Float), 0(Integer), 0.0(Float)
+2019-12-31 14:53:33.883 [http-nio-8082-exec-6] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - <==    Updates: 1
+2019-12-31 14:53:33.883 [http-nio-8082-exec-6] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==>  Preparing: delete from GB_CAIJI_TAB where IN_TIME=? and XIHAO=? and WRK_ORD=? and LUHAO=? 
+2019-12-31 14:53:33.883 [http-nio-8082-exec-6] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==> Parameters: 2019-12-31(Date), 3(Integer), 丙班(String), Y9-13308(String)
+2019-12-31 14:53:33.898 [http-nio-8082-exec-6] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - <==    Updates: 1
+2019-12-31 14:53:33.899 [http-nio-8082-exec-6] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==>  Preparing: insert into GB_CAIJI_TAB(ID,XIHAO,IN_TIME,WRK_ORD,PRODUCT_NAME,LUHAO,DINGCHIJS,DINGCHIWT,FEIDINGJS,FEIDINGWT,CIPINGJS,CIPINGWT) values(?,?,?,?,?,?,?,?,?,?,?,?) 
+2019-12-31 14:53:33.899 [http-nio-8082-exec-6] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==> Parameters: 80687(Integer), 3(Integer), 2019-12-31(Date), 丙班(String), 42609(String), Y9-13308(String), 34(Integer), 105750.0(Float), 0(Integer), 0.0(Float), 0(Integer), 0.0(Float)
+2019-12-31 14:53:33.909 [http-nio-8082-exec-6] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - <==    Updates: 1
+2019-12-31 14:53:33.910 [http-nio-8082-exec-6] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==>  Preparing: delete from GB_CAIJI_TAB where IN_TIME=? and XIHAO=? and WRK_ORD=? and LUHAO=? 
+2019-12-31 14:53:33.910 [http-nio-8082-exec-6] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==> Parameters: 2019-12-31(Date), 4(Integer), 丙班(String), Y9-13309(String)
+2019-12-31 14:53:33.913 [http-nio-8082-exec-6] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - <==    Updates: 1
+2019-12-31 14:53:33.914 [http-nio-8082-exec-6] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==>  Preparing: insert into GB_CAIJI_TAB(ID,XIHAO,IN_TIME,WRK_ORD,PRODUCT_NAME,LUHAO,DINGCHIJS,DINGCHIWT,FEIDINGJS,FEIDINGWT,CIPINGJS,CIPINGWT) values(?,?,?,?,?,?,?,?,?,?,?,?) 
+2019-12-31 14:53:33.914 [http-nio-8082-exec-6] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==> Parameters: 80688(Integer), 4(Integer), 2019-12-31(Date), 丙班(String), 42609(String), Y9-13309(String), 38(Integer), 118815.0(Float), 0(Integer), 0.0(Float), 0(Integer), 0.0(Float)
+2019-12-31 14:53:33.922 [http-nio-8082-exec-6] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - <==    Updates: 1
+2019-12-31 14:53:33.922 [http-nio-8082-exec-6] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==>  Preparing: delete from GB_CAIJI_TAB where IN_TIME=? and XIHAO=? and WRK_ORD=? and LUHAO=? 
+2019-12-31 14:53:33.922 [http-nio-8082-exec-6] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==> Parameters: 2019-12-31(Date), 5(Integer), 丙班(String), Y9-13310(String)
+2019-12-31 14:53:33.928 [http-nio-8082-exec-6] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - <==    Updates: 1
+2019-12-31 14:53:33.928 [http-nio-8082-exec-6] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==>  Preparing: insert into GB_CAIJI_TAB(ID,XIHAO,IN_TIME,WRK_ORD,PRODUCT_NAME,LUHAO,DINGCHIJS,DINGCHIWT,FEIDINGJS,FEIDINGWT,CIPINGJS,CIPINGWT) values(?,?,?,?,?,?,?,?,?,?,?,?) 
+2019-12-31 14:53:33.929 [http-nio-8082-exec-6] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==> Parameters: 80689(Integer), 5(Integer), 2019-12-31(Date), 丙班(String), 42609(String), Y9-13310(String), 35(Integer), 109350.0(Float), 0(Integer), 0.0(Float), 0(Integer), 0.0(Float)
+2019-12-31 14:53:33.934 [http-nio-8082-exec-6] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - <==    Updates: 1
+2019-12-31 14:53:33.934 [http-nio-8082-exec-6] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==>  Preparing: delete from GB_CAIJI_TAB where IN_TIME=? and XIHAO=? and WRK_ORD=? and LUHAO=? 
+2019-12-31 14:53:33.934 [http-nio-8082-exec-6] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==> Parameters: 2019-12-31(Date), 6(Integer), 丙班(String), Y9-13311(String)
+2019-12-31 14:53:33.940 [http-nio-8082-exec-6] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - <==    Updates: 1
+2019-12-31 14:53:33.940 [http-nio-8082-exec-6] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==>  Preparing: insert into GB_CAIJI_TAB(ID,XIHAO,IN_TIME,WRK_ORD,PRODUCT_NAME,LUHAO,DINGCHIJS,DINGCHIWT,FEIDINGJS,FEIDINGWT,CIPINGJS,CIPINGWT) values(?,?,?,?,?,?,?,?,?,?,?,?) 
+2019-12-31 14:53:33.940 [http-nio-8082-exec-6] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==> Parameters: 80690(Integer), 6(Integer), 2019-12-31(Date), 丙班(String), 42609(String), Y9-13311(String), 35(Integer), 109406.0(Float), 0(Integer), 0.0(Float), 0(Integer), 0.0(Float)
+2019-12-31 14:53:33.946 [http-nio-8082-exec-6] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - <==    Updates: 1
+2019-12-31 14:53:33.946 [http-nio-8082-exec-6] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==>  Preparing: delete from GB_CAIJI_TAB where IN_TIME=? and XIHAO=? and WRK_ORD=? and LUHAO=? 
+2019-12-31 14:53:33.946 [http-nio-8082-exec-6] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==> Parameters: 2019-12-31(Date), 7(Integer), 丙班(String), Y9-13312(String)
+2019-12-31 14:53:33.951 [http-nio-8082-exec-6] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - <==    Updates: 1
+2019-12-31 14:53:33.951 [http-nio-8082-exec-6] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==>  Preparing: insert into GB_CAIJI_TAB(ID,XIHAO,IN_TIME,WRK_ORD,PRODUCT_NAME,LUHAO,DINGCHIJS,DINGCHIWT,FEIDINGJS,FEIDINGWT,CIPINGJS,CIPINGWT) values(?,?,?,?,?,?,?,?,?,?,?,?) 
+2019-12-31 14:53:33.951 [http-nio-8082-exec-6] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==> Parameters: 80691(Integer), 7(Integer), 2019-12-31(Date), 丙班(String), 42609(String), Y9-13312(String), 34(Integer), 105245.0(Float), 0(Integer), 0.0(Float), 0(Integer), 0.0(Float)
+2019-12-31 14:53:33.959 [http-nio-8082-exec-6] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - <==    Updates: 1
+2019-12-31 14:53:33.960 [http-nio-8082-exec-6] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==>  Preparing: delete from GB_CAIJI_TAB where IN_TIME=? and XIHAO=? and WRK_ORD=? and LUHAO=? 
+2019-12-31 14:53:33.960 [http-nio-8082-exec-6] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==> Parameters: 2019-12-31(Date), 8(Integer), 丙班(String), Y9-13313(String)
+2019-12-31 14:53:33.964 [http-nio-8082-exec-6] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - <==    Updates: 1
+2019-12-31 14:53:33.964 [http-nio-8082-exec-6] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==>  Preparing: insert into GB_CAIJI_TAB(ID,XIHAO,IN_TIME,WRK_ORD,PRODUCT_NAME,LUHAO,DINGCHIJS,DINGCHIWT,FEIDINGJS,FEIDINGWT,CIPINGJS,CIPINGWT) values(?,?,?,?,?,?,?,?,?,?,?,?) 
+2019-12-31 14:53:33.965 [http-nio-8082-exec-6] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==> Parameters: 80692(Integer), 8(Integer), 2019-12-31(Date), 丙班(String), 42609(String), Y9-13313(String), 45(Integer), 116211.0(Float), 0(Integer), 0.0(Float), 0(Integer), 0.0(Float)
+2019-12-31 14:53:33.968 [http-nio-8082-exec-6] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - <==    Updates: 1
+2019-12-31 14:53:33.968 [http-nio-8082-exec-6] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==>  Preparing: delete from GB_CAIJI_TAB where IN_TIME=? and XIHAO=? and WRK_ORD=? and LUHAO=? 
+2019-12-31 14:53:33.969 [http-nio-8082-exec-6] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==> Parameters: 2019-12-31(Date), 9(Integer), 丙班(String), Y9-13314(String)
+2019-12-31 14:53:33.972 [http-nio-8082-exec-6] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - <==    Updates: 1
+2019-12-31 14:53:33.972 [http-nio-8082-exec-6] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==>  Preparing: insert into GB_CAIJI_TAB(ID,XIHAO,IN_TIME,WRK_ORD,PRODUCT_NAME,LUHAO,DINGCHIJS,DINGCHIWT,FEIDINGJS,FEIDINGWT,CIPINGJS,CIPINGWT) values(?,?,?,?,?,?,?,?,?,?,?,?) 
+2019-12-31 14:53:33.973 [http-nio-8082-exec-6] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==> Parameters: 80693(Integer), 9(Integer), 2019-12-31(Date), 丙班(String), 42609(String), Y9-13314(String), 42(Integer), 108864.0(Float), 2(Integer), 4227.0(Float), 0(Integer), 0.0(Float)
+2019-12-31 14:53:33.978 [http-nio-8082-exec-6] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - <==    Updates: 1
+2019-12-31 14:53:33.978 [http-nio-8082-exec-6] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==>  Preparing: delete from GB_CAIJI_TAB where IN_TIME=? and XIHAO=? and WRK_ORD=? and LUHAO=? 
+2019-12-31 14:53:33.978 [http-nio-8082-exec-6] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==> Parameters: 2019-12-31(Date), 10(Integer), 丙班(String), Y9-13315(String)
+2019-12-31 14:53:33.982 [http-nio-8082-exec-6] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - <==    Updates: 1
+2019-12-31 14:53:33.982 [http-nio-8082-exec-6] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==>  Preparing: insert into GB_CAIJI_TAB(ID,XIHAO,IN_TIME,WRK_ORD,PRODUCT_NAME,LUHAO,DINGCHIJS,DINGCHIWT,FEIDINGJS,FEIDINGWT,CIPINGJS,CIPINGWT) values(?,?,?,?,?,?,?,?,?,?,?,?) 
+2019-12-31 14:53:33.982 [http-nio-8082-exec-6] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==> Parameters: 80694(Integer), 10(Integer), 2019-12-31(Date), 丙班(String), 42609(String), Y9-13315(String), 43(Integer), 111484.0(Float), 0(Integer), 0.0(Float), 0(Integer), 0.0(Float)
+2019-12-31 14:53:33.988 [http-nio-8082-exec-6] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - <==    Updates: 1
+2019-12-31 14:53:33.988 [http-nio-8082-exec-6] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==>  Preparing: delete from GB_CAIJI_TAB where IN_TIME=? and XIHAO=? and WRK_ORD=? and LUHAO=? 
+2019-12-31 14:53:33.989 [http-nio-8082-exec-6] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==> Parameters: 2019-12-31(Date), 11(Integer), 丙班(String), Y9-13316(String)
+2019-12-31 14:53:33.992 [http-nio-8082-exec-6] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - <==    Updates: 1
+2019-12-31 14:53:33.992 [http-nio-8082-exec-6] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==>  Preparing: insert into GB_CAIJI_TAB(ID,XIHAO,IN_TIME,WRK_ORD,PRODUCT_NAME,LUHAO,DINGCHIJS,DINGCHIWT,FEIDINGJS,FEIDINGWT,CIPINGJS,CIPINGWT) values(?,?,?,?,?,?,?,?,?,?,?,?) 
+2019-12-31 14:53:33.992 [http-nio-8082-exec-6] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==> Parameters: 80695(Integer), 11(Integer), 2019-12-31(Date), 丙班(String), 42609(String), Y9-13316(String), 47(Integer), 122147.0(Float), 0(Integer), 0.0(Float), 0(Integer), 0.0(Float)
+2019-12-31 14:53:33.997 [http-nio-8082-exec-6] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - <==    Updates: 1
+2019-12-31 14:53:33.998 [http-nio-8082-exec-6] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==>  Preparing: delete from GB_CAIJI_TAB where IN_TIME=? and XIHAO=? and WRK_ORD=? and LUHAO=? 
+2019-12-31 14:53:33.998 [http-nio-8082-exec-6] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==> Parameters: 2019-12-31(Date), 12(Integer), 丙班(String), Y9-13317(String)
+2019-12-31 14:53:34.002 [http-nio-8082-exec-6] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - <==    Updates: 1
+2019-12-31 14:53:34.002 [http-nio-8082-exec-6] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==>  Preparing: insert into GB_CAIJI_TAB(ID,XIHAO,IN_TIME,WRK_ORD,PRODUCT_NAME,LUHAO,DINGCHIJS,DINGCHIWT,FEIDINGJS,FEIDINGWT,CIPINGJS,CIPINGWT) values(?,?,?,?,?,?,?,?,?,?,?,?) 
+2019-12-31 14:53:34.003 [http-nio-8082-exec-6] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==> Parameters: 80696(Integer), 12(Integer), 2019-12-31(Date), 丙班(String), 42609(String), Y9-13317(String), 42(Integer), 109342.0(Float), 2(Integer), 3905.0(Float), 0(Integer), 0.0(Float)
+2019-12-31 14:53:34.006 [http-nio-8082-exec-6] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - <==    Updates: 1
+2019-12-31 14:53:34.006 [http-nio-8082-exec-6] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==>  Preparing: delete from GB_CAIJI_TAB where IN_TIME=? and XIHAO=? and WRK_ORD=? and LUHAO=? 
+2019-12-31 14:53:34.006 [http-nio-8082-exec-6] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==> Parameters: 2019-12-31(Date), 13(Integer), 丙班(String), Y9-13318(String)
+2019-12-31 14:53:34.009 [http-nio-8082-exec-6] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - <==    Updates: 1
+2019-12-31 14:53:34.010 [http-nio-8082-exec-6] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==>  Preparing: insert into GB_CAIJI_TAB(ID,XIHAO,IN_TIME,WRK_ORD,PRODUCT_NAME,LUHAO,DINGCHIJS,DINGCHIWT,FEIDINGJS,FEIDINGWT,CIPINGJS,CIPINGWT) values(?,?,?,?,?,?,?,?,?,?,?,?) 
+2019-12-31 14:53:34.010 [http-nio-8082-exec-6] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==> Parameters: 80697(Integer), 13(Integer), 2019-12-31(Date), 丙班(String), 42609(String), Y9-13318(String), 47(Integer), 122201.0(Float), 0(Integer), 0.0(Float), 0(Integer), 0.0(Float)
+2019-12-31 14:53:34.013 [http-nio-8082-exec-6] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - <==    Updates: 1
+2019-12-31 14:53:34.014 [http-nio-8082-exec-6] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==>  Preparing: delete from GB_CAIJI_TAB where IN_TIME=? and XIHAO=? and WRK_ORD=? and LUHAO=? 
+2019-12-31 14:53:34.015 [http-nio-8082-exec-6] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==> Parameters: 2019-12-31(Date), 14(Integer), 丙班(String), Y9-13319(String)
+2019-12-31 14:53:34.019 [http-nio-8082-exec-6] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - <==    Updates: 1
+2019-12-31 14:53:34.019 [http-nio-8082-exec-6] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==>  Preparing: insert into GB_CAIJI_TAB(ID,XIHAO,IN_TIME,WRK_ORD,PRODUCT_NAME,LUHAO,DINGCHIJS,DINGCHIWT,FEIDINGJS,FEIDINGWT,CIPINGJS,CIPINGWT) values(?,?,?,?,?,?,?,?,?,?,?,?) 
+2019-12-31 14:53:34.019 [http-nio-8082-exec-6] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==> Parameters: 80698(Integer), 14(Integer), 2019-12-31(Date), 丙班(String), 42609(String), Y9-13319(String), 3(Integer), 7833.0(Float), 0(Integer), 0.0(Float), 0(Integer), 0.0(Float)
+2019-12-31 14:53:34.022 [http-nio-8082-exec-6] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - <==    Updates: 1
+2019-12-31 14:53:43.043 [http-nio-8082-exec-7] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==>  Preparing: delete from GB_CAIJI_TAB where IN_TIME=? and XIHAO=? and WRK_ORD=? and LUHAO=? 
+2019-12-31 14:53:43.043 [http-nio-8082-exec-7] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==> Parameters: 2019-12-31(Date), 1(Integer), 丙班(String), Y9-13306(String)
+2019-12-31 14:53:43.047 [http-nio-8082-exec-7] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - <==    Updates: 1
+2019-12-31 14:53:43.047 [http-nio-8082-exec-7] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==>  Preparing: insert into GB_CAIJI_TAB(ID,XIHAO,IN_TIME,WRK_ORD,PRODUCT_NAME,LUHAO,DINGCHIJS,DINGCHIWT,FEIDINGJS,FEIDINGWT,CIPINGJS,CIPINGWT) values(?,?,?,?,?,?,?,?,?,?,?,?) 
+2019-12-31 14:53:43.048 [http-nio-8082-exec-7] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==> Parameters: 80685(Integer), 1(Integer), 2019-12-31(Date), 丙班(String), 42609(String), Y9-13306(String), 12(Integer), 31539.0(Float), 0(Integer), 0.0(Float), 0(Integer), 0.0(Float)
+2019-12-31 14:53:43.054 [http-nio-8082-exec-7] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - <==    Updates: 1
+2019-12-31 14:53:43.054 [http-nio-8082-exec-7] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==>  Preparing: delete from GB_CAIJI_TAB where IN_TIME=? and XIHAO=? and WRK_ORD=? and LUHAO=? 
+2019-12-31 14:53:43.054 [http-nio-8082-exec-7] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==> Parameters: 2019-12-31(Date), 2(Integer), 丙班(String), Y9-13307(String)
+2019-12-31 14:53:43.058 [http-nio-8082-exec-7] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - <==    Updates: 1
+2019-12-31 14:53:43.058 [http-nio-8082-exec-7] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==>  Preparing: insert into GB_CAIJI_TAB(ID,XIHAO,IN_TIME,WRK_ORD,PRODUCT_NAME,LUHAO,DINGCHIJS,DINGCHIWT,FEIDINGJS,FEIDINGWT,CIPINGJS,CIPINGWT) values(?,?,?,?,?,?,?,?,?,?,?,?) 
+2019-12-31 14:53:43.059 [http-nio-8082-exec-7] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==> Parameters: 80686(Integer), 2(Integer), 2019-12-31(Date), 丙班(String), 42609(String), Y9-13307(String), 29(Integer), 75781.0(Float), 0(Integer), 0.0(Float), 0(Integer), 0.0(Float)
+2019-12-31 14:53:43.063 [http-nio-8082-exec-7] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - <==    Updates: 1
+2019-12-31 14:53:43.063 [http-nio-8082-exec-7] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==>  Preparing: delete from GB_CAIJI_TAB where IN_TIME=? and XIHAO=? and WRK_ORD=? and LUHAO=? 
+2019-12-31 14:53:43.064 [http-nio-8082-exec-7] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==> Parameters: 2019-12-31(Date), 3(Integer), 丙班(String), Y9-13308(String)
+2019-12-31 14:53:43.068 [http-nio-8082-exec-7] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - <==    Updates: 1
+2019-12-31 14:53:43.069 [http-nio-8082-exec-7] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==>  Preparing: insert into GB_CAIJI_TAB(ID,XIHAO,IN_TIME,WRK_ORD,PRODUCT_NAME,LUHAO,DINGCHIJS,DINGCHIWT,FEIDINGJS,FEIDINGWT,CIPINGJS,CIPINGWT) values(?,?,?,?,?,?,?,?,?,?,?,?) 
+2019-12-31 14:53:43.069 [http-nio-8082-exec-7] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==> Parameters: 80687(Integer), 3(Integer), 2019-12-31(Date), 丙班(String), 42609(String), Y9-13308(String), 34(Integer), 105750.0(Float), 0(Integer), 0.0(Float), 0(Integer), 0.0(Float)
+2019-12-31 14:53:43.073 [http-nio-8082-exec-7] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - <==    Updates: 1
+2019-12-31 14:53:43.073 [http-nio-8082-exec-7] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==>  Preparing: delete from GB_CAIJI_TAB where IN_TIME=? and XIHAO=? and WRK_ORD=? and LUHAO=? 
+2019-12-31 14:53:43.074 [http-nio-8082-exec-7] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==> Parameters: 2019-12-31(Date), 4(Integer), 丙班(String), Y9-13309(String)
+2019-12-31 14:53:43.077 [http-nio-8082-exec-7] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - <==    Updates: 1
+2019-12-31 14:53:43.078 [http-nio-8082-exec-7] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==>  Preparing: insert into GB_CAIJI_TAB(ID,XIHAO,IN_TIME,WRK_ORD,PRODUCT_NAME,LUHAO,DINGCHIJS,DINGCHIWT,FEIDINGJS,FEIDINGWT,CIPINGJS,CIPINGWT) values(?,?,?,?,?,?,?,?,?,?,?,?) 
+2019-12-31 14:53:43.079 [http-nio-8082-exec-7] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==> Parameters: 80688(Integer), 4(Integer), 2019-12-31(Date), 丙班(String), 42609(String), Y9-13309(String), 38(Integer), 118815.0(Float), 0(Integer), 0.0(Float), 0(Integer), 0.0(Float)
+2019-12-31 14:53:43.094 [http-nio-8082-exec-7] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - <==    Updates: 1
+2019-12-31 14:53:43.095 [http-nio-8082-exec-7] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==>  Preparing: delete from GB_CAIJI_TAB where IN_TIME=? and XIHAO=? and WRK_ORD=? and LUHAO=? 
+2019-12-31 14:53:43.095 [http-nio-8082-exec-7] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==> Parameters: 2019-12-31(Date), 5(Integer), 丙班(String), Y9-13310(String)
+2019-12-31 14:53:43.098 [http-nio-8082-exec-7] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - <==    Updates: 1
+2019-12-31 14:53:43.099 [http-nio-8082-exec-7] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==>  Preparing: insert into GB_CAIJI_TAB(ID,XIHAO,IN_TIME,WRK_ORD,PRODUCT_NAME,LUHAO,DINGCHIJS,DINGCHIWT,FEIDINGJS,FEIDINGWT,CIPINGJS,CIPINGWT) values(?,?,?,?,?,?,?,?,?,?,?,?) 
+2019-12-31 14:53:43.099 [http-nio-8082-exec-7] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==> Parameters: 80689(Integer), 5(Integer), 2019-12-31(Date), 丙班(String), 42609(String), Y9-13310(String), 35(Integer), 109350.0(Float), 0(Integer), 0.0(Float), 0(Integer), 0.0(Float)
+2019-12-31 14:53:43.103 [http-nio-8082-exec-7] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - <==    Updates: 1
+2019-12-31 14:53:43.103 [http-nio-8082-exec-7] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==>  Preparing: delete from GB_CAIJI_TAB where IN_TIME=? and XIHAO=? and WRK_ORD=? and LUHAO=? 
+2019-12-31 14:53:43.103 [http-nio-8082-exec-7] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==> Parameters: 2019-12-31(Date), 6(Integer), 丙班(String), Y9-13311(String)
+2019-12-31 14:53:43.107 [http-nio-8082-exec-7] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - <==    Updates: 1
+2019-12-31 14:53:43.107 [http-nio-8082-exec-7] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==>  Preparing: insert into GB_CAIJI_TAB(ID,XIHAO,IN_TIME,WRK_ORD,PRODUCT_NAME,LUHAO,DINGCHIJS,DINGCHIWT,FEIDINGJS,FEIDINGWT,CIPINGJS,CIPINGWT) values(?,?,?,?,?,?,?,?,?,?,?,?) 
+2019-12-31 14:53:43.108 [http-nio-8082-exec-7] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==> Parameters: 80690(Integer), 6(Integer), 2019-12-31(Date), 丙班(String), 42609(String), Y9-13311(String), 35(Integer), 109406.0(Float), 0(Integer), 0.0(Float), 0(Integer), 0.0(Float)
+2019-12-31 14:53:43.111 [http-nio-8082-exec-7] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - <==    Updates: 1
+2019-12-31 14:53:43.112 [http-nio-8082-exec-7] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==>  Preparing: delete from GB_CAIJI_TAB where IN_TIME=? and XIHAO=? and WRK_ORD=? and LUHAO=? 
+2019-12-31 14:53:43.112 [http-nio-8082-exec-7] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==> Parameters: 2019-12-31(Date), 7(Integer), 丙班(String), Y9-13312(String)
+2019-12-31 14:53:43.117 [http-nio-8082-exec-7] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - <==    Updates: 1
+2019-12-31 14:53:43.117 [http-nio-8082-exec-7] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==>  Preparing: insert into GB_CAIJI_TAB(ID,XIHAO,IN_TIME,WRK_ORD,PRODUCT_NAME,LUHAO,DINGCHIJS,DINGCHIWT,FEIDINGJS,FEIDINGWT,CIPINGJS,CIPINGWT) values(?,?,?,?,?,?,?,?,?,?,?,?) 
+2019-12-31 14:53:43.117 [http-nio-8082-exec-7] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==> Parameters: 80691(Integer), 7(Integer), 2019-12-31(Date), 丙班(String), 42609(String), Y9-13312(String), 34(Integer), 105245.0(Float), 0(Integer), 0.0(Float), 0(Integer), 0.0(Float)
+2019-12-31 14:53:43.122 [http-nio-8082-exec-7] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - <==    Updates: 1
+2019-12-31 14:53:43.122 [http-nio-8082-exec-7] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==>  Preparing: delete from GB_CAIJI_TAB where IN_TIME=? and XIHAO=? and WRK_ORD=? and LUHAO=? 
+2019-12-31 14:53:43.122 [http-nio-8082-exec-7] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==> Parameters: 2019-12-31(Date), 8(Integer), 丙班(String), Y9-13313(String)
+2019-12-31 14:53:43.139 [http-nio-8082-exec-7] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - <==    Updates: 1
+2019-12-31 14:53:43.139 [http-nio-8082-exec-7] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==>  Preparing: insert into GB_CAIJI_TAB(ID,XIHAO,IN_TIME,WRK_ORD,PRODUCT_NAME,LUHAO,DINGCHIJS,DINGCHIWT,FEIDINGJS,FEIDINGWT,CIPINGJS,CIPINGWT) values(?,?,?,?,?,?,?,?,?,?,?,?) 
+2019-12-31 14:53:43.139 [http-nio-8082-exec-7] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==> Parameters: 80692(Integer), 8(Integer), 2019-12-31(Date), 丙班(String), 42609(String), Y9-13313(String), 45(Integer), 116211.0(Float), 0(Integer), 0.0(Float), 0(Integer), 0.0(Float)
+2019-12-31 14:53:43.146 [http-nio-8082-exec-7] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - <==    Updates: 1
+2019-12-31 14:53:43.146 [http-nio-8082-exec-7] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==>  Preparing: delete from GB_CAIJI_TAB where IN_TIME=? and XIHAO=? and WRK_ORD=? and LUHAO=? 
+2019-12-31 14:53:43.146 [http-nio-8082-exec-7] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==> Parameters: 2019-12-31(Date), 9(Integer), 丙班(String), Y9-13314(String)
+2019-12-31 14:53:43.150 [http-nio-8082-exec-7] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - <==    Updates: 1
+2019-12-31 14:53:43.150 [http-nio-8082-exec-7] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==>  Preparing: insert into GB_CAIJI_TAB(ID,XIHAO,IN_TIME,WRK_ORD,PRODUCT_NAME,LUHAO,DINGCHIJS,DINGCHIWT,FEIDINGJS,FEIDINGWT,CIPINGJS,CIPINGWT) values(?,?,?,?,?,?,?,?,?,?,?,?) 
+2019-12-31 14:53:43.150 [http-nio-8082-exec-7] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==> Parameters: 80693(Integer), 9(Integer), 2019-12-31(Date), 丙班(String), 42609(String), Y9-13314(String), 42(Integer), 108864.0(Float), 2(Integer), 4227.0(Float), 0(Integer), 0.0(Float)
+2019-12-31 14:53:43.154 [http-nio-8082-exec-7] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - <==    Updates: 1
+2019-12-31 14:53:43.154 [http-nio-8082-exec-7] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==>  Preparing: delete from GB_CAIJI_TAB where IN_TIME=? and XIHAO=? and WRK_ORD=? and LUHAO=? 
+2019-12-31 14:53:43.154 [http-nio-8082-exec-7] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==> Parameters: 2019-12-31(Date), 10(Integer), 丙班(String), Y9-13315(String)
+2019-12-31 14:53:43.162 [http-nio-8082-exec-7] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - <==    Updates: 1
+2019-12-31 14:53:43.162 [http-nio-8082-exec-7] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==>  Preparing: insert into GB_CAIJI_TAB(ID,XIHAO,IN_TIME,WRK_ORD,PRODUCT_NAME,LUHAO,DINGCHIJS,DINGCHIWT,FEIDINGJS,FEIDINGWT,CIPINGJS,CIPINGWT) values(?,?,?,?,?,?,?,?,?,?,?,?) 
+2019-12-31 14:53:43.162 [http-nio-8082-exec-7] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==> Parameters: 80694(Integer), 10(Integer), 2019-12-31(Date), 丙班(String), 42609(String), Y9-13315(String), 43(Integer), 111484.0(Float), 0(Integer), 0.0(Float), 0(Integer), 0.0(Float)
+2019-12-31 14:53:43.166 [http-nio-8082-exec-7] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - <==    Updates: 1
+2019-12-31 14:53:43.166 [http-nio-8082-exec-7] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==>  Preparing: delete from GB_CAIJI_TAB where IN_TIME=? and XIHAO=? and WRK_ORD=? and LUHAO=? 
+2019-12-31 14:53:43.166 [http-nio-8082-exec-7] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==> Parameters: 2019-12-31(Date), 11(Integer), 丙班(String), Y9-13316(String)
+2019-12-31 14:53:43.170 [http-nio-8082-exec-7] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - <==    Updates: 1
+2019-12-31 14:53:43.171 [http-nio-8082-exec-7] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==>  Preparing: insert into GB_CAIJI_TAB(ID,XIHAO,IN_TIME,WRK_ORD,PRODUCT_NAME,LUHAO,DINGCHIJS,DINGCHIWT,FEIDINGJS,FEIDINGWT,CIPINGJS,CIPINGWT) values(?,?,?,?,?,?,?,?,?,?,?,?) 
+2019-12-31 14:53:43.171 [http-nio-8082-exec-7] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==> Parameters: 80695(Integer), 11(Integer), 2019-12-31(Date), 丙班(String), 42609(String), Y9-13316(String), 47(Integer), 122147.0(Float), 0(Integer), 0.0(Float), 0(Integer), 0.0(Float)
+2019-12-31 14:53:43.174 [http-nio-8082-exec-7] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - <==    Updates: 1
+2019-12-31 14:53:43.174 [http-nio-8082-exec-7] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==>  Preparing: delete from GB_CAIJI_TAB where IN_TIME=? and XIHAO=? and WRK_ORD=? and LUHAO=? 
+2019-12-31 14:53:43.174 [http-nio-8082-exec-7] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==> Parameters: 2019-12-31(Date), 12(Integer), 丙班(String), Y9-13317(String)
+2019-12-31 14:53:43.178 [http-nio-8082-exec-7] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - <==    Updates: 1
+2019-12-31 14:53:43.178 [http-nio-8082-exec-7] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==>  Preparing: insert into GB_CAIJI_TAB(ID,XIHAO,IN_TIME,WRK_ORD,PRODUCT_NAME,LUHAO,DINGCHIJS,DINGCHIWT,FEIDINGJS,FEIDINGWT,CIPINGJS,CIPINGWT) values(?,?,?,?,?,?,?,?,?,?,?,?) 
+2019-12-31 14:53:43.179 [http-nio-8082-exec-7] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==> Parameters: 80696(Integer), 12(Integer), 2019-12-31(Date), 丙班(String), 42609(String), Y9-13317(String), 42(Integer), 109342.0(Float), 2(Integer), 3905.0(Float), 0(Integer), 0.0(Float)
+2019-12-31 14:53:43.182 [http-nio-8082-exec-7] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - <==    Updates: 1
+2019-12-31 14:53:43.182 [http-nio-8082-exec-7] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==>  Preparing: delete from GB_CAIJI_TAB where IN_TIME=? and XIHAO=? and WRK_ORD=? and LUHAO=? 
+2019-12-31 14:53:43.182 [http-nio-8082-exec-7] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==> Parameters: 2019-12-31(Date), 13(Integer), 丙班(String), Y9-13318(String)
+2019-12-31 14:53:43.186 [http-nio-8082-exec-7] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - <==    Updates: 1
+2019-12-31 14:53:43.186 [http-nio-8082-exec-7] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==>  Preparing: insert into GB_CAIJI_TAB(ID,XIHAO,IN_TIME,WRK_ORD,PRODUCT_NAME,LUHAO,DINGCHIJS,DINGCHIWT,FEIDINGJS,FEIDINGWT,CIPINGJS,CIPINGWT) values(?,?,?,?,?,?,?,?,?,?,?,?) 
+2019-12-31 14:53:43.186 [http-nio-8082-exec-7] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==> Parameters: 80697(Integer), 13(Integer), 2019-12-31(Date), 丙班(String), 42609(String), Y9-13318(String), 47(Integer), 122201.0(Float), 0(Integer), 0.0(Float), 0(Integer), 0.0(Float)
+2019-12-31 14:53:43.189 [http-nio-8082-exec-7] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - <==    Updates: 1
+2019-12-31 14:53:43.189 [http-nio-8082-exec-7] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==>  Preparing: delete from GB_CAIJI_TAB where IN_TIME=? and XIHAO=? and WRK_ORD=? and LUHAO=? 
+2019-12-31 14:53:43.189 [http-nio-8082-exec-7] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - ==> Parameters: 2019-12-31(Date), 14(Integer), 丙班(String), Y9-13319(String)
+2019-12-31 14:53:43.196 [http-nio-8082-exec-7] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.deleteByDate - <==    Updates: 1
+2019-12-31 14:53:43.197 [http-nio-8082-exec-7] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==>  Preparing: insert into GB_CAIJI_TAB(ID,XIHAO,IN_TIME,WRK_ORD,PRODUCT_NAME,LUHAO,DINGCHIJS,DINGCHIWT,FEIDINGJS,FEIDINGWT,CIPINGJS,CIPINGWT) values(?,?,?,?,?,?,?,?,?,?,?,?) 
+2019-12-31 14:53:43.197 [http-nio-8082-exec-7] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - ==> Parameters: 80698(Integer), 14(Integer), 2019-12-31(Date), 丙班(String), 42609(String), Y9-13319(String), 3(Integer), 7833.0(Float), 0(Integer), 0.0(Float), 0(Integer), 0.0(Float)
+2019-12-31 14:53:43.202 [http-nio-8082-exec-7] DEBUG c.s.d.d.d.mapper.SqlHandlerMapper.insertData - <==    Updates: 1

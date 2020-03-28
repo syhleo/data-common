@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.steer.data.quartz.mapper.QuartzJobEntityMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.steer.data.quartz.model.QuartzJobEntity">
+        <id column="JOB_ID" property="jobId"/>
+        <result column="NAME" property="name"/>
+        <result column="JOB_GROUP" property="jobGroup"/>
+        <result column="CRON" property="cron"/>
+        <result column="CRON_DESC" property="cronDesc"/>
+        <result column="JOB_PARAM" property="jobParam"/>
+        <result column="JOB_DESC" property="jobDesc"/>
+        <result column="VM_PARAM" property="vmParam"/>
+        <result column="JAR_PATH" property="jarPath"/>
+        <result column="STATUS" property="status"/>
+        <result column="DB_IDS" property="dbIds"/>
+        <result column="TCP_IDS" property="tcpIds"/>
+        <result column="WS_IDS" property="wsIds"/>
+        <result column="HTTP_IDS" property="httpIds"/>
+        <result column="UDP_IDS" property="udpIds"/>
+        <result column="OTHER_IDS" property="otherIds"/>
+        <result column="JOB_TIMES" property="jobTimes"/>
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        JOB_ID, NAME, JOB_GROUP, CRON, CRON_DESC, JOB_PARAM, JOB_DESC, VM_PARAM, JAR_PATH, STATUS, DB_IDS, TCP_IDS,
+        WS_IDS, HTTP_IDS,UDP_IDS, OTHER_IDS,JOB_TIMES
+    </sql>
+
+    <select id="findAll" resultMap="BaseResultMap">
+        SELECT * from QUARTZ_JOB_ENTITY WHERE 1=1
+    </select>
+
+    <select id="findByJobName" resultMap="BaseResultMap">
+        SELECT * from QUARTZ_JOB_ENTITY WHERE 1=1 and NAME like '%' || #{jobName} || '%'
+    </select>
+
+    <select id="findByParams" parameterType="java.lang.String"
+            resultMap="BaseResultMap">
+        SELECT * from QUARTZ_JOB_ENTITY WHERE 1=1 ${parames}
+    </select>
+
+    <select id="findByJobId" parameterType="java.lang.Integer"
+            resultMap="BaseResultMap">
+        SELECT * from QUARTZ_JOB_ENTITY WHERE 1=1 and job_id=#{job_id}
+    </select>
+
+    <update id="updateByJobId" parameterType="com.steer.data.quartz.model.QuartzJobEntity">
+        update QUARTZ_JOB_ENTITY
+        <trim prefix="set" suffixOverrides=",">
+            <if test="name != null">name = #{name},</if>
+            <if test="jobGroup != null">job_group = #{jobGroup},</if>
+            <if test="cron != null">cron = #{cron},</if>
+            <if test="cronDesc != null">cron_desc = #{cronDesc},</if>
+            <if test="jobParam != null">job_param = #{jobParam},</if>
+            <if test="jobDesc != null">job_desc = #{jobDesc},</if>
+            <if test="vmParam != null">vm_param = #{vmParam},</if>
+            <if test="jarPath != null">jar_path = #{jarPath},</if>
+            <if test="status != null">status = #{status},</if>
+            <if test="dbIds != null">db_ids = #{dbIds},</if>
+            <if test="tcpIds != null">tcp_ids = #{tcpIds},</if>
+            <if test="wsIds != null">ws_ids = #{wsIds},</if>
+            <if test="httpIds != null">http_ids = #{httpIds},</if>
+            <if test="udpIds != null">udp_ids = #{udpIds},</if>
+            <if test="otherIds != null">other_ids = #{otherIds},</if>
+            <if test="jobTimes != null">job_times = #{jobTimes},</if>
+        </trim>
+        where job_id=#{job_id}
+    </update>
+
+
+</mapper>

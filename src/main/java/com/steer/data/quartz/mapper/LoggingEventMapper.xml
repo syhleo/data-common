@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.steer.data.quartz.mapper.LoggingEventMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.steer.data.quartz.model.LoggingEvent">
+        <result column="create_time" property="create_time"/>
+        <result column="caller_clamth" property="caller_clamth"/>
+        <result column="direction" property="direction"/>
+        <result column="params_desc" property="params_desc"/>
+        <result column="result_desc" property="result_desc"/>
+        <result column="event_flag" property="event_flag"/>
+        <result column="err_msg" property="err_msg"/>
+        <result column="spec_desc" property="spec_desc"/>
+        <result column="ip_addr" property="ip_addr"/>
+        <result column="create_opr" property="create_opr"/>
+    </resultMap>
+
+    <select id="findAll" resultMap="BaseResultMap">
+        SELECT * from LOGGING_EVENT WHERE 1=1
+    </select>
+
+    <select id="findByParams" parameterType="java.lang.String"
+            resultMap="BaseResultMap">
+        SELECT * from LOGGING_EVENT WHERE 1=1 ${parames}
+    </select>
+
+    <insert id="insert" parameterType="com.steer.data.quartz.model.LoggingEvent">insert into LOGGING_EVENT
+        <trim prefix="(" prefixOverrides="," suffix=")" suffixOverrides=",">create_time,
+            <if test="caller_clamth != null">caller_clamth,</if>
+            <if test="direction != null">direction,</if>
+            <if test="params_desc != null">params_desc,</if>
+            <if test="result_desc != null">result_desc,</if>
+            <if test="event_flag != null">event_flag,</if>
+            <if test="err_msg != null">err_msg,</if>
+            <if test="spec_desc != null">spec_desc,</if>
+            <if test="ip_addr != null">ip_addr,</if>
+            <if test="create_opr != null">create_opr,</if>
+        </trim>
+        values
+        <trim prefix="(" prefixOverrides="," suffix=")" suffixOverrides=",">#{create_time, jdbcType=TIMESTAMP},
+            <if test="caller_clamth != null">#{caller_clamth, jdbcType=VARCHAR},</if>
+            <if test="direction != null">#{direction, jdbcType=VARCHAR},</if>
+            <if test="params_desc != null">#{params_desc, jdbcType=VARCHAR},</if>
+            <if test="result_desc != null">#{result_desc, jdbcType=VARCHAR},</if>
+            <if test="event_flag != null">#{event_flag, jdbcType=VARCHAR},</if>
+            <if test="err_msg != null">#{err_msg, jdbcType=VARCHAR},</if>
+            <if test="spec_desc != null">#{spec_desc, jdbcType=VARCHAR},</if>
+            <if test="ip_addr != null">#{ip_addr, jdbcType=VARCHAR},</if>
+            <if test="create_opr != null">#{create_opr, jdbcType=VARCHAR},</if>
+        </trim>
+    </insert>
+
+</mapper>

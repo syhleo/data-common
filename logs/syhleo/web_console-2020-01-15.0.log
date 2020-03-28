@@ -1,0 +1,250 @@
+2020-01-15 10:18:04.921  INFO 42340 --- [           main] com.steer.data.MainApplication           : Starting MainApplication on LAPTOP-7R3MC37Q with PID 42340 (E:\workspace\javaprojects\ideaprojects\icore-data-common\target\classes started by syhleo in E:\workspace\javaprojects\ideaprojects\icore-data-common)
+2020-01-15 10:18:04.974  INFO 42340 --- [           main] com.steer.data.MainApplication           : The following profiles are active: prd,quartz
+2020-01-15 10:18:05.101  INFO 42340 --- [           main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6150c3ec: startup date [Wed Jan 15 10:18:05 CST 2020]; root of context hierarchy
+2020-01-15 10:18:08.284  INFO 42340 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-01-15 10:18:08.858  INFO 42340 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$f82bd882] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-15 10:18:08.979  INFO 42340 --- [           main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2020-01-15 10:18:09.079  INFO 42340 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$53941383] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-15 10:18:10.556  INFO 42340 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 96 (http)
+2020-01-15 10:18:10.590  INFO 42340 --- [           main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-96"]
+2020-01-15 10:18:10.608  INFO 42340 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-15 10:18:10.608  INFO 42340 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.31
+2020-01-15 10:18:10.616  INFO 42340 --- [ost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\workspace\jdk8\JDK8_64\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\software\mysql-5.7.20-winx64\bin;C:\software\nodejs\;C:\software\torosgit\bin;C:\software\git\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;C:\software\torossvn\bin;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Users\syhleo\AppData\Local\Microsoft\WindowsApps;E:\workspace\jdk8\JDK8_64\bin;E:\workspace\jdk8\JDK8_64\jre\bin;E:\workspace\apache-maven\apache-maven-3.6.0wai\bin;C:\software\vscode\Microsoft VS Code\bin;C:\Users\syhleo\AppData\Roaming\npm;"E:\workspace\apache-tomcat\apache-tomcat-7.0.88\lib;E:\workspace\apache-tomcat\apache-tomcat-7.0.88\bin";;.]
+2020-01-15 10:18:10.741  INFO 42340 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-15 10:18:10.742  INFO 42340 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 5641 ms
+2020-01-15 10:18:11.646  INFO 42340 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet CXFServlet mapped to [/cxf/*]
+2020-01-15 10:18:11.648  INFO 42340 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2020-01-15 10:18:11.648  INFO 42340 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet statViewServlet mapped to [/druid/*]
+2020-01-15 10:18:11.648  INFO 42340 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet messageDispatcherServlet mapped to [/services/*]
+2020-01-15 10:18:11.651  INFO 42340 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-01-15 10:18:11.651  INFO 42340 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-01-15 10:18:11.652  INFO 42340 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-01-15 10:18:11.652  INFO 42340 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2020-01-15 10:18:11.652  INFO 42340 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webStatFilter' to urls: [/*]
+2020-01-15 10:18:13.910  WARN 42340 --- [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'cacheManagerConfig': Unsatisfied dependency expressed through field 'redisService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redisUtil': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redisConfig': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'spring.redis.cluster.nodes' in value "${spring.redis.cluster.nodes}"
+2020-01-15 10:18:13.933  INFO 42340 --- [           main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-01-15 10:18:14.098  INFO 42340 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-01-15 10:18:14.113 ERROR 42340 --- [           main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'cacheManagerConfig': Unsatisfied dependency expressed through field 'redisService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redisUtil': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redisConfig': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'spring.redis.cluster.nodes' in value "${spring.redis.cluster.nodes}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:587)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:91)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:373)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1350)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:580)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:503)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$151/891786282.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:760)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:869)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:395)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1255)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1243)
+	at com.steer.data.MainApplication.main(MainApplication.java:25)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redisUtil': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redisConfig': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'spring.redis.cluster.nodes' in value "${spring.redis.cluster.nodes}"
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessPropertyValues(CommonAnnotationBeanPostProcessor.java:321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1350)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:580)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:503)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$151/891786282.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:251)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1065)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:584)
+	... 20 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redisConfig': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'spring.redis.cluster.nodes' in value "${spring.redis.cluster.nodes}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:379)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1350)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:580)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:503)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$151/891786282.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1256)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1105)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:543)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:503)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$151/891786282.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:513)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:484)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:618)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:177)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:91)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessPropertyValues(CommonAnnotationBeanPostProcessor.java:318)
+	... 32 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'spring.redis.cluster.nodes' in value "${spring.redis.cluster.nodes}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:172)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:237)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:211)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer$$Lambda$217/1441410416.resolveStringValue(Unknown Source)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:839)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1086)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1065)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:584)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:91)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:373)
+	... 56 common frames omitted
+
+2020-01-15 10:20:04.151  INFO 42580 --- [           main] com.steer.data.MainApplication           : Starting MainApplication on LAPTOP-7R3MC37Q with PID 42580 (E:\workspace\javaprojects\ideaprojects\icore-data-common\target\classes started by syhleo in E:\workspace\javaprojects\ideaprojects\icore-data-common)
+2020-01-15 10:20:04.243  INFO 42580 --- [           main] com.steer.data.MainApplication           : The following profiles are active: dev,quartz
+2020-01-15 10:20:04.302  INFO 42580 --- [           main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6743e411: startup date [Wed Jan 15 10:20:04 CST 2020]; root of context hierarchy
+2020-01-15 10:20:05.051  INFO 42580 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-01-15 10:20:05.385  INFO 42580 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$d266121f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-15 10:20:05.418  INFO 42580 --- [           main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2020-01-15 10:20:05.466  INFO 42580 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2dce4d20] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-15 10:20:06.705  INFO 42580 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-01-15 10:20:06.722  INFO 42580 --- [           main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8080"]
+2020-01-15 10:20:06.734  INFO 42580 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-15 10:20:06.734  INFO 42580 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.31
+2020-01-15 10:20:06.742  INFO 42580 --- [ost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\workspace\jdk8\JDK8_64\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\software\mysql-5.7.20-winx64\bin;C:\software\nodejs\;C:\software\torosgit\bin;C:\software\git\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;C:\software\torossvn\bin;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Users\syhleo\AppData\Local\Microsoft\WindowsApps;E:\workspace\jdk8\JDK8_64\bin;E:\workspace\jdk8\JDK8_64\jre\bin;E:\workspace\apache-maven\apache-maven-3.6.0wai\bin;C:\software\vscode\Microsoft VS Code\bin;C:\Users\syhleo\AppData\Roaming\npm;"E:\workspace\apache-tomcat\apache-tomcat-7.0.88\lib;E:\workspace\apache-tomcat\apache-tomcat-7.0.88\bin";;.]
+2020-01-15 10:20:06.855  INFO 42580 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-15 10:20:06.855  INFO 42580 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2553 ms
+2020-01-15 10:20:07.495  INFO 42580 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet CXFServlet mapped to [/cxf/*]
+2020-01-15 10:20:07.496  INFO 42580 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2020-01-15 10:20:07.496  INFO 42580 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet statViewServlet mapped to [/druid/*]
+2020-01-15 10:20:07.497  INFO 42580 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet messageDispatcherServlet mapped to [/services/*]
+2020-01-15 10:20:07.499  INFO 42580 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-01-15 10:20:07.500  INFO 42580 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-01-15 10:20:07.500  INFO 42580 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-01-15 10:20:07.500  INFO 42580 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2020-01-15 10:20:07.500  INFO 42580 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webStatFilter' to urls: [/*]
+2020-01-15 10:20:11.049  INFO 42580 --- [           main] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2020-01-15 10:20:11.052  INFO 42580 --- [           main] org.quartz.simpl.SimpleThreadPool        : Job execution threads will use class loader of thread: main
+2020-01-15 10:20:11.068  INFO 42580 --- [           main] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-01-15 10:20:11.068  INFO 42580 --- [           main] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.0 created.
+2020-01-15 10:20:11.154  INFO 42580 --- [           main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-01-15 10:20:11.774  INFO 42580 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : Using db table-based data access locking (synchronization).
+2020-01-15 10:20:11.776  INFO 42580 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : JobStoreCMT initialized.
+2020-01-15 10:20:11.777  INFO 42580 --- [           main] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.0) 'schedulerFactoryBean' with instanceId 'LAPTOP-7R3MC37Q1579054811052'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 30 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+2020-01-15 10:20:11.777  INFO 42580 --- [           main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+2020-01-15 10:20:11.777  INFO 42580 --- [           main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.0
+2020-01-15 10:20:11.777  INFO 42580 --- [           main] org.quartz.core.QuartzScheduler          : JobFactory set to: com.steer.data.quartz.jobstore.jdbc.config.ConfigureQuartz$AutowiringSpringBeanJobFactory@29ae2517
+2020-01-15 10:20:11.823  INFO 42580 --- [           main] com.steer.data.quartz.web.JobController  : 初始化启动所有的Job ... 
+2020-01-15 10:20:11.823  INFO 42580 --- [           main] com.steer.data.quartz.web.JobController  : 重启数据库中所有的Job
+2020-01-15 10:20:11.949  INFO 42580 --- [           main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-2} inited
+2020-01-15 10:20:12.070  INFO 42580 --- [           main] com.steer.data.quartz.web.JobController  : Job register name : 质检_228 , group : LED_WRITE228 , cron : 0/12 * * * * ? 
+2020-01-15 10:20:12.071  INFO 42580 --- [           main] com.steer.data.quartz.web.JobController  : Job jump name : 质检_228 , Because 质检_228 status is CLOSE
+2020-01-15 10:20:12.072  INFO 42580 --- [           main] com.steer.data.quartz.web.JobController  : Job register name : 上卷_227 , group : LED_WRITE227 , cron : 0/12 * * * * ? 
+2020-01-15 10:20:12.072  INFO 42580 --- [           main] com.steer.data.quartz.web.JobController  : Job jump name : 上卷_227 , Because 上卷_227 status is CLOSE
+2020-01-15 10:20:12.072  INFO 42580 --- [           main] com.steer.data.quartz.web.JobController  : Job register name : 精轧_226 , group : LED_WRITE226 , cron : 0/12 * * * * ? 
+2020-01-15 10:20:12.072  INFO 42580 --- [           main] com.steer.data.quartz.web.JobController  : Job jump name : 精轧_226 , Because 精轧_226 status is CLOSE
+2020-01-15 10:20:12.072  INFO 42580 --- [           main] com.steer.data.quartz.web.JobController  : Job register name : 卸卷_229 , group : LED_WRITE229 , cron : 0/12 * * * * ? 
+2020-01-15 10:20:12.072  INFO 42580 --- [           main] com.steer.data.quartz.web.JobController  : Job jump name : 卸卷_229 , Because 卸卷_229 status is CLOSE
+2020-01-15 10:20:12.072  INFO 42580 --- [           main] com.steer.data.quartz.web.JobController  : Job register name : first , group : helloworld , cron : 0/2 * * * * ? 
+2020-01-15 10:20:12.072  INFO 42580 --- [           main] com.steer.data.quartz.web.JobController  : Job jump name : first , Because first status is CLOSE
+2020-01-15 10:20:12.072  INFO 42580 --- [           main] com.steer.data.quartz.web.JobController  : Job register name : second , group : helloworld , cron : 0/5 * * * * ? 
+2020-01-15 10:20:12.072  INFO 42580 --- [           main] com.steer.data.quartz.web.JobController  : Job jump name : second , Because second status is CLOSE
+2020-01-15 10:20:12.072  INFO 42580 --- [           main] com.steer.data.quartz.web.JobController  : Job register name : third , group : helloworld , cron : 0/15 * * * * ? 
+2020-01-15 10:20:12.072  INFO 42580 --- [           main] com.steer.data.quartz.web.JobController  : Job jump name : third , Because third status is CLOSE
+2020-01-15 10:20:12.072  INFO 42580 --- [           main] com.steer.data.quartz.web.JobController  : Job register name : four , group : helloworld , cron : 0 0/1 * * * ? *
+2020-01-15 10:20:12.073  INFO 42580 --- [           main] com.steer.data.quartz.web.JobController  : Job jump name : four , Because four status is CLOSE
+2020-01-15 10:20:12.073  INFO 42580 --- [           main] com.steer.data.quartz.web.JobController  : Job register name : OLAY Job , group : Nomal , cron : 0 0/2 * * * ?
+2020-01-15 10:20:12.073  INFO 42580 --- [           main] com.steer.data.quartz.web.JobController  : Job jump name : OLAY Job , Because OLAY Job status is CLOSE
+2020-01-15 10:20:12.073  INFO 42580 --- [           main] com.steer.data.quartz.web.JobController  : Job register name : seven , group : Nomal , cron : 0 0/3 * * * ?
+2020-01-15 10:20:12.073  INFO 42580 --- [           main] com.steer.data.quartz.web.JobController  : Job jump name : seven , Because seven status is CLOSE
+2020-01-15 10:20:12.073  INFO 42580 --- [           main] com.steer.data.quartz.web.JobController  : Job register name : eight , group : helloworld2 , cron : 0/10 * * * * ?
+2020-01-15 10:20:12.073  INFO 42580 --- [           main] com.steer.data.quartz.web.JobController  : Job jump name : eight , Because eight status is CLOSE
+2020-01-15 10:20:12.073  INFO 42580 --- [           main] com.steer.data.quartz.web.JobController  : Job register name : night , group : helloworld2 , cron : 0/20 * * * * ?
+2020-01-15 10:20:12.073  INFO 42580 --- [           main] com.steer.data.quartz.web.JobController  : Job jump name : night , Because night status is CLOSE
+2020-01-15 10:20:12.073  INFO 42580 --- [           main] com.steer.data.quartz.web.JobController  : Job register name : 读取RFID , group : RFID_READ , cron : 0/1 * * * * ? 
+2020-01-15 10:20:12.073  INFO 42580 --- [           main] com.steer.data.quartz.web.JobController  : Job jump name : 读取RFID , Because 读取RFID status is CLOSE
+2020-01-15 10:20:12.073  INFO 42580 --- [           main] com.steer.data.quartz.web.JobController  : init success
+2020-01-15 10:20:12.389  INFO 42580 --- [           main] o.a.c.w.s.f.ReflectionServiceFactoryBean : Creating Service {http://service.webservice.data.steer.com/}CommonService from class com.steer.data.webservice.server.service.CommonService
+2020-01-15 10:20:13.074  INFO 42580 --- [           main] org.apache.cxf.endpoint.ServerImpl       : Setting the server's publish address to be /CommonService
+2020-01-15 10:20:13.393  INFO 42580 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-01-15 10:20:14.487  INFO 42580 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6743e411: startup date [Wed Jan 15 10:20:04 CST 2020]; root of context hierarchy
+2020-01-15 10:20:14.618  INFO 42580 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/redis/getDbCache],methods=[GET]}" onto public com.steer.data.common.result.ResultModel com.steer.data.common.redis.RedisController.getDbCache()
+2020-01-15 10:20:14.619  INFO 42580 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/redis/set]}" onto public com.steer.data.common.result.ResultModel com.steer.data.common.redis.RedisController.redisSet()
+2020-01-15 10:20:14.619  INFO 42580 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/redis/get]}" onto public com.steer.data.common.result.ResultModel com.steer.data.common.redis.RedisController.redisGet(java.lang.String)
+2020-01-15 10:20:14.621  INFO 42580 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/v1/DbDataHanding/datatrans/],methods=[POST]}" onto public com.steer.data.common.result.ResultModel com.steer.data.db.datahandling.controller.DbDataHandingController.dataTrans(com.steer.data.db.datahandling.model.DataTransView)
+2020-01-15 10:20:14.621  INFO 42580 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/v1/DbDataHanding/dataHeart/],methods=[POST]}" onto public com.steer.data.common.result.ResultModel com.steer.data.db.datahandling.controller.DbDataHandingController.dataHeart(com.steer.data.db.datahandling.model.DataTransView)
+2020-01-15 10:20:14.621  INFO 42580 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/dbMetadataM/listAll]}" onto public java.lang.Object com.steer.data.db.datahandling.controller.DbMetadataMController.listAll()
+2020-01-15 10:20:14.622  INFO 42580 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/demo/]}" onto java.lang.String com.steer.data.db.datahandling.controller.DemoController.home()
+2020-01-15 10:20:14.622  INFO 42580 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/demo/hello]}" onto public com.steer.data.common.result.ResultModel com.steer.data.db.datahandling.controller.DemoController.hello()
+2020-01-15 10:20:14.622  INFO 42580 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/SqlHandler/datatrans],methods=[GET]}" onto public com.steer.data.common.result.ResultModel com.steer.data.db.datahandling.controller.SqlHandlerController.dataTrans(java.lang.String)
+2020-01-15 10:20:14.623  INFO 42580 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/v1/Job/refresh/{id}]}" onto public java.lang.String com.steer.data.quartz.web.JobController.refresh(java.lang.Integer) throws org.quartz.SchedulerException
+2020-01-15 10:20:14.623  INFO 42580 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/v1/Job/modifyJob],methods=[POST]}" onto public java.lang.String com.steer.data.quartz.web.JobController.modifyJob(com.steer.data.quartz.model.QuartzJobEntity)
+2020-01-15 10:20:14.623  INFO 42580 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/v1/Job/refresh/all]}" onto public java.lang.String com.steer.data.quartz.web.JobController.refreshAll()
+2020-01-15 10:20:14.624  INFO 42580 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/quartzJobEntity/list],methods=[GET]}" onto public com.steer.data.common.result.ResultModel com.steer.data.quartz.web.QuartzJobEntityController.list()
+2020-01-15 10:20:14.624  INFO 42580 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/quartzJobEntity/listForModel],methods=[POST]}" onto public com.steer.data.common.result.ResultModel com.steer.data.quartz.web.QuartzJobEntityController.listJobs(com.steer.data.quartz.model.QuartzJobEntity)
+2020-01-15 10:20:14.624  INFO 42580 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/quartzJobEntity/listForName],methods=[GET]}" onto public com.steer.data.common.result.ResultModel com.steer.data.quartz.web.QuartzJobEntityController.listJobForName(java.lang.String)
+2020-01-15 10:20:14.625  INFO 42580 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/v1/DAMetaDatas/getUrl/],methods=[POST]}" onto public java.lang.String com.steer.data.tcp.dametadata.controller.DAMetaDataController.getUrl(java.lang.String,java.lang.String)
+2020-01-15 10:20:14.626  INFO 42580 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/v1/DAMetaDatas/],methods=[POST]}" onto public java.util.List<java.util.HashMap<java.lang.String, java.lang.String>> com.steer.data.tcp.dametadata.controller.DAMetaDataController.getFieldData(java.lang.String,java.lang.String)
+2020-01-15 10:20:14.626  INFO 42580 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/v1/DAMetaDatas/getChildField],methods=[POST]}" onto public java.util.List<java.util.HashMap<java.lang.String, java.lang.String>> com.steer.data.tcp.dametadata.controller.DAMetaDataController.getChildField(java.lang.String,java.lang.String)
+2020-01-15 10:20:14.627  INFO 42580 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/v1/DataHandling/testTcp3/],methods=[POST]}" onto public com.steer.data.common.result.ResultModel com.steer.data.tcp.datahandling.controller.DataHandlingController.testTcp3()
+2020-01-15 10:20:14.628  INFO 42580 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/v1/DataHandling/toMsg/],methods=[POST]}" onto public com.steer.data.common.result.ResultModel com.steer.data.tcp.datahandling.controller.DataHandlingController.toMsg(java.lang.String,java.lang.String,java.util.HashMap<java.lang.String, java.lang.Object>)
+2020-01-15 10:20:14.628  INFO 42580 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/v1/DataHandling/testTcp2/],methods=[POST]}" onto public com.steer.data.common.result.ResultModel com.steer.data.tcp.datahandling.controller.DataHandlingController.testTcp2()
+2020-01-15 10:20:14.628  INFO 42580 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/v1/DataHandling/testTcp/],methods=[POST]}" onto public com.steer.data.common.result.ResultModel com.steer.data.tcp.datahandling.controller.DataHandlingController.testTcp()
+2020-01-15 10:20:14.628  INFO 42580 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/v1/DataHandling/getTestDate/],methods=[GET]}" onto public com.steer.data.common.result.ResultModel com.steer.data.tcp.datahandling.controller.DataHandlingController.getTestData(java.lang.String)
+2020-01-15 10:20:14.630  INFO 42580 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-01-15 10:20:14.630  INFO 42580 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-01-15 10:20:14.740  INFO 42580 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-01-15 10:20:14.741  INFO 42580 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-01-15 10:20:16.045  INFO 42580 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2020-01-15 10:20:16.046  INFO 42580 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dbMaster' has been autodetected for JMX exposure
+2020-01-15 10:20:16.046  INFO 42580 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dbSlave1' has been autodetected for JMX exposure
+2020-01-15 10:20:16.046  INFO 42580 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dbSlave2' has been autodetected for JMX exposure
+2020-01-15 10:20:16.047  INFO 42580 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dbSlave3' has been autodetected for JMX exposure
+2020-01-15 10:20:16.047  INFO 42580 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dbSlave4' has been autodetected for JMX exposure
+2020-01-15 10:20:16.047  INFO 42580 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dbSlave5' has been autodetected for JMX exposure
+2020-01-15 10:20:16.047  INFO 42580 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dbSlave6' has been autodetected for JMX exposure
+2020-01-15 10:20:16.047  INFO 42580 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dbSlave7' has been autodetected for JMX exposure
+2020-01-15 10:20:16.047  INFO 42580 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dbSlave8' has been autodetected for JMX exposure
+2020-01-15 10:20:16.047  INFO 42580 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dbOther' has been autodetected for JMX exposure
+2020-01-15 10:20:16.047  INFO 42580 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'quartzDataSource' has been autodetected for JMX exposure
+2020-01-15 10:20:16.048  INFO 42580 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'statFilter' has been autodetected for JMX exposure
+2020-01-15 10:20:16.051  INFO 42580 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dbSlave3': registering with JMX server as MBean [com.alibaba.druid.spring.boot.autoconfigure:name=dbSlave3,type=DruidDataSourceWrapper]
+2020-01-15 10:20:16.052  INFO 42580 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dbSlave4': registering with JMX server as MBean [com.alibaba.druid.spring.boot.autoconfigure:name=dbSlave4,type=DruidDataSourceWrapper]
+2020-01-15 10:20:16.053  INFO 42580 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dbSlave1': registering with JMX server as MBean [com.alibaba.druid.spring.boot.autoconfigure:name=dbSlave1,type=DruidDataSourceWrapper]
+2020-01-15 10:20:16.053  INFO 42580 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dbSlave2': registering with JMX server as MBean [com.alibaba.druid.spring.boot.autoconfigure:name=dbSlave2,type=DruidDataSourceWrapper]
+2020-01-15 10:20:16.054  INFO 42580 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'quartzDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=quartzDataSource,type=DruidDataSource]
+2020-01-15 10:20:16.054  INFO 42580 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dbSlave7': registering with JMX server as MBean [com.alibaba.druid.spring.boot.autoconfigure:name=dbSlave7,type=DruidDataSourceWrapper]
+2020-01-15 10:20:16.055  INFO 42580 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dbSlave8': registering with JMX server as MBean [com.alibaba.druid.spring.boot.autoconfigure:name=dbSlave8,type=DruidDataSourceWrapper]
+2020-01-15 10:20:16.055  INFO 42580 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dbSlave5': registering with JMX server as MBean [com.alibaba.druid.spring.boot.autoconfigure:name=dbSlave5,type=DruidDataSourceWrapper]
+2020-01-15 10:20:16.056  INFO 42580 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dbSlave6': registering with JMX server as MBean [com.alibaba.druid.spring.boot.autoconfigure:name=dbSlave6,type=DruidDataSourceWrapper]
+2020-01-15 10:20:16.056  INFO 42580 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dbMaster': registering with JMX server as MBean [com.alibaba.druid.spring.boot.autoconfigure:name=dbMaster,type=DruidDataSourceWrapper]
+2020-01-15 10:20:16.057  INFO 42580 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dbOther': registering with JMX server as MBean [com.alibaba.druid.spring.boot.autoconfigure:name=dbOther,type=DruidDataSourceWrapper]
+2020-01-15 10:20:16.057  INFO 42580 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2020-01-15 10:20:16.064  INFO 42580 --- [           main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2020-01-15 10:20:16.065  INFO 42580 --- [           main] o.s.s.quartz.SchedulerFactoryBean        : Will start Quartz Scheduler [schedulerFactoryBean] in 2 seconds
+2020-01-15 10:20:16.071  INFO 42580 --- [           main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8080"]
+2020-01-15 10:20:16.078  INFO 42580 --- [           main] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+2020-01-15 10:20:16.100  INFO 42580 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-15 10:20:16.102  INFO 42580 --- [           main] com.steer.data.MainApplication           : Started MainApplication in 12.479 seconds (JVM running for 13.006)
+2020-01-15 10:20:16.104  INFO 42580 --- [           main] c.s.d.common.config.CacheManagerConfig   : 项目启动加载所有缓存数据...
+2020-01-15 10:20:16.104  INFO 42580 --- [           main] com.steer.data.common.redis.RedisUtil    : Redis服务心跳检测...
+2020-01-15 10:20:16.285  INFO 42580 --- [           main] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2020-01-15 10:20:16.291  INFO 42580 --- [           main] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2020-01-15 10:20:18.065  INFO 42580 --- [lerFactoryBean]] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now, after delay of 2 seconds
+2020-01-15 10:20:18.093  INFO 42580 --- [lerFactoryBean]] o.s.s.quartz.LocalDataSourceJobStore     : ClusterManager: detected 1 failed or restarted instances.
+2020-01-15 10:20:18.094  INFO 42580 --- [lerFactoryBean]] o.s.s.quartz.LocalDataSourceJobStore     : ClusterManager: Scanning for instance "LAPTOP-7R3MC37Q1578553285838"'s failed in-progress jobs.
+2020-01-15 10:20:18.126  INFO 42580 --- [lerFactoryBean]] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_LAPTOP-7R3MC37Q1579054811052 started.

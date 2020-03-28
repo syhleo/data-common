@@ -1,0 +1,7 @@
+DB_METADATA_M  ---数据库-元数据主表信息
+DB_METADATA_D  ---数据库-元数据表明细信息
+DB_RELATE
+SOURCE_TABLE_COLUMN
+TARGET_TABLE_COLUMN
+INVALID_FLG  无效标识，默认是0，（0:有效，1:无效）
+
