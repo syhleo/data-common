@@ -1,0 +1,17 @@
+/target/
+
+#Java
+*.class
+*.jar
+ 
+#generated files
+bin/
+gen/
+ 
+#Eclipse Project Files
+.classpath
+.project
+.settings/
+
+#idea Project Files
+.idea/
